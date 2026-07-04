@@ -1,0 +1,21 @@
+/* ============================================================================
+   InvestorLens India — theme.css
+   The locked "Precision Instrument" design tokens + base reset/typography.
+   This is the design foundation: touch it only to restyle the WHOLE app.
+   (Carved verbatim from V2.6; Plan v3 §4.)
+   ============================================================================ */
+:root{
+  --void:#090C12; --panel:#0F1219; --panel-2:#12161F;
+  --accent:#54CFDA; --accent-dim:rgba(84,207,218,.12);
+  --up:#56C896; --down:#EC7A6E; --neutral:#8B92A9;
+  --text:#F0F2F5; --text-2:#A6ABB8; --text-3:#6B7280;
+  --border:#1F2332;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{height:100%}
+body{font-family:'Inter',sans-serif;background:var(--void);color:var(--text);font-size:14px;line-height:1.6}
+h1,h2,h3,h4{font-family:'Sora',sans-serif;font-weight:600;line-height:1.3}
+.mono{font-family:'JetBrains Mono',monospace}
+#app{height:100vh;overflow:hidden}
+.page{display:none;height:100vh}
+.page.active{display:flex}
