@@ -1,0 +1,64 @@
+# ============================================================================
+# InvestorLens India — .github/workflows/backup.yml   (Plan v3, Phase 3b)
+# ----------------------------------------------------------------------------
+# The weekly ALARM CLOCK for the photocopier. It:
+#   1. checks out THIS repo (to get etl/backup.py),
+#   2. checks out your PRIVATE backup repo (where the dumps live),
+#   3. runs backup.py to write the five JSON files into that folder,
+#   4. commits & pushes them — one tidy snapshot per week, versioned by git.
+#
+# ⚠️ Like every workflow, this file MUST live in .github/workflows/.
+# ============================================================================
+
+name: Weekly database backup
+
+on:
+  schedule:
+    # Sunday 21:30 UTC == Monday 03:00 IST. Well clear of the 02:00 nightly job.
+    - cron: "30 21 * * 0"
+  workflow_dispatch:          # manual "Run workflow" button for testing today
+
+permissions:
+  contents: read              # this workflow writes to the OTHER repo, via a PAT
+
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out THIS repo (for etl/backup.py)
+        uses: actions/checkout@v4
+
+      - name: Check out the PRIVATE backup repo (where dumps are stored)
+        uses: actions/checkout@v4
+        with:
+          repository: s1h2u3b4h5a6m7-ops/investorlens-backups
+          token: ${{ secrets.BACKUP_REPO_TOKEN }}
+          path: backups-repo
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install the one library the backup needs
+        run: pip install -U requests
+
+      - name: Dump all five tables into the backup folder
+        env:
+          SUPABASE_SERVICE_KEY: ${{ secrets.SUPABASE_SERVICE_KEY }}
+          OUT_DIR: backups-repo
+        run: python etl/backup.py
+
+      - name: Commit & push this week's snapshot
+        run: |
+          cd backups-repo
+          git config user.name  "investorlens-robot"
+          git config user.email "investorlens-robot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No changes this week — nothing to commit."
+          else
+            git commit -m "Weekly backup $(date -u +%Y-%m-%d)"
+            git push
+          fi
