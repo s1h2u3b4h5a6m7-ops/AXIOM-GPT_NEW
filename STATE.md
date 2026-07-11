@@ -20,6 +20,13 @@
   founder-verified against screener + exchange SHP filings, inserted via
   SQL Editor. Chip confirmed: **72 verified promoter records** (was 64).
   35 of the original 43 gaps remain.
+- **Flag 5 closed: DONE (Session F, 9 Jul 2026).** §5's "Verified <date>" is
+  now data-driven: `mgmt_profiles.verified_on` (date, nullable) added and
+  backfilled (64 × 02 Jul 2026, 8 × 09 Jul 2026, 0 NULLs), the waiter carries
+  it (+1 mapping line in `data.js`), and `company.js` prints each row's own
+  date — "—" when NULL, never a borrowed date. Migration saved as
+  `sql/2026-07-09_flag5_verified_on.sql`; CONTRACT's MGMT shape, translation
+  rules and parachute updated. Chip text unchanged. Batch 2 is unblocked.
 - The Phase-2 five-table world is retired: the flip emptied its dependent
   tables (rows preserved in `investorlens-backups`, including a fresh manual
   run taken minutes before the flip). `sql/schema.sql` + `sql/seed.sql` in the
@@ -109,19 +116,12 @@ per fetched company per night; ≈706 after the first v2 run).
    the site keeps working, but every +1,000 rows adds one request to page
    load. Before it matters (several months), plan a prune/view session:
    keep the last N days + first-of-month rows.
-5. **§5 verified-date is hardcoded — NOW ACTIVELY FALSE.** `company.js`
-   prints "Verified 02 Jul 2026 against: …" for every mgmt record, but the
-   8 Batch-1 rows were verified 09 Jul 2026. The wrong date shows on those
-   8 pages until fixed (accepted knowingly at insert time). Fix is
-   data-shape first: CONTRACT → a date column on `mgmt_profiles` → the
-   one-line UI read. **Do this BEFORE Batch 2** — every further batch
-   widens the false-date blast radius. Session F, top priority.
 
-## Session F+
+## Session G+
 
-1. **Flag 5 first** (see above): CONTRACT → `mgmt_profiles` date column →
-   one-line `company.js` read. Small; makes every further batch honest.
-2. **The 35 remaining mgmt gaps**, in the Session-E batch order:
+1. **The 35 remaining mgmt gaps**, in the Session-E batch order — every
+   batch INSERT now carries its real `verified_on` date, and every batch
+   paste ends with the judge `WHERE verified_on IS NULL` (expect 0):
    - Batch 2 — private banks (5): AUBANK, AXISBANK, BANDHANBNK,
      FEDERALBNK, IDFCFIRSTB
    - Batch 3 — NBFC/insurance (5): CHOLAFIN, SHRIRAMFIN, JIOFIN,
@@ -186,6 +186,19 @@ per fetched company per night; ≈706 after the first v2 run).
   lie-in-waiting became a live falsehood the moment real verified-dates
   diverged from the hardcoded one. Sequencing debt compounds.
 
+## Lessons Session F added
+
+- `select=*` delivers a new column to the browser, but the waiter's mapping
+  is an explicit list — so every new column is, by design, a one-line
+  `data.js` edit. Nothing reaches the UI unnamed.
+- `verified_on` stays NULLABLE on purpose: NOT NULL would make the verified,
+  re-runnable `1_SCHEMA`/`2_DATA` pair fail on a re-run (its mgmt INSERTs
+  don't know the column). Honesty is enforced where it is seen — a missing
+  date renders "—" — plus each batch's own post-flight judges.
+- Harness-proven surgical: for the 64 at-flip records the new §5 output is
+  byte-identical to the old hardcode; only the 8 Batch-1 pages change on
+  screen. "Fixed" and "nothing else moved" were both proven, not eyeballed.
+
 ## Mission lock (unchanged)
 
 Business UNDERSTANDING first — value chains, business cores, moats, live
@@ -194,6 +207,15 @@ Machines refresh NUMBERS; only humans write/verify SENTENCES.
 
 ## Changelog
 
+- **v3.7 / Phase 4 Session F:** Flag 5 closed. `mgmt_profiles.verified_on`
+  (date, nullable) added + backfilled via self-judging SQL (Judge 1: 64 →
+  02 Jul, 8 → 09 Jul; Judge 2: 0 NULLs); `data.js` mgmt mapping +1 line;
+  `company.js` gained `fmtVerifiedOn()` and prints the row's date ("—" when
+  NULL). vm-harness on exact bytes: six globals identical old-vs-new;
+  02-Jul pages byte-identical; COALINDIA differs only at the date; queued
+  box untouched; formatter immune to Date() timezone shift. CONTRACT MGMT
+  shape + parachute updated; migration committed as
+  `sql/2026-07-09_flag5_verified_on.sql`. Chip text unchanged.
 - **v3.6 / Phase 4 Session E:** Mgmt gaps Batch 1 shipped. 8
   government-promoter records (BANKBARODA, CANBK, PNB, COALINDIA, NTPC,
   ONGC, POWERGRID, BEL) machine-researched — including three FY26 SEBI
