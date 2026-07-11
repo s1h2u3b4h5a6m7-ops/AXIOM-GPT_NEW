@@ -128,12 +128,15 @@ flows = stages−1, every ticker real); MGMT rows complete, `promoter_pct` 0–1
 
 There is no local-JSON fallback anymore. To rebuild the entire database from a
 blank project: run `1_SCHEMA_complete.sql` then `2_DATA_complete.sql`
-(idempotent + all-or-nothing), then the dated migrations in `/sql` — currently
-`2026-07-09_flag5_verified_on.sql`, which adds + backfills `verified_on`.
-(Rows inserted after the flip — e.g. Session E's 8 mgmt records — are not in
-the pair; they come back from `investorlens-backups`.) To resurrect the
-pre-Phase-4 world: revert the flip commits on `main` and restore the old five
-tables from `investorlens-backups`.
+(idempotent + all-or-nothing), then the dated migrations in `/sql` **in
+filename order** — currently `2026-07-09_flag5_verified_on.sql` (adds +
+backfills `verified_on`) and `2026-07-11_mgmt_batch2_private_banks.sql`
+(Session G's 5 private-bank mgmt records). The order is not cosmetic: the
+Batch-2 file writes `verified_on`, so the flag-5 file must have created the
+column first. (Rows inserted after the flip and *not* carried by a dated
+migration — e.g. Session E's 8 mgmt records — come back from
+`investorlens-backups`.) To resurrect the pre-Phase-4 world: revert the flip
+commits on `main` and restore the old five tables from `investorlens-backups`.
 
 ## Counts as of the flip (8 Jul 2026) — the checkable state
 
