@@ -35,6 +35,15 @@
   (JIOFIN) — founder-verified, then inserted via SQL Editor. In **none of the
   five did a promoter sell a share**; four saw a capital event inside 90 days.
   Chip confirmed: **82 verified promoter records** (was 77). 25 gaps remain.
+- **Mgmt gaps, Batch 4: DONE (Session I, 11 Jul 2026).** The 7 IT + auto names
+  (HCLTECH, TECHM, WIPRO, BAJAJ-AUTO, EICHERMOT, M&M, TMPV): machine-researched
+  with named sources — Tech Mahindra's and Eicher's own 31-Mar-2026 exchange
+  SHPs read at source, Wipro's and Eicher's FY26 Reg 31(4) nil-encumbrance
+  filings, and Wipro's 30-Jun-2026 buyback-extinguishment filing — then
+  founder-verified and inserted via SQL Editor. **First non-zero pledges on the
+  platform:** M&M 0.02% (40,000 shares, one named individual) and BAJAJ-AUTO
+  ~0.01%. Chip confirmed: **89 verified promoter records** (was 82). 18 gaps
+  remain.
 - **Flag 5 closed: DONE (Session F, 9 Jul 2026).** §5's "Verified <date>" is
   now data-driven: `mgmt_profiles.verified_on` (date, nullable) added and
   backfilled (64 × 02 Jul 2026, 8 × 09 Jul 2026, 0 NULLs), the waiter carries
@@ -109,10 +118,10 @@
 
 107 companies · 599 metric snapshots **at flip** (107 market-cap rows + 492
 business metrics; 21 honest NULLs) · 518 chain nodes · 321 factor tags ·
-642 bull/bear · **82 mgmt profiles** (64 at flip + 8 in Session E + 5 in
-Session G + 5 in Session H) · 4 narratives · staging 0. Current chip: `● data
-checks: 107 companies · 492 metric bindings · 14 forces · 82 verified promoter
-records`.
+642 bull/bear · **89 mgmt profiles** (64 at flip + 8 in Session E + 5 in
+Session G + 5 in Session H + 7 in Session I) · 4 narratives · staging 0.
+Current chip: `● data checks: 107 companies · 492 metric bindings · 14 forces ·
+89 verified promoter records`.
 `metric_snapshots` now grows by ~107 rows per successful night (599 + one row
 per fetched company per night; ≈706 after the first v2 run).
 
@@ -133,14 +142,12 @@ per fetched company per night; ≈706 after the first v2 run).
    load. Before it matters (several months), plan a prune/view session:
    keep the last N days + first-of-month rows.
 
-## Session I+
+## Session J+
 
-1. **The 25 remaining mgmt gaps**, in the Session-E batch order — every
+1. **The 18 remaining mgmt gaps**, in the Session-E batch order — every
    batch INSERT carries its real `verified_on` date, and every batch paste
    ends with the judge `WHERE verified_on IS NULL` (expect 0):
-   - Batch 4 — IT + auto (7) — NEXT: HCLTECH, TECHM, WIPRO, BAJAJ-AUTO,
-     EICHERMOT, M&M, TMPV
-   - Batch 5 — pharma/health (5): CIPLA, DRREDDY, SUNPHARMA, APOLLOHOSP,
+   - Batch 5 — pharma/health (5) — NEXT: CIPLA, DRREDDY, SUNPHARMA, APOLLOHOSP,
      MAXHEALTH
    - Batch 6 — metals/cement/infra (6): HINDALCO, JSWSTEEL, TATASTEEL,
      ULTRACEMCO, GRASIM, ADANIPORTS
@@ -256,6 +263,32 @@ per fetched company per night; ≈706 after the first v2 run).
   rows researched in the same pass make that visible; two rows researched six
   months apart would not have.
 
+## Lessons Session I added
+
+- **A pledge cell is finally not blank — twice.** Eight batches of nil made nil
+  feel like the default. M&M carries 40,000 pledged shares (0.02% of the block)
+  and they belong to one named promoter-group individual, Sanjay Mohan Labroo —
+  a personal arrangement, not company leverage. BAJAJ-AUTO shows ~0.01% on the
+  trackers. The §5 sentences say so plainly. A tracker that rounds these to
+  "0%" is not being kind; it is deleting the only information in the cell.
+- **A buyback can make a promoter sell AND rise.** Wipro's promoters tendered
+  42,80,45,126 shares into the ₹15,000 cr buyback — real cash out — and their
+  stake still went 72.52% → 72.59%, because 60 crore shares were cancelled
+  faster than the family sold. "Promoter stake up" and "promoter sold" were
+  both true in the same fortnight. Only the share count untangles it.
+- **A rename is not a continuity.** TMPV *is* the old Tata Motors Limited (same
+  BSE code 500570), renamed 13 Oct 2025 after the CV demerger. Every pre-Oct-25
+  comparison for that ticker is comparing two different companies, and its FY26
+  profit carries demerger accounting. The row says so, out loud, rather than
+  letting the number imply a trend that does not exist.
+- **"Promoter" can be mostly not-the-promoter.** A third of TECHM's promoter
+  block is the TML Benefit Trust, not M&M; nearly all of HCLTECH's is two
+  holding companies, with the founder's own name against 736 shares. The `who`
+  field earns its place — the percentage alone would mislead in both.
+- **When Trendlyne is stale, go to the company.** Its TECHM page still showed
+  Dec-2025 while the company's own Q4 SHP for 31-Mar-2026 was sitting on
+  techmahindra.com. Aggregator lag is silent; it does not announce itself.
+
 ## Mission lock (unchanged)
 
 Business UNDERSTANDING first — value chains, business cores, moats, live
@@ -264,6 +297,21 @@ Machines refresh NUMBERS; only humans write/verify SENTENCES.
 
 ## Changelog
 
+- **v4.0 / Phase 4 Session I:** Mgmt gaps Batch 4 shipped. 7 IT/auto records
+  (HCLTECH 60.86%, TECHM 34.97%, WIPRO 72.59% *as of Jun-26, post-buyback*,
+  BAJAJ-AUTO 55.01%, EICHERMOT 49.07%, M&M 18.45%, TMPV 42.56%)
+  machine-researched — Tech Mahindra's and Eicher's own 31-Mar-2026 exchange
+  SHPs read at source (TECHM's encumbrance rows all "No"), Wipro's FY26
+  Reg 31(4) nil-encumbrance filing (6-Apr-2026), Eicher's promoter-group
+  Reg 31(4)&(5) filings (8-Apr-2026), and Wipro's 30-Jun-2026 extinguishment
+  filing (60 cr shares cancelled; promoter 72.52% → 72.59% *while selling*
+  42,80,45,126 shares) — founder-verified, inserted via SQL Editor as
+  `sql/2026-07-11_mgmt_batch4_it_auto.sql`. Idempotent `WHERE NOT EXISTS`
+  insert + 6 self-judges; dry-run on PostgreSQL 16.14 passed twice (89 rows,
+  0 dupes, 0 NULL verified_on, date buckets 64/8/17; `M&M` and `BAJAJ-AUTO`
+  round-tripped intact). First two non-zero pledge cells on the platform.
+  CONTRACT parachute list updated (+1 dated migration). Chip acid test: 89
+  verified promoter records. 18 gaps remain (batches 5-7).
 - **v3.9 / Phase 4 Session H:** Mgmt gaps Batch 3 shipped. 5 NBFC/insurance
   records (CHOLAFIN 49.25% Mar-26, SHRIRAMFIN 20.30% Apr-26, JIOFIN 49.13%
   Apr-26, HDFCLIFE 50.21% Mar-26, SBILIFE 55.33% Mar-26) machine-researched —
