@@ -71,6 +71,13 @@
   date — "—" when NULL, never a borrowed date. Migration saved as
   `sql/2026-07-09_flag5_verified_on.sql`; CONTRACT's MGMT shape, translation
   rules and parachute updated. Chip text unchanged. Batch 2 is unblocked.
+- **Narratives `display_order`: DONE (Session N, 14 Jul 2026).** Flag 1 closed.
+  `cross_company_narratives.display_order` (integer, nullable, spaced by 10s,
+  not unique) added and backfilled in the order the site was already showing;
+  the waiter now orders by `display_order.asc.nullslast,id.asc` (`data.js:198`,
+  1 line changed). Map order is a data decision now — editable in the Table
+  Editor, no deploy. Migration saved as
+  `sql/2026-07-14_narratives_display_order.sql`. Chip text unchanged.
 - The Phase-2 five-table world is retired: the flip emptied its dependent
   tables (rows preserved in `investorlens-backups`, including a fresh manual
   run taken minutes before the flip). `sql/schema.sql` + `sql/seed.sql` in the
@@ -147,9 +154,12 @@ per fetched company per night; ≈706 after the first v2 run).
 
 ## ⚠️ Flags carried (accepted, not blockers)
 
-1. **Map page lists stories alphabetically** (banca → holding → metals-auto →
-   power). Cosmetic; permanent fix = tiny `display_order` column, Session E.
-   Do NOT edit the verified SQL files for this.
+1. ~~**Map page lists stories alphabetically.**~~ **CLOSED (Session N,
+   14 Jul 2026).** `cross_company_narratives.display_order` (integer, nullable,
+   spaced by 10s) now drives the map page; `data.js` orders by
+   `display_order.asc.nullslast,id.asc`. A NULL means *not placed yet* and
+   renders last, never mid-list. Order is now a Table-Editor edit, not a code
+   ship.
 2. **LTIM sits alone in "IT Services"** while TCS/INFY/WIPRO/HCLTECH/TECHM are
    in "IT" — LTIM shows no compare chip. Founder to decide; the fix is a
    one-word row edit in Supabase Table Editor, no code ship.
@@ -166,13 +176,11 @@ per fetched company per night; ≈706 after the first v2 run).
 
 1. **INDIGO exact figure owed:** replace the derived 40.48 with the filed
    Mar-2026 SHP promoter total (one-line UPDATE, Part D of the repair file).
-2. **Narratives `display_order`:** cross_company_narratives renders
-   alphabetically (js/data.js:198 orders by `id.asc`, id is a text slug). Fix
-   is a shape change through the CONTRACT lane: nullable integer column +
-   backfill-by-current-order migration, then the waiter orders by
-   `display_order.asc.nullslast,id.asc` — zero visual change until the founder
-   renumbers rows in Supabase. SQL FIRST, js second (js first would 400 on the
-   unknown order column).
+2. ~~**Narratives `display_order`.**~~ **DONE — Session N, 14 Jul 2026.**
+   Column added + backfilled order-preservingly; `data.js:198` reorders. The
+   curated renumber (Part C of the migration: power → metals-auto → holding →
+   banca) is optional and is the founder's call — run it in the SQL Editor or
+   just edit the four numbers in the Table Editor whenever.
 3. **LTIM compare_group:** js/compare.js carries TWO IT buckets — the original
    "IT" and Phase 4's "IT Services". LTIM is almost certainly alone in the new
    bucket, split from TCS/INFY/WIPRO/HCLTECH/TECHM. Fix: one UPDATE moving
@@ -187,10 +195,28 @@ per fetched company per night; ≈706 after the first v2 run).
      ULTRACEMCO, GRASIM, ADANIPORTS
    - Batch 7 — consumer/new-age (7): ASIANPAINT, NESTLEIND, TATACONSUM,
      TITAN, TRENT, INDIGO, ETERNAL
-- Optional carried: `display_order` on `cross_company_narratives` (flag 1);
-  LTIM group decision (flag 2); husk-file tidy-up (flag 3); replace the
-  retired `/sql` files with the Phase-4 pair; snapshot prune/view strategy
-  (flag 4).
+- Optional carried: LTIM group decision (flag 2); husk-file tidy-up (flag 3);
+  replace the retired `/sql` files with the Phase-4 pair; snapshot prune/view
+  strategy (flag 4). *(Flag 1 is closed — Session N.)*
+
+## Lessons Session N added
+
+- **A migration and a decision are different statements.** Adding the column and
+  *choosing the order* were separable, so they were separated: Part B is
+  order-preserving and provable ("nothing moved"); Part C is the founder's call
+  and is the only line in the file that changes a pixel. A migration that also
+  reorders the page cannot be verified as surgical — it has already moved the
+  thing it would be checked against.
+- **NULL is a position, not a hole.** `nullslast` parks an unnumbered story at
+  the END of the map page instead of letting it barge into the middle
+  alphabetically. Same reasoning as `verified_on`: nullable keeps the parachute
+  re-runnable, and the honest render is a *defined* one, not an accident.
+- **Gaps of 10 are cheap; renumbering is not.** A fifth story slots in as 25.
+  Consecutive integers would have forced an UPDATE on every row beneath it.
+- **The backfill must not be able to clobber the decision.** Part B counts up
+  from the current MAX and only ever touches NULLs — proven by re-running it
+  after Part C and getting the renumbered order back untouched. A re-runnable
+  file that quietly resets your choices is worse than one that errors.
 
 ## Lessons Session B added
 
@@ -404,6 +430,24 @@ Machines refresh NUMBERS; only humans write/verify SENTENCES.
 
 ## Changelog
 
+- **v4.4 / Phase 4 Session N: narratives get a sort key (flag 1 closed).**
+  `cross_company_narratives.display_order` (integer, NULLABLE, spaced by 10s, no
+  unique constraint) added and backfilled **in the order the site was already
+  showing** — so the migration itself moves nothing on screen; the curated order
+  (power → metals-auto → holding → banca) is a separate, optional Part C the
+  founder runs when he wants it. `data.js` 1 line changed (`:198`): `id.asc` →
+  `display_order.asc.nullslast,id.asc`. SQL-before-JS enforced (JS first would
+  400 on an unknown order column and blank the map page). Dry-run on PostgreSQL
+  16.14: pre-flight reproduces the alphabetical bug; Part B run twice →
+  identical (idempotent); Part C run twice → identical (re-runnable); Part B
+  re-run AFTER Part C does **not** clobber the renumber; a 5th story inserted
+  with no number lands **last** and gets 50 on the next Part B. vm round-trip
+  harness against the exact live bytes: 5/5 — order param changes, every
+  CHAINMAP story object byte-identical, no `display_order` key leaks into the UI
+  shape, the other six tables' order clauses untouched. CONTRACT updated
+  (Narratives translation rule + parachute now names
+  `2026-07-14_narratives_display_order.sql`, which must run before a rebuilt
+  database serves `data.js`). Chip text unchanged.
 - **v4.3 / Phase 4 Session M: post-paste repair + record corrections.**
   (1) Verified from live bytes that BOTH robots are already v2 on main —
   refresh.py writes dated `metric_snapshots` rows with the delete-then-insert
