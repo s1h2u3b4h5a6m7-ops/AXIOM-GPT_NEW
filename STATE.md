@@ -162,9 +162,22 @@ per fetched company per night; ≈706 after the first v2 run).
    load. Before it matters (several months), plan a prune/view session:
    keep the last N days + first-of-month rows.
 
-## Session M+
+## Session N+
 
-1. **Mgmt backlog: CLOSED.** Maintenance mode now — quarterly re-verification
+1. **INDIGO exact figure owed:** replace the derived 40.48 with the filed
+   Mar-2026 SHP promoter total (one-line UPDATE, Part D of the repair file).
+2. **Narratives `display_order`:** cross_company_narratives renders
+   alphabetically (js/data.js:198 orders by `id.asc`, id is a text slug). Fix
+   is a shape change through the CONTRACT lane: nullable integer column +
+   backfill-by-current-order migration, then the waiter orders by
+   `display_order.asc.nullslast,id.asc` — zero visual change until the founder
+   renumbers rows in Supabase. SQL FIRST, js second (js first would 400 on the
+   unknown order column).
+3. **LTIM compare_group:** js/compare.js carries TWO IT buckets — the original
+   "IT" and Phase 4's "IT Services". LTIM is almost certainly alone in the new
+   bucket, split from TCS/INFY/WIPRO/HCLTECH/TECHM. Fix: one UPDATE moving
+   LTIM to 'IT', with a pre-flight judge listing both buckets' members first.
+4. **Mgmt maintenance** — quarterly re-verification
    sweep after each SHP season, prioritising the flagged rows: INDIGO (derived
    %, RG Group exit drifts it down every quarter), BAJAJ-AUTO (post-buyback
    SHP), ASIANPAINT (live pledge moves), SUNPHARMA (rising pledge + Organon
@@ -284,6 +297,24 @@ per fetched company per night; ≈706 after the first v2 run).
   rows researched in the same pass make that visible; two rows researched six
   months apart would not have.
 
+## Lessons Session M added
+
+- **A delivered filename is part of the delivered bytes.** The batch files
+  landed with spaces instead of underscores — the download UI displays names
+  without underscores, and the display name got typed into the GitHub filename
+  box. The parachute replays migrations in filename order, so a space (0x20 <
+  0x5F) silently reorders the chain. Commit-verification now includes the
+  FILENAME, not just the content: the Ctrl+F step must be run against the
+  sql/ directory listing too.
+- **A [VERIFY] marker is a tripwire, not a decoration.** Both markers walked
+  straight into production because the paste step didn't include the
+  documented zero-hits Ctrl+F. Future flagged files put the tripwire IN THE
+  JUDGES: a pre-flight `SELECT ... LIKE '%VERIFY%'` with "expect 0 in your
+  edited paste" would have shown 2 in the results grid before the insert ran.
+- **Stale memory loses to live bytes, in both directions.** The backlog said
+  the robots weren't live; the repo says they are. Fetch-first isn't just for
+  catching missing work — it also stops you redoing finished work.
+
 ## Lessons Sessions K + L added
 
 - **The biggest pledge is a financing model, not a distress flare.** JSWSTEEL:
@@ -373,6 +404,26 @@ Machines refresh NUMBERS; only humans write/verify SENTENCES.
 
 ## Changelog
 
+- **v4.3 / Phase 4 Session M: post-paste repair + record corrections.**
+  (1) Verified from live bytes that BOTH robots are already v2 on main —
+  refresh.py writes dated `metric_snapshots` rows with the delete-then-insert
+  guard (cron 02:00 IST nightly), backup.py photocopies all 8 tables with
+  empty-backup refusal (cron Sun 03:00 IST) — the "robots v2 need to land"
+  backlog line was stale; what remains is a green-run check in the Actions
+  tab. (2) Batches 5-7 landed on main byte-identical to the drafts, which
+  means the two [VERIFY] flags entered production unresolved; shipped
+  `2026-07-12_session_m_flag_repair.sql` (4 guarded UPDATEs, idempotent,
+  proven twice on the 107-row end-state fixture: flags 2→0, count 107
+  unchanged). SUNPHARMA's Organon clause is now CONFIRMED — definitive
+  agreement 26-Apr-2026, US$14.00/share all-cash, EV US$11.75 bn, 103%
+  premium, close expected early 2027 (joint release + Organon SEC 8-K) — the
+  Forbes clause was true and now carries the filing. INDIGO's bracket became
+  an honest house-style caveat; the exact SHP figure is still owed (Session
+  N+ item 1). (3) The three batch files were committed with SPACES in their
+  filenames ("2026-07-11 mgmt batch5 pharma health.sql"), which breaks the
+  parachute's filename-order replay (space sorts before underscore) and
+  orphans CONTRACT's references — rename runsheet issued; CONTRACT text is
+  correct once the renames land. New lesson below.
 - **v4.2 / Phase 4 Sessions K + L: MGMT BACKLOG COMPLETE.** Batches 6 and 7
   shipped as count-chained files (pre-flights 94 and 100; paste order 5→6→7
   enforced by Judge 0a). Batch 6 (HINDALCO 34.64, JSWSTEEL 45.32, TATASTEEL
