@@ -88,8 +88,12 @@ but don't rank.
   `case_order` 1→3. To refresh a company's cases, insert a complete new 3+3 set
   under a new date.
 - **Narratives.** JSONB `stages/flows/pairs` pass through as-is; null columns
-  are omitted; stories currently sort alphabetically by `id` (no display_order
-  column yet — Session D option).
+  are omitted. Map order is `cross_company_narratives.display_order` (integer,
+  **nullable**, spaced by 10s, **not unique**), lowest first, ties broken on
+  `id`. A NULL means *not placed yet* and renders **last**, never mid-list.
+  `display_order` is a **sort key only** — it is read by the waiter's `order=`
+  clause and deliberately does NOT enter the `CHAINMAP` object, so the story
+  shape the UI eats is unchanged.
 - **`verified_on` passes through untouched.** `mgmt_profiles.verified_on` (a
   date column) becomes `MGMT[t].verified_on` as an ISO string; the UI formats
   it for display ("2026-07-09" → "09 Jul 2026").
@@ -141,7 +145,11 @@ pharma/health mgmt records), `2026-07-11_mgmt_batch6_metals_cement_infra.sql`
 records — backlog complete at 107), then
 `2026-07-12_session_m_flag_repair.sql` (closes the two [VERIFY] flags pasted
 into production: SUNPHARMA's Organon clause upgraded to the signed 26-Apr-2026
-agreement, INDIGO's derived-figure caveat rewritten in house style). The order
+agreement, INDIGO's derived-figure caveat rewritten in house style), then
+`2026-07-14_narratives_display_order.sql` (Session N: adds + backfills
+`cross_company_narratives.display_order`; its Part B is order-preserving, its
+Part C is the curated renumber). This last file must run before a rebuilt
+database serves `data.js`, which orders by that column. The order
 is not cosmetic twice over: the Batch-2 through Batch-7 files write
 `verified_on`, so the flag-5 file must have created the column first; and
 Batches 5→6→7 are count-chained (pre-flights expect 89/94/100), so they must
