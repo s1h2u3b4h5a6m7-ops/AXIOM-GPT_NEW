@@ -90,6 +90,17 @@
   mislabelled. No code shipped; the empty "IT Services" label stays in
   GROUP_LABELS on purpose (see Lessons Session O). Migration saved as
   `sql/2026-07-14_ltim_peer_group.sql`. Chip text unchanged.
+- **INDIGO exact figure: DONE (Session P, 15 Jul 2026). The Session N+ queue
+  is now EMPTY of one-off items.** The derived 40.48 is replaced by the filed
+  Mar-2026 SHP total: **41.57%** (160,732,247 shares — IGE 35.69 + Bhatia
+  individuals 0.03 + Rakesh Gangwal 4.53 + Chinkerpoo Family Trust 1.32),
+  founder-verified against the exchange filing. The old derivation's error is
+  now explained, not just replaced: it missed the Chinkerpoo Trust's 1.32%
+  (filed RG side 5.85, not 4.78). Four value-guarded UPDATEs in
+  `sql/2026-07-15_indigo_shp_exact.sql` — the number lived in FOUR places
+  (headline + two prose sentences + source_note), so Part D of the repair file
+  alone would have left the page contradicting itself. Part D is hereby
+  superseded and stays commented-out forever. Chip text unchanged.
 - The Phase-2 five-table world is retired: the flip emptied its dependent
   tables (rows preserved in `investorlens-backups`, including a fresh manual
   run taken minutes before the flip). `sql/schema.sql` + `sql/seed.sql` in the
@@ -190,8 +201,11 @@ per fetched company per night; ≈706 after the first v2 run).
 
 ## Session N+
 
-1. **INDIGO exact figure owed:** replace the derived 40.48 with the filed
-   Mar-2026 SHP promoter total (one-line UPDATE, Part D of the repair file).
+1. ~~**INDIGO exact figure owed.**~~ **DONE — Session P, 15 Jul 2026.** Filed
+   figure 41.57% verified and pasted; Part D superseded by
+   `2026-07-15_indigo_shp_exact.sql` (four guarded UPDATEs, not one — the
+   number lived in four places). The queue's only remaining item is the
+   standing quarterly sweep (item 4).
 2. ~~**Narratives `display_order`.**~~ **DONE — Session N, 14 Jul 2026.**
    Column added + backfilled order-preservingly; `data.js:198` reorders. The
    curated renumber (Part C of the migration: power → metals-auto → holding →
@@ -213,6 +227,27 @@ per fetched company per night; ≈706 after the first v2 run).
 - Optional carried: husk-file tidy-up (flag 3); replace the retired `/sql`
   files with the Phase-4 pair; snapshot prune/view strategy (flag 4).
   *(Flags 1 and 2 are closed — Sessions N and O.)*
+
+## Lessons Session P added
+
+- **A number is not a cell; it is every sentence that mentions it.** Part D
+  assumed the fix was one UPDATE. The bytes showed 40.48/4.78 living in four
+  places — headline, two prose sentences, source_note. Fixing only the
+  headline would have shipped a page that disagreed with itself. Before
+  replacing any figure, grep for it everywhere it could have been narrated.
+- **A wrong number you can explain beats a right number you can't.** The
+  derived 40.48 wasn't sloppy arithmetic — it undercounted the RG side by
+  exactly the Chinkerpoo Trust's 1.32%. Finding the mechanism of the error is
+  what makes the correction trustworthy, and it sharpened the platform's
+  understanding of the promoter structure at the same time.
+- **Aggregators disagree by QUARTER more often than by value.** 41.58 vs 41.57
+  vs 43.5 were all "true" — for Dec-2025, Mar-2026, and Jun-2025 respectively.
+  The verification instruction must decode the noise in advance, or the
+  verifier drowns in numbers that are each correct about a different date.
+- **"Founder-verified" is a claim the database makes; it must be earned before
+  it is pasted.** The migration carried a written hard gate: PASTE 2 does not
+  run until the exchange filing has been seen with human eyes. Source one is
+  never enough, even when three aggregators agree.
 
 ## Lessons Session O added
 
@@ -464,6 +499,28 @@ Machines refresh NUMBERS; only humans write/verify SENTENCES.
 
 ## Changelog
 
+- **v4.6 / Phase 4 Session P: INDIGO's filed figure lands — the Session N/O/P
+  queue is complete.** promoter_pct 40.48 (derived) → **41.57** (filed Mar-2026
+  SHP, founder-verified against the exchange filing 15-Jul-2026). Research
+  trail: Trendlyne entity-level table (self-reconciling to the share:
+  35.69 IGE + 0.03 Bhatia individuals + 4.53 Rakesh Gangwal + 1.32 Chinkerpoo
+  Trust = 41.57 / 160,732,247 shares), corroborated by IIFL (41.57) and Kotak
+  (41.6 rounded); discrepancy log resolved 41.58 = Dec-2025 and 43.5 = Jun-2025
+  before verification began. Error mechanism identified: the old derivation
+  missed the Chinkerpoo Trust's 1.32%. Executed as FOUR value-guarded UPDATEs
+  (`2026-07-15_indigo_shp_exact.sql`), not Part D's one — the number lived in
+  four places (promoter_pct, two promoter_who sentences, source_note); Part D
+  verbatim would have left "41.57" above prose still calling it "a derived
+  40.48". Dry-run on a production-identical fixture (batch7 text + repair
+  B3/B4 applied): pre-flight t/t/t → four UPDATE 1 → judge green → re-run four
+  UPDATE 0. Prose now reads "the filed Mar-2026 SHP figure… will drift lower
+  each quarter until the RG Group reaches zero" — the drift warning survives,
+  the caveat retires. CONTRACT parachute +1 (file replays last by filename;
+  batch7's 40.48 judge remains true at its point in the replay and is
+  superseded by this file's judge). Chip text unchanged. With this, every
+  one-off item queued at Session N's opening is closed; what remains is the
+  standing quarterly SHP re-verification sweep — INDIGO explicitly flagged as
+  drift-prone until the RG Group reaches zero.
 - **v4.5 / Phase 4 Session O: LTIM joins its peers (flag 2 closed).** One
   guarded UPDATE (`WHERE ticker = 'LTIM' AND compare_group = 'IT Services'`)
   moved LTIM into "IT" — the guard means it can only ever touch LTIM and
