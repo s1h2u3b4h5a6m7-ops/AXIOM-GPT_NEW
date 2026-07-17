@@ -81,6 +81,12 @@ but don't rank.
 - **Market cap is a snapshot like any other**, except
   `metric_key = 'market_cap_cr'` feeds `MARKET_CAP_CR` (newest per ticker) and
   is excluded from `metrics` / `metric_order`.
+- **Market-cap snapshot retention (Session R, 16 Jul 2026).** The nightly
+  `market_cap_cr` series is pruned by `2026-07-16_snapshot_prune.sql`: keep
+  every row from the last 90 days plus each company's first-of-month row
+  forever, delete the rest. Scoped to `market_cap_cr` only — the 492 business
+  bindings and the newest reading (what the site shows) are never touched, so
+  the chip is invariant. Idempotent standing maintenance; a re-run is DELETE 0.
 - **`higher_is_better` rides on snapshot rows**; newest wins per metric key.
 - **Directions translate.** DB `'upstream'/'downstream'` → app `up`/`down`;
   columns `node_name / tag / note` → `l / t / n`.
@@ -167,7 +173,7 @@ the number lived; supersedes the repair file's commented-out Part D), then
 UPDATE correcting INDIGO's source_note attribution — the "founder-verified"
 label becomes the four-source cross-verification actually performed; filename
 order already replays it after the exact-figure file, `shp_exact` sorting
-before `source_relabel`). The
+before `source_relabel`), then `2026-07-16_snapshot_prune.sql` (Session R: standing maintenance prune of the nightly `market_cap_cr` series — keep the last 90 days plus each company's first-of-month row forever, delete the rest; scoped to `market_cap_cr` only, so the 492 business bindings and the newest reading stay untouched and the chip is invariant; idempotent, a re-run is DELETE 0, and on a fresh rebuild it finds nothing old enough and no-ops). The
 narratives file must run before a rebuilt database serves `data.js`, which
 orders by its new column. The order
 is not cosmetic twice over: the Batch-2 through Batch-7 files write
