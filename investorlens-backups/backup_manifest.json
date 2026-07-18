@@ -1,0 +1,15 @@
+{
+  "backed_up_at": "2026-07-13T08:36:00.079195+00:00",
+  "counts": {
+    "bull_bear_cases": 642,
+    "chain_nodes": 518,
+    "companies": 107,
+    "cross_company_narratives": 4,
+    "metric_snapshots": 1129,
+    "mgmt_profiles": 107,
+    "staged_metric_snapshots": 0,
+    "tech_geo_tags": 321
+  },
+  "schema": "phase4-eight-tables",
+  "source": "https://uhqyhsniwlgivdlxbpoj.supabase.co"
+}

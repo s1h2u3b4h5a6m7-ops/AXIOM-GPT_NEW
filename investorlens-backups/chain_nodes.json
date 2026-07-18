@@ -1,0 +1,4146 @@
+[
+  {
+    "direction": "upstream",
+    "id": 1,
+    "node_name": "Depositors — CASA + term",
+    "note": null,
+    "tag": null,
+    "ticker": "HDFCBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 2,
+    "node_name": "Wholesale funding markets",
+    "note": null,
+    "tag": null,
+    "ticker": "HDFCBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 3,
+    "node_name": "RBI repo & liquidity",
+    "note": "June 2026 hold at 5.50% shapes deposit repricing",
+    "tag": "neutral",
+    "ticker": "HDFCBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 4,
+    "node_name": "Retail & corporate borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "HDFCBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 5,
+    "node_name": "UPI apps own the customer screen",
+    "note": "non-bank apps + zero-MDR: volume without fee income",
+    "tag": "risk",
+    "ticker": "HDFCBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 6,
+    "node_name": "Account Aggregator data rails",
+    "note": "consent-based data deepens cross-sell",
+    "tag": "tailwind",
+    "ticker": "HDFCBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 7,
+    "node_name": "Depositors — CASA + term",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 8,
+    "node_name": "Wholesale funding markets",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 9,
+    "node_name": "RBI repo & liquidity",
+    "note": "June 2026 hold at 5.50%, raised inflation forecast",
+    "tag": "neutral",
+    "ticker": "ICICIBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 10,
+    "node_name": "Retail & corporate borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 11,
+    "node_name": "iMobile / InstaBIZ own apps",
+    "note": "strongest in-house digital layer among private banks",
+    "tag": "tailwind",
+    "ticker": "ICICIBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 12,
+    "node_name": "Third-party UPI layer",
+    "note": "PhonePe/GPay still own everyday payments",
+    "tag": "risk",
+    "ticker": "ICICIBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 13,
+    "node_name": "Largest branch + agent deposit base",
+    "note": null,
+    "tag": null,
+    "ticker": "SBIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 14,
+    "node_name": "Government majority ownership",
+    "note": "policy mandates ride alongside commercial goals",
+    "tag": "neutral",
+    "ticker": "SBIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 15,
+    "node_name": "Borrowers incl. priority sector",
+    "note": null,
+    "tag": null,
+    "ticker": "SBIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 16,
+    "node_name": "Govt scheme delivery channel",
+    "note": "default rail for DBT & inclusion programmes",
+    "tag": "tailwind",
+    "ticker": "SBIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 17,
+    "node_name": "UPI rails at zero MDR",
+    "note": "enormous volume, no direct fee income",
+    "tag": "risk",
+    "ticker": "SBIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 18,
+    "node_name": "Premium high-CASA depositors",
+    "note": "low-cost funding base",
+    "tag": "tailwind",
+    "ticker": "KOTAKBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 19,
+    "node_name": "RBI tech-compliance oversight",
+    "note": "2024 digital-onboarding ban showed the dependency",
+    "tag": "risk",
+    "ticker": "KOTAKBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 20,
+    "node_name": "Retail & corporate borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "KOTAKBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 21,
+    "node_name": "Third-party UPI layer",
+    "note": "shared disintermediation + zero-MDR dynamic",
+    "tag": "risk",
+    "ticker": "KOTAKBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 22,
+    "node_name": "Depositors — CASA + term",
+    "note": null,
+    "tag": null,
+    "ticker": "AXISBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 23,
+    "node_name": "Wholesale funding markets",
+    "note": null,
+    "tag": null,
+    "ticker": "AXISBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 24,
+    "node_name": "UPI payer-PSP sponsor rails",
+    "note": "huge payer-side volume, revenue-light under zero MDR",
+    "tag": "neutral",
+    "ticker": "AXISBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 25,
+    "node_name": "Retail & corporate borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "AXISBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 26,
+    "node_name": "Fintech partner distribution",
+    "note": "partnerships extend reach + consent-based data",
+    "tag": "tailwind",
+    "ticker": "AXISBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 27,
+    "node_name": "Wholesale borrowings — no CASA",
+    "note": "margins move with wholesale rates",
+    "tag": "risk",
+    "ticker": "BAJFINANCE"
+  },
+  {
+    "direction": "upstream",
+    "id": 28,
+    "node_name": "Banks & bond markets",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJFINANCE"
+  },
+  {
+    "direction": "downstream",
+    "id": 29,
+    "node_name": "Unsecured consumer credit",
+    "note": "RBI risk-weight tightening squarely hits this book",
+    "tag": "risk",
+    "ticker": "BAJFINANCE"
+  },
+  {
+    "direction": "downstream",
+    "id": 30,
+    "node_name": "SME & durable-finance borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJFINANCE"
+  },
+  {
+    "direction": "downstream",
+    "id": 31,
+    "node_name": "FinAI-underwritten originations",
+    "note": "AI underwriting edge at scale",
+    "tag": "tailwind",
+    "ticker": "BAJFINANCE"
+  },
+  {
+    "direction": "upstream",
+    "id": 32,
+    "node_name": "Wholesale & bank borrowings",
+    "note": null,
+    "tag": null,
+    "ticker": "CHOLAFIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 33,
+    "node_name": "Vehicle & CV loan borrowers",
+    "note": "largest segment rides the freight/auto cycle",
+    "tag": "risk",
+    "ticker": "CHOLAFIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 34,
+    "node_name": "Rural & semi-urban customers",
+    "note": "incomes track monsoon quality",
+    "tag": "risk",
+    "ticker": "CHOLAFIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 35,
+    "node_name": "Home, SME & gold loans",
+    "note": "diversifying away from one cycle",
+    "tag": "tailwind",
+    "ticker": "CHOLAFIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 36,
+    "node_name": "Wholesale funding — highest cost here",
+    "note": "structurally expensive liabilities",
+    "tag": "neutral",
+    "ticker": "SHRIRAMFIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 37,
+    "node_name": "MUFG equity infusion (pending)",
+    "note": "~₹39,618 cr brings capital + credibility",
+    "tag": "tailwind",
+    "ticker": "SHRIRAMFIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 38,
+    "node_name": "Used-CV owner-operators",
+    "note": "earnings track the freight cycle",
+    "tag": "risk",
+    "ticker": "SHRIRAMFIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 39,
+    "node_name": "Self-employed rural borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "SHRIRAMFIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 40,
+    "node_name": "Depositors — post-merger scale",
+    "note": null,
+    "tag": null,
+    "ticker": "BANKBARODA"
+  },
+  {
+    "direction": "upstream",
+    "id": 41,
+    "node_name": "Government majority ownership",
+    "note": "policy mandates alongside commercial goals",
+    "tag": "neutral",
+    "ticker": "BANKBARODA"
+  },
+  {
+    "direction": "downstream",
+    "id": 42,
+    "node_name": "Retail & corporate borrowers",
+    "note": "cleaned-up balance sheet after PSU consolidation",
+    "tag": "tailwind",
+    "ticker": "BANKBARODA"
+  },
+  {
+    "direction": "downstream",
+    "id": 43,
+    "node_name": "UPI rails at zero MDR",
+    "note": null,
+    "tag": "risk",
+    "ticker": "BANKBARODA"
+  },
+  {
+    "direction": "upstream",
+    "id": 44,
+    "node_name": "Depositors",
+    "note": null,
+    "tag": null,
+    "ticker": "PNB"
+  },
+  {
+    "direction": "upstream",
+    "id": 45,
+    "node_name": "~70% government ownership",
+    "note": "policy + social mandates",
+    "tag": "neutral",
+    "ticker": "PNB"
+  },
+  {
+    "direction": "downstream",
+    "id": 46,
+    "node_name": "Borrowers — post-cleanup book",
+    "note": "sharply improved asset quality",
+    "tag": "tailwind",
+    "ticker": "PNB"
+  },
+  {
+    "direction": "downstream",
+    "id": 47,
+    "node_name": "UPI rails at zero MDR",
+    "note": null,
+    "tag": "risk",
+    "ticker": "PNB"
+  },
+  {
+    "direction": "upstream",
+    "id": 48,
+    "node_name": "NRI / Gulf-diaspora deposits",
+    "note": "tied to Gulf economies & USD/INR",
+    "tag": "neutral",
+    "ticker": "FEDERALBNK"
+  },
+  {
+    "direction": "upstream",
+    "id": 49,
+    "node_name": "Blackstone strategic capital",
+    "note": null,
+    "tag": "tailwind",
+    "ticker": "FEDERALBNK"
+  },
+  {
+    "direction": "downstream",
+    "id": 50,
+    "node_name": "Retail & SME borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "FEDERALBNK"
+  },
+  {
+    "direction": "downstream",
+    "id": 51,
+    "node_name": "Fintech partner distribution",
+    "note": "partnership model extends reach",
+    "tag": "tailwind",
+    "ticker": "FEDERALBNK"
+  },
+  {
+    "direction": "upstream",
+    "id": 52,
+    "node_name": "High-CASA retail deposits",
+    "note": "highest CASA among banks tracked here",
+    "tag": "tailwind",
+    "ticker": "IDFCFIRSTB"
+  },
+  {
+    "direction": "downstream",
+    "id": 53,
+    "node_name": "Microfinance & unsecured book",
+    "note": "sector-wide MFI stress cycle",
+    "tag": "risk",
+    "ticker": "IDFCFIRSTB"
+  },
+  {
+    "direction": "downstream",
+    "id": 54,
+    "node_name": "Retail borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "IDFCFIRSTB"
+  },
+  {
+    "direction": "downstream",
+    "id": 55,
+    "node_name": "Third-party UPI layer",
+    "note": null,
+    "tag": "risk",
+    "ticker": "IDFCFIRSTB"
+  },
+  {
+    "direction": "upstream",
+    "id": 56,
+    "node_name": "Deposit base — East-India heavy",
+    "note": "geographic concentration amplifies regional shocks",
+    "tag": "risk",
+    "ticker": "BANDHANBNK"
+  },
+  {
+    "direction": "downstream",
+    "id": 57,
+    "node_name": "Microloan (EEB) borrowers",
+    "note": "sharp end of the MFI stress cycle",
+    "tag": "risk",
+    "ticker": "BANDHANBNK"
+  },
+  {
+    "direction": "downstream",
+    "id": 58,
+    "node_name": "Secured retail & housing book",
+    "note": "risk-weight cut to 100% eases the pivot",
+    "tag": "tailwind",
+    "ticker": "BANDHANBNK"
+  },
+  {
+    "direction": "upstream",
+    "id": 59,
+    "node_name": "Deposits amid intense competition",
+    "note": "management calls the environment highly competitive",
+    "tag": "neutral",
+    "ticker": "AUBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 60,
+    "node_name": "RBI universal-bank approval",
+    "note": "in-principle nod should lower funding cost",
+    "tag": "tailwind",
+    "ticker": "AUBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 61,
+    "node_name": "MFI & unsecured borrowers",
+    "note": "SFB-sector stress",
+    "tag": "risk",
+    "ticker": "AUBANK"
+  },
+  {
+    "direction": "downstream",
+    "id": 62,
+    "node_name": "Vehicle & secured SME loans",
+    "note": null,
+    "tag": null,
+    "ticker": "AUBANK"
+  },
+  {
+    "direction": "upstream",
+    "id": 63,
+    "node_name": "Depositors",
+    "note": null,
+    "tag": null,
+    "ticker": "CANBK"
+  },
+  {
+    "direction": "upstream",
+    "id": 64,
+    "node_name": "Govt ownership + lead-bank role",
+    "note": "coordinates inclusion across states",
+    "tag": "neutral",
+    "ticker": "CANBK"
+  },
+  {
+    "direction": "downstream",
+    "id": 65,
+    "node_name": "Borrowers — record-low NPAs",
+    "note": "genuine turnaround, CET1 still to build",
+    "tag": "tailwind",
+    "ticker": "CANBK"
+  },
+  {
+    "direction": "downstream",
+    "id": 66,
+    "node_name": "UPI rails at zero MDR",
+    "note": null,
+    "tag": "risk",
+    "ticker": "CANBK"
+  },
+  {
+    "direction": "upstream",
+    "id": 67,
+    "node_name": "Palm oil & crude-linked inputs",
+    "note": "cited as the key cost driver",
+    "tag": "risk",
+    "ticker": "HINDUNILVR"
+  },
+  {
+    "direction": "upstream",
+    "id": 68,
+    "node_name": "Commodity vendors & co-packers",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDUNILVR"
+  },
+  {
+    "direction": "downstream",
+    "id": 69,
+    "node_name": "9-million-outlet general trade",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDUNILVR"
+  },
+  {
+    "direction": "downstream",
+    "id": 70,
+    "node_name": "Quick-commerce shelf",
+    "note": "~3% of sales, doubling — squeezes the GT moat",
+    "tag": "risk",
+    "ticker": "HINDUNILVR"
+  },
+  {
+    "direction": "downstream",
+    "id": 71,
+    "node_name": "D2C digital-native brands",
+    "note": "Minimalist, OZiva give HUL its own foothold",
+    "tag": "tailwind",
+    "ticker": "HINDUNILVR"
+  },
+  {
+    "direction": "upstream",
+    "id": 72,
+    "node_name": "Own Agri arm — leaf tobacco",
+    "note": "integrated sourcing at nearly every stage",
+    "tag": "tailwind",
+    "ticker": "ITC"
+  },
+  {
+    "direction": "upstream",
+    "id": 73,
+    "node_name": "Farmer procurement networks",
+    "note": null,
+    "tag": null,
+    "ticker": "ITC"
+  },
+  {
+    "direction": "downstream",
+    "id": 74,
+    "node_name": "Cigarette trade — ~80% share",
+    "note": "Feb 2026 excise hike; illicit share grows with price",
+    "tag": "risk",
+    "ticker": "ITC"
+  },
+  {
+    "direction": "downstream",
+    "id": 75,
+    "node_name": "FMCG-Others retail",
+    "note": "+11.1% — a working hedge",
+    "tag": "tailwind",
+    "ticker": "ITC"
+  },
+  {
+    "direction": "downstream",
+    "id": 76,
+    "node_name": "Hotels, agri & paper B2B",
+    "note": null,
+    "tag": null,
+    "ticker": "ITC"
+  },
+  {
+    "direction": "upstream",
+    "id": 77,
+    "node_name": "Coffee, cocoa, dairy, wheat",
+    "note": "global commodity swings hit two big categories",
+    "tag": "risk",
+    "ticker": "NESTLEIND"
+  },
+  {
+    "direction": "upstream",
+    "id": 78,
+    "node_name": "Parent Nestlé S.A. R&D",
+    "note": "global brand + science pipeline",
+    "tag": "tailwind",
+    "ticker": "NESTLEIND"
+  },
+  {
+    "direction": "downstream",
+    "id": 79,
+    "node_name": "Deep GT distribution",
+    "note": null,
+    "tag": null,
+    "ticker": "NESTLEIND"
+  },
+  {
+    "direction": "downstream",
+    "id": 80,
+    "node_name": "Quick-commerce & modern trade",
+    "note": "faster-growing channels",
+    "tag": "tailwind",
+    "ticker": "NESTLEIND"
+  },
+  {
+    "direction": "downstream",
+    "id": 81,
+    "node_name": "Rural demand",
+    "note": "drier monsoon forecast threatens recovery",
+    "tag": "risk",
+    "ticker": "NESTLEIND"
+  },
+  {
+    "direction": "upstream",
+    "id": 82,
+    "node_name": "Own tea estates & Tata Coffee",
+    "note": "partial backward integration",
+    "tag": "neutral",
+    "ticker": "TATACONSUM"
+  },
+  {
+    "direction": "upstream",
+    "id": 83,
+    "node_name": "Tea auctions",
+    "note": "globally traded commodity input",
+    "tag": "risk",
+    "ticker": "TATACONSUM"
+  },
+  {
+    "direction": "downstream",
+    "id": 84,
+    "node_name": "General trade network",
+    "note": null,
+    "tag": null,
+    "ticker": "TATACONSUM"
+  },
+  {
+    "direction": "downstream",
+    "id": 85,
+    "node_name": "Quick-commerce & e-com",
+    "note": "62%+ FY26 growth — real share capture",
+    "tag": "tailwind",
+    "ticker": "TATACONSUM"
+  },
+  {
+    "direction": "upstream",
+    "id": 86,
+    "node_name": "Talent pyramid",
+    "note": "AI restructures the staffing-billing model",
+    "tag": "risk",
+    "ticker": "TCS"
+  },
+  {
+    "direction": "upstream",
+    "id": 87,
+    "node_name": "Global delivery centres",
+    "note": null,
+    "tag": null,
+    "ticker": "TCS"
+  },
+  {
+    "direction": "downstream",
+    "id": 88,
+    "node_name": "Enterprise clients set scope",
+    "note": null,
+    "tag": null,
+    "ticker": "TCS"
+  },
+  {
+    "direction": "downstream",
+    "id": 89,
+    "node_name": "AI-native contracts",
+    "note": "$1.8bn annualised and compounding",
+    "tag": "tailwind",
+    "ticker": "TCS"
+  },
+  {
+    "direction": "downstream",
+    "id": 90,
+    "node_name": "USD/GBP/EUR billing",
+    "note": "weaker rupee flatters reported growth",
+    "tag": "neutral",
+    "ticker": "TCS"
+  },
+  {
+    "direction": "upstream",
+    "id": 91,
+    "node_name": "Talent pyramid",
+    "note": "same AI pressure on billing",
+    "tag": "risk",
+    "ticker": "INFY"
+  },
+  {
+    "direction": "upstream",
+    "id": 92,
+    "node_name": "Topaz platform IP",
+    "note": "management's stated AI strategy",
+    "tag": "neutral",
+    "ticker": "INFY"
+  },
+  {
+    "direction": "downstream",
+    "id": 93,
+    "node_name": "Enterprise clients set scope",
+    "note": null,
+    "tag": null,
+    "ticker": "INFY"
+  },
+  {
+    "direction": "downstream",
+    "id": 94,
+    "node_name": "USD-heavy billing",
+    "note": "reported vs constant-currency gap",
+    "tag": "neutral",
+    "ticker": "INFY"
+  },
+  {
+    "direction": "upstream",
+    "id": 95,
+    "node_name": "Talent pyramid",
+    "note": "2.4% CC growth missed Q4 expectations",
+    "tag": "risk",
+    "ticker": "HCLTECH"
+  },
+  {
+    "direction": "upstream",
+    "id": 96,
+    "node_name": "ER&D engineering talent",
+    "note": "fastest segment, +9.8% CC",
+    "tag": "tailwind",
+    "ticker": "HCLTECH"
+  },
+  {
+    "direction": "downstream",
+    "id": 97,
+    "node_name": "Enterprise clients",
+    "note": null,
+    "tag": null,
+    "ticker": "HCLTECH"
+  },
+  {
+    "direction": "downstream",
+    "id": 98,
+    "node_name": "HCLSoftware products",
+    "note": "own IP at a scale peers lack",
+    "tag": "tailwind",
+    "ticker": "HCLTECH"
+  },
+  {
+    "direction": "downstream",
+    "id": 99,
+    "node_name": "Advanced-AI deals",
+    "note": "crossed $620M",
+    "tag": "tailwind",
+    "ticker": "HCLTECH"
+  },
+  {
+    "direction": "upstream",
+    "id": 100,
+    "node_name": "Talent pyramid",
+    "note": "AI could shave 2-3% of traditional revenue yearly",
+    "tag": "risk",
+    "ticker": "TECHM"
+  },
+  {
+    "direction": "downstream",
+    "id": 101,
+    "node_name": "Telecom operator clients",
+    "note": "legacy concentration, actively diluting",
+    "tag": "neutral",
+    "ticker": "TECHM"
+  },
+  {
+    "direction": "downstream",
+    "id": 102,
+    "node_name": "Manufacturing / BFSI / healthcare",
+    "note": "broad-based diversification is working",
+    "tag": "tailwind",
+    "ticker": "TECHM"
+  },
+  {
+    "direction": "upstream",
+    "id": 103,
+    "node_name": "Talent pyramid",
+    "note": "weak organic growth (~-1.3% QoQ CC)",
+    "tag": "risk",
+    "ticker": "WIPRO"
+  },
+  {
+    "direction": "downstream",
+    "id": 104,
+    "node_name": "Enterprise clients",
+    "note": null,
+    "tag": null,
+    "ticker": "WIPRO"
+  },
+  {
+    "direction": "downstream",
+    "id": 105,
+    "node_name": "Large-deal pipeline",
+    "note": "bookings +45.4% YoY, conversion pending",
+    "tag": "tailwind",
+    "ticker": "WIPRO"
+  },
+  {
+    "direction": "upstream",
+    "id": 106,
+    "node_name": "In-house API plants",
+    "note": "external API sales under 4% — deep integration",
+    "tag": "tailwind",
+    "ticker": "SUNPHARMA"
+  },
+  {
+    "direction": "upstream",
+    "id": 107,
+    "node_name": "Global R&D pipeline",
+    "note": null,
+    "tag": null,
+    "ticker": "SUNPHARMA"
+  },
+  {
+    "direction": "downstream",
+    "id": 108,
+    "node_name": "US specialty Rx (Innovative)",
+    "note": "21%+ of sales, growing faster than the rest",
+    "tag": "tailwind",
+    "ticker": "SUNPHARMA"
+  },
+  {
+    "direction": "downstream",
+    "id": 109,
+    "node_name": "US generics channel",
+    "note": "pricing pressure kept it flat this quarter",
+    "tag": "risk",
+    "ticker": "SUNPHARMA"
+  },
+  {
+    "direction": "downstream",
+    "id": 110,
+    "node_name": "USFDA approval gate",
+    "note": "116 pending ANDAs, each carries facility risk",
+    "tag": "risk",
+    "ticker": "SUNPHARMA"
+  },
+  {
+    "direction": "upstream",
+    "id": 111,
+    "node_name": "End-to-end API + formulations",
+    "note": "per its own FY26 annual report",
+    "tag": "neutral",
+    "ticker": "DRREDDY"
+  },
+  {
+    "direction": "downstream",
+    "id": 112,
+    "node_name": "US generics — concentrated bets",
+    "note": "NA fell 16% on the Lenalidomide cliff",
+    "tag": "risk",
+    "ticker": "DRREDDY"
+  },
+  {
+    "direction": "downstream",
+    "id": 113,
+    "node_name": "Paragraph-IV pipeline",
+    "note": "43 of 75 pending ANDAs are patent challenges",
+    "tag": "risk",
+    "ticker": "DRREDDY"
+  },
+  {
+    "direction": "downstream",
+    "id": 114,
+    "node_name": "Biosimilars channel",
+    "note": "oncology & autoimmune pipeline building",
+    "tag": "tailwind",
+    "ticker": "DRREDDY"
+  },
+  {
+    "direction": "upstream",
+    "id": 115,
+    "node_name": "India USFDA-inspected plants",
+    "note": "partner-facility halt hit Lanreotide supply",
+    "tag": "risk",
+    "ticker": "CIPLA"
+  },
+  {
+    "direction": "upstream",
+    "id": 116,
+    "node_name": "New US Fall River facility",
+    "note": "built to de-risk geographic concentration",
+    "tag": "tailwind",
+    "ticker": "CIPLA"
+  },
+  {
+    "direction": "downstream",
+    "id": 117,
+    "node_name": "US generics & peptides",
+    "note": "pricing pressure + Revlimid exclusivity loss",
+    "tag": "risk",
+    "ticker": "CIPLA"
+  },
+  {
+    "direction": "downstream",
+    "id": 118,
+    "node_name": "India branded prescriptions",
+    "note": null,
+    "tag": null,
+    "ticker": "CIPLA"
+  },
+  {
+    "direction": "downstream",
+    "id": 119,
+    "node_name": "First AB-rated generic launches",
+    "note": null,
+    "tag": "tailwind",
+    "ticker": "CIPLA"
+  },
+  {
+    "direction": "upstream",
+    "id": 120,
+    "node_name": "Steel & component ecosystem",
+    "note": null,
+    "tag": null,
+    "ticker": "MARUTI"
+  },
+  {
+    "direction": "upstream",
+    "id": 121,
+    "node_name": "Chips & rare-earth magnets",
+    "note": "China export curbs touch hybrid/EV motors",
+    "tag": "risk",
+    "ticker": "MARUTI"
+  },
+  {
+    "direction": "upstream",
+    "id": 122,
+    "node_name": "Suzuki platform engineering",
+    "note": "royalty-bearing parent tech",
+    "tag": "neutral",
+    "ticker": "MARUTI"
+  },
+  {
+    "direction": "downstream",
+    "id": 123,
+    "node_name": "Arena / NEXA dealer network",
+    "note": null,
+    "tag": null,
+    "ticker": "MARUTI"
+  },
+  {
+    "direction": "downstream",
+    "id": 124,
+    "node_name": "Small-car buyers",
+    "note": "GST 2.0 cut 28%→18% structurally reopened the segment",
+    "tag": "tailwind",
+    "ticker": "MARUTI"
+  },
+  {
+    "direction": "downstream",
+    "id": 125,
+    "node_name": "Export markets",
+    "note": null,
+    "tag": null,
+    "ticker": "MARUTI"
+  },
+  {
+    "direction": "upstream",
+    "id": 126,
+    "node_name": "JLR plants — UK / Slovakia",
+    "note": "late-2025 cyberattack halted production",
+    "tag": "risk",
+    "ticker": "TMPV"
+  },
+  {
+    "direction": "upstream",
+    "id": 127,
+    "node_name": "Chips & rare-earth magnets",
+    "note": "EV-push dependency",
+    "tag": "risk",
+    "ticker": "TMPV"
+  },
+  {
+    "direction": "upstream",
+    "id": 128,
+    "node_name": "India component base",
+    "note": null,
+    "tag": null,
+    "ticker": "TMPV"
+  },
+  {
+    "direction": "downstream",
+    "id": 129,
+    "node_name": "JLR global luxury buyers",
+    "note": "China demand soft + luxury tax",
+    "tag": "risk",
+    "ticker": "TMPV"
+  },
+  {
+    "direction": "downstream",
+    "id": 130,
+    "node_name": "US & EU markets",
+    "note": "UK-US / EU-US deals cut JLR tariffs",
+    "tag": "tailwind",
+    "ticker": "TMPV"
+  },
+  {
+    "direction": "downstream",
+    "id": 131,
+    "node_name": "India mass-market dealers",
+    "note": null,
+    "tag": null,
+    "ticker": "TMPV"
+  },
+  {
+    "direction": "upstream",
+    "id": 132,
+    "node_name": "Domestic component suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "M&M"
+  },
+  {
+    "direction": "upstream",
+    "id": 133,
+    "node_name": "EV platform & battery capex",
+    "note": "management flags margin pressure from the build",
+    "tag": "neutral",
+    "ticker": "M&M"
+  },
+  {
+    "direction": "downstream",
+    "id": 134,
+    "node_name": "SUV buyers via dealers",
+    "note": null,
+    "tag": null,
+    "ticker": "M&M"
+  },
+  {
+    "direction": "downstream",
+    "id": 135,
+    "node_name": "Farmers — monsoon-linked",
+    "note": "tractor volumes track farm incomes; US tariff cut helps exports",
+    "tag": "risk",
+    "ticker": "M&M"
+  },
+  {
+    "direction": "downstream",
+    "id": 136,
+    "node_name": "Mahindra Finance financing loop",
+    "note": "in-house credit fuels its own vehicle demand",
+    "tag": "tailwind",
+    "ticker": "M&M"
+  },
+  {
+    "direction": "upstream",
+    "id": 137,
+    "node_name": "Pune / Chakan / Aurangabad plants",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJ-AUTO"
+  },
+  {
+    "direction": "upstream",
+    "id": 138,
+    "node_name": "KTM Austria stake",
+    "note": "repeated capital infusions into a distressed partner",
+    "tag": "risk",
+    "ticker": "BAJAJ-AUTO"
+  },
+  {
+    "direction": "downstream",
+    "id": 139,
+    "node_name": "Domestic 2W/3W dealers",
+    "note": "EV already 25% of domestic revenue",
+    "tag": "neutral",
+    "ticker": "BAJAJ-AUTO"
+  },
+  {
+    "direction": "downstream",
+    "id": 140,
+    "node_name": "Africa & LatAm exports",
+    "note": "~half of volumes ride EM currencies (naira)",
+    "tag": "risk",
+    "ticker": "BAJAJ-AUTO"
+  },
+  {
+    "direction": "downstream",
+    "id": 141,
+    "node_name": "Triumph / KTM brand channels",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJ-AUTO"
+  },
+  {
+    "direction": "upstream",
+    "id": 142,
+    "node_name": "Chennai plants + component base",
+    "note": null,
+    "tag": null,
+    "ticker": "EICHERMOT"
+  },
+  {
+    "direction": "upstream",
+    "id": 143,
+    "node_name": "Heritage brand & design IP",
+    "note": "lets RE price on styling, not cost",
+    "tag": "tailwind",
+    "ticker": "EICHERMOT"
+  },
+  {
+    "direction": "downstream",
+    "id": 144,
+    "node_name": "RE dealers & rider community",
+    "note": "GST 2.0 pulled demand forward into Q3",
+    "tag": "risk",
+    "ticker": "EICHERMOT"
+  },
+  {
+    "direction": "downstream",
+    "id": 145,
+    "node_name": "VECV trucks → infra capex cycle",
+    "note": null,
+    "tag": null,
+    "ticker": "EICHERMOT"
+  },
+  {
+    "direction": "downstream",
+    "id": 146,
+    "node_name": "Emission-norm gate (CAFE/BS7)",
+    "note": "sector-wide cost rise favours premium margins",
+    "tag": "tailwind",
+    "ticker": "EICHERMOT"
+  },
+  {
+    "direction": "upstream",
+    "id": 147,
+    "node_name": "Spectrum from DoT",
+    "note": "AGR dues & spectrum payments are a standing claim",
+    "tag": "risk",
+    "ticker": "BHARTIARTL"
+  },
+  {
+    "direction": "upstream",
+    "id": 148,
+    "node_name": "Towers, fibre & network gear",
+    "note": null,
+    "tag": null,
+    "ticker": "BHARTIARTL"
+  },
+  {
+    "direction": "upstream",
+    "id": 149,
+    "node_name": "Google AI-hub partnership",
+    "note": "data-centre / AI infrastructure build",
+    "tag": "tailwind",
+    "ticker": "BHARTIARTL"
+  },
+  {
+    "direction": "downstream",
+    "id": 150,
+    "node_name": "India subscribers — ARPU ladder",
+    "note": null,
+    "tag": null,
+    "ticker": "BHARTIARTL"
+  },
+  {
+    "direction": "downstream",
+    "id": 151,
+    "node_name": "Enterprises & data centres",
+    "note": null,
+    "tag": "tailwind",
+    "ticker": "BHARTIARTL"
+  },
+  {
+    "direction": "downstream",
+    "id": 152,
+    "node_name": "Africa opcos",
+    "note": "local-currency sensitivity",
+    "tag": "neutral",
+    "ticker": "BHARTIARTL"
+  },
+  {
+    "direction": "upstream",
+    "id": 153,
+    "node_name": "Crude & feedstock imports",
+    "note": "West Asia conflict disrupted O2C this quarter",
+    "tag": "risk",
+    "ticker": "RELIANCE"
+  },
+  {
+    "direction": "upstream",
+    "id": 154,
+    "node_name": "Own KG-D6 gas production",
+    "note": null,
+    "tag": null,
+    "ticker": "RELIANCE"
+  },
+  {
+    "direction": "upstream",
+    "id": 155,
+    "node_name": "New Energy giga-complex",
+    "note": "solar, batteries, green H₂ under construction",
+    "tag": "neutral",
+    "ticker": "RELIANCE"
+  },
+  {
+    "direction": "downstream",
+    "id": 156,
+    "node_name": "Jamnagar O2C exports",
+    "note": null,
+    "tag": null,
+    "ticker": "RELIANCE"
+  },
+  {
+    "direction": "downstream",
+    "id": 157,
+    "node_name": "Jio subscribers",
+    "note": "an imminent Jio listing is the value-unlock event",
+    "tag": "tailwind",
+    "ticker": "RELIANCE"
+  },
+  {
+    "direction": "downstream",
+    "id": 158,
+    "node_name": "Retail consumers",
+    "note": null,
+    "tag": null,
+    "ticker": "RELIANCE"
+  },
+  {
+    "direction": "upstream",
+    "id": 159,
+    "node_name": "Group capital & debt",
+    "note": "new assets depreciate before they earn",
+    "tag": "risk",
+    "ticker": "ADANIENT"
+  },
+  {
+    "direction": "upstream",
+    "id": 160,
+    "node_name": "Incubation pipeline — airports, copper, green H₂",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIENT"
+  },
+  {
+    "direction": "downstream",
+    "id": 161,
+    "node_name": "Matured, contracted cash flows",
+    "note": "~80% of EBITDA now from mature businesses",
+    "tag": "tailwind",
+    "ticker": "ADANIENT"
+  },
+  {
+    "direction": "downstream",
+    "id": 162,
+    "node_name": "New-asset ramp (Navi Mumbai, Kutch)",
+    "note": "commissioning drag on returns",
+    "tag": "risk",
+    "ticker": "ADANIENT"
+  },
+  {
+    "direction": "upstream",
+    "id": 163,
+    "node_name": "Mature fields — Bombay High",
+    "note": "legacy decline needs continuous new drilling",
+    "tag": "risk",
+    "ticker": "ONGC"
+  },
+  {
+    "direction": "upstream",
+    "id": 164,
+    "node_name": "Exploration acreage",
+    "note": null,
+    "tag": null,
+    "ticker": "ONGC"
+  },
+  {
+    "direction": "downstream",
+    "id": 165,
+    "node_name": "Crude sales at global prices",
+    "note": "realizations move with the barrel",
+    "tag": "risk",
+    "ticker": "ONGC"
+  },
+  {
+    "direction": "downstream",
+    "id": 166,
+    "node_name": "HPCL / MRPL / OPaL downstream",
+    "note": "captures margin beyond the wellhead",
+    "tag": "tailwind",
+    "ticker": "ONGC"
+  },
+  {
+    "direction": "downstream",
+    "id": 167,
+    "node_name": "New-well gas at premium pricing",
+    "note": null,
+    "tag": null,
+    "ticker": "ONGC"
+  },
+  {
+    "direction": "upstream",
+    "id": 168,
+    "node_name": "310 mines across 8 states",
+    "note": null,
+    "tag": null,
+    "ticker": "COALINDIA"
+  },
+  {
+    "direction": "upstream",
+    "id": 169,
+    "node_name": "Land & environmental clearances",
+    "note": null,
+    "tag": "neutral",
+    "ticker": "COALINDIA"
+  },
+  {
+    "direction": "downstream",
+    "id": 170,
+    "node_name": "Power utilities via FSAs",
+    "note": "solar & wind structurally cap long-run demand",
+    "tag": "risk",
+    "ticker": "COALINDIA"
+  },
+  {
+    "direction": "downstream",
+    "id": 171,
+    "node_name": "E-auction industrial buyers",
+    "note": "premium slice; inventory +21% flags soft offtake",
+    "tag": "neutral",
+    "ticker": "COALINDIA"
+  },
+  {
+    "direction": "downstream",
+    "id": 172,
+    "node_name": "Import-replacement demand",
+    "note": "national target to cut 240+ MT of imports",
+    "tag": "tailwind",
+    "ticker": "COALINDIA"
+  },
+  {
+    "direction": "upstream",
+    "id": 173,
+    "node_name": "Captive iron ore",
+    "note": "structural cost advantage in India",
+    "tag": "tailwind",
+    "ticker": "TATASTEEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 174,
+    "node_name": "Coking coal (part-captive, part import)",
+    "note": null,
+    "tag": null,
+    "ticker": "TATASTEEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 175,
+    "node_name": "Licence to operate — NL / UK",
+    "note": "active Netherlands non-compliance notices",
+    "tag": "risk",
+    "ticker": "TATASTEEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 176,
+    "node_name": "India auto & construction",
+    "note": "infra capex underpins domestic demand",
+    "tag": "tailwind",
+    "ticker": "TATASTEEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 177,
+    "node_name": "European end-markets",
+    "note": "Chinese overcapacity pressures prices",
+    "tag": "risk",
+    "ticker": "TATASTEEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 178,
+    "node_name": "Packaging & branded retail steel",
+    "note": null,
+    "tag": null,
+    "ticker": "TATASTEEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 179,
+    "node_name": "Iron ore — own + auctioned mines",
+    "note": null,
+    "tag": null,
+    "ticker": "JSWSTEEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 180,
+    "node_name": "Debt-funded capacity build",
+    "note": "₹1.26 lakh cr programme raises leverage",
+    "tag": "risk",
+    "ticker": "JSWSTEEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 181,
+    "node_name": "JFE Steel technology JV",
+    "note": null,
+    "tag": "neutral",
+    "ticker": "JSWSTEEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 182,
+    "node_name": "Domestic flat/long buyers",
+    "note": "12% safeguard duty shields realizations",
+    "tag": "tailwind",
+    "ticker": "JSWSTEEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 183,
+    "node_name": "Value-added & export mix",
+    "note": null,
+    "tag": null,
+    "ticker": "JSWSTEEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 184,
+    "node_name": "Bauxite → alumina (captive)",
+    "note": "among the deepest integration on the exchange",
+    "tag": "tailwind",
+    "ticker": "HINDALCO"
+  },
+  {
+    "direction": "upstream",
+    "id": 185,
+    "node_name": "Copper concentrate imports",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDALCO"
+  },
+  {
+    "direction": "upstream",
+    "id": 186,
+    "node_name": "Scrap feed for Novelis recycling",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDALCO"
+  },
+  {
+    "direction": "downstream",
+    "id": 187,
+    "node_name": "Novelis — cans & auto sheet",
+    "note": "Oswego fires + US tariff exposure",
+    "tag": "risk",
+    "ticker": "HINDALCO"
+  },
+  {
+    "direction": "downstream",
+    "id": 188,
+    "node_name": "India aluminium & copper buyers",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDALCO"
+  },
+  {
+    "direction": "downstream",
+    "id": 189,
+    "node_name": "EV battery materials",
+    "note": "foil & enclosures — a new leg",
+    "tag": "tailwind",
+    "ticker": "HINDALCO"
+  },
+  {
+    "direction": "upstream",
+    "id": 190,
+    "node_name": "Coal linkage (Coal India FSAs)",
+    "note": null,
+    "tag": null,
+    "ticker": "NTPC"
+  },
+  {
+    "direction": "upstream",
+    "id": 191,
+    "node_name": "Renewable capacity build",
+    "note": "FY26 green additions missed internal targets",
+    "tag": "risk",
+    "ticker": "NTPC"
+  },
+  {
+    "direction": "downstream",
+    "id": 192,
+    "node_name": "State discoms under PPAs",
+    "note": "chronically stretched counterparties",
+    "tag": "risk",
+    "ticker": "NTPC"
+  },
+  {
+    "direction": "downstream",
+    "id": 193,
+    "node_name": "Regulated-return asset base",
+    "note": "CERC tariffs tie earnings to commissioning",
+    "tag": "neutral",
+    "ticker": "NTPC"
+  },
+  {
+    "direction": "downstream",
+    "id": 194,
+    "node_name": "India demand + 500 GW push",
+    "note": null,
+    "tag": "tailwind",
+    "ticker": "NTPC"
+  },
+  {
+    "direction": "upstream",
+    "id": 195,
+    "node_name": "Transmission capex & borrowings",
+    "note": "debt +13% YoY to fund the build",
+    "tag": "risk",
+    "ticker": "POWERGRID"
+  },
+  {
+    "direction": "upstream",
+    "id": 196,
+    "node_name": "Equipment & EPC vendors",
+    "note": null,
+    "tag": null,
+    "ticker": "POWERGRID"
+  },
+  {
+    "direction": "downstream",
+    "id": 197,
+    "node_name": "Generators → discoms wheeling",
+    "note": "CERC-regulated return on assets",
+    "tag": "neutral",
+    "ticker": "POWERGRID"
+  },
+  {
+    "direction": "downstream",
+    "id": 198,
+    "node_name": "₹2.44 lakh cr transmission pipeline",
+    "note": "the 500 GW target needs this grid",
+    "tag": "tailwind",
+    "ticker": "POWERGRID"
+  },
+  {
+    "direction": "upstream",
+    "id": 199,
+    "node_name": "Captive limestone reserves",
+    "note": null,
+    "tag": null,
+    "ticker": "ULTRACEMCO"
+  },
+  {
+    "direction": "upstream",
+    "id": 200,
+    "node_name": "Green power — 43% of mix",
+    "note": "targeting 85% by FY30",
+    "tag": "tailwind",
+    "ticker": "ULTRACEMCO"
+  },
+  {
+    "direction": "upstream",
+    "id": 201,
+    "node_name": "Energy & freight costs",
+    "note": "West Asia conflict cost ~₹120/tonne EBITDA",
+    "tag": "risk",
+    "ticker": "ULTRACEMCO"
+  },
+  {
+    "direction": "downstream",
+    "id": 202,
+    "node_name": "India's widest cement dealer network",
+    "note": null,
+    "tag": null,
+    "ticker": "ULTRACEMCO"
+  },
+  {
+    "direction": "downstream",
+    "id": 203,
+    "node_name": "Infra & PMAY housing demand",
+    "note": null,
+    "tag": "tailwind",
+    "ticker": "ULTRACEMCO"
+  },
+  {
+    "direction": "downstream",
+    "id": 204,
+    "node_name": "Building-materials adjacencies",
+    "note": "chemicals +44%; wires & cables foray",
+    "tag": "neutral",
+    "ticker": "ULTRACEMCO"
+  },
+  {
+    "direction": "upstream",
+    "id": 205,
+    "node_name": "Own chlor-alkali feeds VSF",
+    "note": "chemicals feed the fibre process itself",
+    "tag": "tailwind",
+    "ticker": "GRASIM"
+  },
+  {
+    "direction": "upstream",
+    "id": 206,
+    "node_name": "Crude-linked raw materials",
+    "note": "hits chemicals and VSF simultaneously",
+    "tag": "risk",
+    "ticker": "GRASIM"
+  },
+  {
+    "direction": "downstream",
+    "id": 207,
+    "node_name": "VSF → textile mills",
+    "note": null,
+    "tag": null,
+    "ticker": "GRASIM"
+  },
+  {
+    "direction": "downstream",
+    "id": 208,
+    "node_name": "Birla Opus paint dealers",
+    "note": "crossed 10% share, +370bps",
+    "tag": "tailwind",
+    "ticker": "GRASIM"
+  },
+  {
+    "direction": "downstream",
+    "id": 209,
+    "node_name": "UltraTech & AB Capital stakes",
+    "note": "holding-company lens on two more chains",
+    "tag": "neutral",
+    "ticker": "GRASIM"
+  },
+  {
+    "direction": "upstream",
+    "id": 210,
+    "node_name": "TiO₂, monomers, solvents",
+    "note": "crude-linked, structurally unhedged; costs eased this qtr",
+    "tag": "risk",
+    "ticker": "ASIANPAINT"
+  },
+  {
+    "direction": "downstream",
+    "id": 211,
+    "node_name": "Largest paint dealer network",
+    "note": "Birla Opus crossed 10% share into this channel",
+    "tag": "risk",
+    "ticker": "ASIANPAINT"
+  },
+  {
+    "direction": "downstream",
+    "id": 212,
+    "node_name": "Painters & homeowners",
+    "note": null,
+    "tag": null,
+    "ticker": "ASIANPAINT"
+  },
+  {
+    "direction": "downstream",
+    "id": 213,
+    "node_name": "Home-décor services",
+    "note": "Beautiful Homes widens the wallet share",
+    "tag": "neutral",
+    "ticker": "ASIANPAINT"
+  },
+  {
+    "direction": "upstream",
+    "id": 214,
+    "node_name": "Gold & diamonds — largely unhedged",
+    "note": "price swings inflate revenue, squeeze margin",
+    "tag": "risk",
+    "ticker": "TITAN"
+  },
+  {
+    "direction": "upstream",
+    "id": 215,
+    "node_name": "Karigar & vendor manufacturing",
+    "note": null,
+    "tag": null,
+    "ticker": "TITAN"
+  },
+  {
+    "direction": "downstream",
+    "id": 216,
+    "node_name": "3,603 own/franchise stores",
+    "note": null,
+    "tag": null,
+    "ticker": "TITAN"
+  },
+  {
+    "direction": "downstream",
+    "id": 217,
+    "node_name": "Damas — international",
+    "note": "credible new growth vector",
+    "tag": "tailwind",
+    "ticker": "TITAN"
+  },
+  {
+    "direction": "downstream",
+    "id": 218,
+    "node_name": "Smart-watch category",
+    "note": "-53% YoY in wearables",
+    "tag": "risk",
+    "ticker": "TITAN"
+  },
+  {
+    "direction": "upstream",
+    "id": 219,
+    "node_name": "Policy design & risk capital",
+    "note": null,
+    "tag": null,
+    "ticker": "SBILIFE"
+  },
+  {
+    "direction": "upstream",
+    "id": 220,
+    "node_name": "GST / input-tax-credit regime",
+    "note": "sector-wide new-business margin headwind",
+    "tag": "risk",
+    "ticker": "SBILIFE"
+  },
+  {
+    "direction": "downstream",
+    "id": 221,
+    "node_name": "SBI branch bancassurance",
+    "note": "low-cost but concentrated; open-architecture threat",
+    "tag": "risk",
+    "ticker": "SBILIFE"
+  },
+  {
+    "direction": "downstream",
+    "id": 222,
+    "node_name": "Policyholders",
+    "note": "18% GST off premiums lifted demand",
+    "tag": "tailwind",
+    "ticker": "SBILIFE"
+  },
+  {
+    "direction": "upstream",
+    "id": 223,
+    "node_name": "Policy design & risk capital",
+    "note": null,
+    "tag": null,
+    "ticker": "HDFCLIFE"
+  },
+  {
+    "direction": "upstream",
+    "id": 224,
+    "node_name": "Surrender-value regs + GST",
+    "note": "quantified margin headwind",
+    "tag": "risk",
+    "ticker": "HDFCLIFE"
+  },
+  {
+    "direction": "downstream",
+    "id": 225,
+    "node_name": "Banca + agency + digital mix",
+    "note": "structurally more diversified than SBI Life",
+    "tag": "neutral",
+    "ticker": "HDFCLIFE"
+  },
+  {
+    "direction": "downstream",
+    "id": 226,
+    "node_name": "Retail protection buyers",
+    "note": "mix up nearly 200bps YoY",
+    "tag": "tailwind",
+    "ticker": "HDFCLIFE"
+  },
+  {
+    "direction": "upstream",
+    "id": 227,
+    "node_name": "Doctors & clinical talent",
+    "note": null,
+    "tag": null,
+    "ticker": "APOLLOHOSP"
+  },
+  {
+    "direction": "upstream",
+    "id": 228,
+    "node_name": "New-hospital capex",
+    "note": "fresh beds lose money for quarters after opening",
+    "tag": "risk",
+    "ticker": "APOLLOHOSP"
+  },
+  {
+    "direction": "downstream",
+    "id": 229,
+    "node_name": "Tertiary & quaternary patients",
+    "note": null,
+    "tag": null,
+    "ticker": "APOLLOHOSP"
+  },
+  {
+    "direction": "downstream",
+    "id": 230,
+    "node_name": "Pharmacy + 24/7 digital arm",
+    "note": "demerger by Q4 FY27 is a real execution event",
+    "tag": "risk",
+    "ticker": "APOLLOHOSP"
+  },
+  {
+    "direction": "downstream",
+    "id": 231,
+    "node_name": "International patients",
+    "note": "medical value travel at higher realizations",
+    "tag": "tailwind",
+    "ticker": "APOLLOHOSP"
+  },
+  {
+    "direction": "upstream",
+    "id": 232,
+    "node_name": "Clinical talent",
+    "note": null,
+    "tag": null,
+    "ticker": "MAXHEALTH"
+  },
+  {
+    "direction": "upstream",
+    "id": 233,
+    "node_name": "Brownfield/greenfield capex",
+    "note": "75%+ occupancy forces capital-heavy growth",
+    "tag": "risk",
+    "ticker": "MAXHEALTH"
+  },
+  {
+    "direction": "downstream",
+    "id": 234,
+    "node_name": "North-India patient base",
+    "note": "geographic concentration",
+    "tag": "risk",
+    "ticker": "MAXHEALTH"
+  },
+  {
+    "direction": "downstream",
+    "id": 235,
+    "node_name": "Max@Home + Max Lab digital",
+    "note": "31% of revenue and compounding",
+    "tag": "tailwind",
+    "ticker": "MAXHEALTH"
+  },
+  {
+    "direction": "downstream",
+    "id": 236,
+    "node_name": "International patients",
+    "note": "9% of hospital revenue",
+    "tag": "tailwind",
+    "ticker": "MAXHEALTH"
+  },
+  {
+    "direction": "upstream",
+    "id": 237,
+    "node_name": "Bid wins → order backlog",
+    "note": "₹17.8 lakh cr FY27 prospects pipeline",
+    "tag": "tailwind",
+    "ticker": "LT"
+  },
+  {
+    "direction": "upstream",
+    "id": 238,
+    "node_name": "Materials & subcontractors",
+    "note": "Energy Projects cost overruns cut margins to 6.8%",
+    "tag": "risk",
+    "ticker": "LT"
+  },
+  {
+    "direction": "downstream",
+    "id": 239,
+    "node_name": "Govt & PSU infrastructure clients",
+    "note": null,
+    "tag": null,
+    "ticker": "LT"
+  },
+  {
+    "direction": "downstream",
+    "id": 240,
+    "node_name": "Middle East hydrocarbon clients",
+    "note": "management explicitly guides for the exposure",
+    "tag": "risk",
+    "ticker": "LT"
+  },
+  {
+    "direction": "downstream",
+    "id": 241,
+    "node_name": "Completed-asset handover",
+    "note": null,
+    "tag": null,
+    "ticker": "LT"
+  },
+  {
+    "direction": "upstream",
+    "id": 242,
+    "node_name": "Indigenous defence R&D",
+    "note": "Atmanirbhar policy structurally favours it",
+    "tag": "tailwind",
+    "ticker": "BEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 243,
+    "node_name": "Imported electronic components",
+    "note": null,
+    "tag": null,
+    "ticker": "BEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 244,
+    "node_name": "MoD & armed forces — captive buyer",
+    "note": "receivables pile on government payment cycles",
+    "tag": "risk",
+    "ticker": "BEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 245,
+    "node_name": "Q4-skewed deliveries",
+    "note": "~37% of revenue lands in one quarter",
+    "tag": "neutral",
+    "ticker": "BEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 246,
+    "node_name": "Defence exports (small, growing)",
+    "note": null,
+    "tag": null,
+    "ticker": "BEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 247,
+    "node_name": "Port concessions + FY31 capex",
+    "note": "net debt/EBITDA at 1.9x and building",
+    "tag": "risk",
+    "ticker": "ADANIPORTS"
+  },
+  {
+    "direction": "upstream",
+    "id": 248,
+    "node_name": "Marine & offshore services",
+    "note": "backward extension",
+    "tag": "neutral",
+    "ticker": "ADANIPORTS"
+  },
+  {
+    "direction": "downstream",
+    "id": 249,
+    "node_name": "~27-28% of India's port cargo",
+    "note": "privatisation + trade growth tailwind",
+    "tag": "tailwind",
+    "ticker": "ADANIPORTS"
+  },
+  {
+    "direction": "downstream",
+    "id": 250,
+    "node_name": "Logistics, rail & warehousing",
+    "note": "forward capture around each tonne",
+    "tag": "neutral",
+    "ticker": "ADANIPORTS"
+  },
+  {
+    "direction": "upstream",
+    "id": 251,
+    "node_name": "Leased A320neo-family fleet",
+    "note": null,
+    "tag": null,
+    "ticker": "INDIGO"
+  },
+  {
+    "direction": "upstream",
+    "id": 252,
+    "node_name": "Jet fuel",
+    "note": "fuel CASK -11.5% YoY — near-term relief",
+    "tag": "tailwind",
+    "ticker": "INDIGO"
+  },
+  {
+    "direction": "upstream",
+    "id": 253,
+    "node_name": "Airport slots & non-fuel costs",
+    "note": "ex-fuel CASK +3.8% outpaces revenue",
+    "tag": "risk",
+    "ticker": "INDIGO"
+  },
+  {
+    "direction": "downstream",
+    "id": 254,
+    "node_name": "Domestic passengers — widest network",
+    "note": null,
+    "tag": null,
+    "ticker": "INDIGO"
+  },
+  {
+    "direction": "downstream",
+    "id": 255,
+    "node_name": "International + premium/ancillary",
+    "note": null,
+    "tag": "tailwind",
+    "ticker": "INDIGO"
+  },
+  {
+    "direction": "downstream",
+    "id": 256,
+    "node_name": "West Asia route constraints",
+    "note": "conflict disruptions capped capacity growth",
+    "tag": "risk",
+    "ticker": "INDIGO"
+  },
+  {
+    "direction": "upstream",
+    "id": 257,
+    "node_name": "Holding-co capital allocation",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJFINSV"
+  },
+  {
+    "direction": "upstream",
+    "id": 258,
+    "node_name": "Full ownership of both insurers",
+    "note": "consolidates the underwriting value",
+    "tag": "tailwind",
+    "ticker": "BAJAJFINSV"
+  },
+  {
+    "direction": "downstream",
+    "id": 259,
+    "node_name": "Bajaj Finance lending engine",
+    "note": "unsecured-credit scrutiny + funding costs",
+    "tag": "risk",
+    "ticker": "BAJAJFINSV"
+  },
+  {
+    "direction": "downstream",
+    "id": 260,
+    "node_name": "Insurance policyholders",
+    "note": "flat GWP and weak margins right now",
+    "tag": "risk",
+    "ticker": "BAJAJFINSV"
+  },
+  {
+    "direction": "downstream",
+    "id": 261,
+    "node_name": "India insurance runway",
+    "note": "multi-decade penetration story",
+    "tag": "tailwind",
+    "ticker": "BAJAJFINSV"
+  },
+  {
+    "direction": "upstream",
+    "id": 262,
+    "node_name": "Reliance/Jio ecosystem — 450M users",
+    "note": "captive distribution no fintech can match",
+    "tag": "tailwind",
+    "ticker": "JIOFIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 263,
+    "node_name": "Growth-stage spend",
+    "note": "expenses +327% while PAT fell 14%",
+    "tag": "risk",
+    "ticker": "JIOFIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 264,
+    "node_name": "Digital borrowers",
+    "note": "crowded lending & payments market",
+    "tag": "risk",
+    "ticker": "JIOFIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 265,
+    "node_name": "MF, insurance & payments cross-sell",
+    "note": null,
+    "tag": null,
+    "ticker": "JIOFIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 266,
+    "node_name": "Blinkit 1P inventory + 2,243 dark stores",
+    "note": "asset-heavy shift adds working-capital risk",
+    "tag": "risk",
+    "ticker": "ETERNAL"
+  },
+  {
+    "direction": "upstream",
+    "id": 267,
+    "node_name": "Restaurant partners",
+    "note": null,
+    "tag": null,
+    "ticker": "ETERNAL"
+  },
+  {
+    "direction": "downstream",
+    "id": 268,
+    "node_name": "Food-delivery diners",
+    "note": "the mature, profitable side",
+    "tag": "neutral",
+    "ticker": "ETERNAL"
+  },
+  {
+    "direction": "downstream",
+    "id": 269,
+    "node_name": "Quick-commerce households",
+    "note": "Zepto-led competition on its lead",
+    "tag": "risk",
+    "ticker": "ETERNAL"
+  },
+  {
+    "direction": "downstream",
+    "id": 270,
+    "node_name": "Tier-2+ expansion runway",
+    "note": "early innings by geography and assortment",
+    "tag": "tailwind",
+    "ticker": "ETERNAL"
+  },
+  {
+    "direction": "upstream",
+    "id": 271,
+    "node_name": "Own design & private-label sourcing",
+    "note": "Westside/Zudio are almost entirely own-brand",
+    "tag": "tailwind",
+    "ticker": "TRENT"
+  },
+  {
+    "direction": "upstream",
+    "id": 272,
+    "node_name": "Store leases & fit-out pipeline",
+    "note": null,
+    "tag": null,
+    "ticker": "TRENT"
+  },
+  {
+    "direction": "downstream",
+    "id": 273,
+    "node_name": "Zudio value shoppers — Tier 2/3",
+    "note": "~80% of new stores go here",
+    "tag": "tailwind",
+    "ticker": "TRENT"
+  },
+  {
+    "direction": "downstream",
+    "id": 274,
+    "node_name": "Westside urban shoppers",
+    "note": null,
+    "tag": null,
+    "ticker": "TRENT"
+  },
+  {
+    "direction": "downstream",
+    "id": 275,
+    "node_name": "Same-store momentum",
+    "note": "low single-digit LFL, falling revenue/sq ft",
+    "tag": "risk",
+    "ticker": "TRENT"
+  },
+  {
+    "direction": "upstream",
+    "id": 276,
+    "node_name": "Solar module & wind turbine suppliers, incl. in-house group manufacturing",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIGREEN"
+  },
+  {
+    "direction": "upstream",
+    "id": 277,
+    "node_name": "Land bank — Khavda, Gujarat barren-land site",
+    "note": "538 sq km site keeps land cost near zero, a structural cost edge",
+    "tag": "tailwind",
+    "ticker": "ADANIGREEN"
+  },
+  {
+    "direction": "upstream",
+    "id": 278,
+    "node_name": "Debt & capital markets",
+    "note": "~11x net debt/EBITDA funds the build-out; refinancing risk if conditions tighten",
+    "tag": "risk",
+    "ticker": "ADANIGREEN"
+  },
+  {
+    "direction": "downstream",
+    "id": 279,
+    "node_name": "SECI & state DISCOMs — long-term PPAs",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIGREEN"
+  },
+  {
+    "direction": "downstream",
+    "id": 280,
+    "node_name": "Commercial & industrial customers buying green power directly",
+    "note": "higher-margin than regulated DISCOM sales",
+    "tag": "tailwind",
+    "ticker": "ADANIGREEN"
+  },
+  {
+    "direction": "downstream",
+    "id": 281,
+    "node_name": "Grid / transmission capacity",
+    "note": "curtailment cost ₹1,300–1,500 crore in FY26 as builds outpaced evacuation infrastructure",
+    "tag": "risk",
+    "ticker": "ADANIGREEN"
+  },
+  {
+    "direction": "upstream",
+    "id": 282,
+    "node_name": "Steel, castings & forgings for towers and nacelles",
+    "note": null,
+    "tag": null,
+    "ticker": "SUZLON"
+  },
+  {
+    "direction": "upstream",
+    "id": 283,
+    "node_name": "Rare-earth magnets for permanent-magnet generators",
+    "note": "China dominates rare-earth supply; export curbs are a direct input risk",
+    "tag": "risk",
+    "ticker": "SUZLON"
+  },
+  {
+    "direction": "upstream",
+    "id": 284,
+    "node_name": "Component & precision bearing suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "SUZLON"
+  },
+  {
+    "direction": "downstream",
+    "id": 285,
+    "node_name": "Wind farm developers & IPPs, incl. peers like Adani Green",
+    "note": null,
+    "tag": null,
+    "ticker": "SUZLON"
+  },
+  {
+    "direction": "downstream",
+    "id": 286,
+    "node_name": "PSU & commercial/industrial project buyers",
+    "note": "66% of FY26 order book — the highest-visibility demand segment",
+    "tag": "tailwind",
+    "ticker": "SUZLON"
+  },
+  {
+    "direction": "downstream",
+    "id": 287,
+    "node_name": "Long-term O&M service contracts",
+    "note": "annuity-like recurring revenue on Suzlon's 21 GW+ installed base",
+    "tag": "tailwind",
+    "ticker": "SUZLON"
+  },
+  {
+    "direction": "upstream",
+    "id": 288,
+    "node_name": "Polysilicon & wafer suppliers, incl. new Oman-based stake (United Solar Holding)",
+    "note": null,
+    "tag": null,
+    "ticker": "WAAREEENER"
+  },
+  {
+    "direction": "upstream",
+    "id": 289,
+    "node_name": "Steel, glass & aluminium framing inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "WAAREEENER"
+  },
+  {
+    "direction": "upstream",
+    "id": 290,
+    "node_name": "In-house ingot-wafer capacity (10 GW Nagpur facility under construction)",
+    "note": "reduces reliance on external wafer suppliers as it ramps",
+    "tag": "tailwind",
+    "ticker": "WAAREEENER"
+  },
+  {
+    "direction": "downstream",
+    "id": 291,
+    "node_name": "Utility-scale developers & IPPs, incl. peers like Adani Green",
+    "note": null,
+    "tag": null,
+    "ticker": "WAAREEENER"
+  },
+  {
+    "direction": "downstream",
+    "id": 292,
+    "node_name": "Retail / B2C rooftop solar buyers",
+    "note": "20.8% of FY26 revenue — a higher-margin channel than pure utility supply",
+    "tag": "tailwind",
+    "ticker": "WAAREEENER"
+  },
+  {
+    "direction": "downstream",
+    "id": 293,
+    "node_name": "US & overseas export customers",
+    "note": "33% of FY26 revenue is overseas; exposed to US trade/anti-dumping policy shifts",
+    "tag": "risk",
+    "ticker": "WAAREEENER"
+  },
+  {
+    "direction": "upstream",
+    "id": 294,
+    "node_name": "Solar module & wind turbine suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "NTPCGREEN"
+  },
+  {
+    "direction": "upstream",
+    "id": 295,
+    "node_name": "Land banks via parent NTPC's existing sites and relationships",
+    "note": "privileged access vs private developers sourcing land independently",
+    "tag": "tailwind",
+    "ticker": "NTPCGREEN"
+  },
+  {
+    "direction": "upstream",
+    "id": 296,
+    "node_name": "Bond & NCD debt markets",
+    "note": "₹5,000 crore in fresh FY27 borrowing planned; debt/equity already at 1.54x",
+    "tag": "risk",
+    "ticker": "NTPCGREEN"
+  },
+  {
+    "direction": "downstream",
+    "id": 297,
+    "node_name": "State DISCOMs & government tenders (SECI)",
+    "note": null,
+    "tag": null,
+    "ticker": "NTPCGREEN"
+  },
+  {
+    "direction": "downstream",
+    "id": 298,
+    "node_name": "Joint ventures incl. ONGC NTPC Green",
+    "note": "diversifies project sourcing but adds structural complexity",
+    "tag": "neutral",
+    "ticker": "NTPCGREEN"
+  },
+  {
+    "direction": "downstream",
+    "id": 299,
+    "node_name": "Data centre power demand via CtrlS JV",
+    "note": "new, high-growth buyer segment beyond traditional DISCOM offtake",
+    "tag": "tailwind",
+    "ticker": "NTPCGREEN"
+  },
+  {
+    "direction": "upstream",
+    "id": 300,
+    "node_name": "Land acquisition & aggregation, incl. decades-old NCR land bank",
+    "note": null,
+    "tag": null,
+    "ticker": "DLF"
+  },
+  {
+    "direction": "upstream",
+    "id": 301,
+    "node_name": "Construction contractors & building material suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "DLF"
+  },
+  {
+    "direction": "upstream",
+    "id": 302,
+    "node_name": "Project & construction financing",
+    "note": "development business carries zero gross debt, unlike most listed developers",
+    "tag": "tailwind",
+    "ticker": "DLF"
+  },
+  {
+    "direction": "downstream",
+    "id": 303,
+    "node_name": "Residential buyers — luxury & super-luxury segment",
+    "note": null,
+    "tag": null,
+    "ticker": "DLF"
+  },
+  {
+    "direction": "downstream",
+    "id": 304,
+    "node_name": "Corporate office & retail tenants (annuity business)",
+    "note": "steady recurring income distinct from lumpy project sales",
+    "tag": "tailwind",
+    "ticker": "DLF"
+  },
+  {
+    "direction": "downstream",
+    "id": 305,
+    "node_name": "Hospitality & recreational operations",
+    "note": null,
+    "tag": null,
+    "ticker": "DLF"
+  },
+  {
+    "direction": "upstream",
+    "id": 306,
+    "node_name": "Policyholder premiums — individual & group business",
+    "note": null,
+    "tag": null,
+    "ticker": "LICI"
+  },
+  {
+    "direction": "upstream",
+    "id": 307,
+    "node_name": "Bancassurance & alternate distribution channels",
+    "note": "growing over 45% in FY26, reducing reliance on the traditional agent force",
+    "tag": "tailwind",
+    "ticker": "LICI"
+  },
+  {
+    "direction": "upstream",
+    "id": 308,
+    "node_name": "Agent network — India's largest, but an aging distribution model",
+    "note": null,
+    "tag": null,
+    "ticker": "LICI"
+  },
+  {
+    "direction": "downstream",
+    "id": 309,
+    "node_name": "Indian equity & debt capital markets — where AUM of ₹57+ lakh crore is invested",
+    "note": null,
+    "tag": null,
+    "ticker": "LICI"
+  },
+  {
+    "direction": "downstream",
+    "id": 310,
+    "node_name": "Policyholder payouts — claims, maturities, bonuses",
+    "note": null,
+    "tag": null,
+    "ticker": "LICI"
+  },
+  {
+    "direction": "downstream",
+    "id": 311,
+    "node_name": "Private insurer competition for high-margin products",
+    "note": "steadily eroding LIC's new-business market share",
+    "tag": "risk",
+    "ticker": "LICI"
+  },
+  {
+    "direction": "upstream",
+    "id": 312,
+    "node_name": "Vinyl acetate monomer & crude-linked petrochemical inputs",
+    "note": "margin is structurally exposed to the same crude cycle that affects fuel companies",
+    "tag": "risk",
+    "ticker": "PIDILITIND"
+  },
+  {
+    "direction": "upstream",
+    "id": 313,
+    "node_name": "Packaging & specialty raw material suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "PIDILITIND"
+  },
+  {
+    "direction": "downstream",
+    "id": 314,
+    "node_name": "Hardware stores, dealers & retail distribution (Consumer & Bazaar)",
+    "note": null,
+    "tag": null,
+    "ticker": "PIDILITIND"
+  },
+  {
+    "direction": "downstream",
+    "id": 315,
+    "node_name": "Contractors, builders & industrial B2B customers",
+    "note": "double-digit domestic volume growth in FY26",
+    "tag": "tailwind",
+    "ticker": "PIDILITIND"
+  },
+  {
+    "direction": "downstream",
+    "id": 316,
+    "node_name": "Export markets",
+    "note": "B2B export volumes declined amid Middle East-linked disruption",
+    "tag": "risk",
+    "ticker": "PIDILITIND"
+  },
+  {
+    "direction": "upstream",
+    "id": 317,
+    "node_name": "Crude oil producers & importers, incl. peers like ONGC",
+    "note": null,
+    "tag": null,
+    "ticker": "BPCL"
+  },
+  {
+    "direction": "upstream",
+    "id": 318,
+    "node_name": "Global crude oil & shipping markets",
+    "note": "GRM swings directly with global crude price and freight volatility",
+    "tag": "risk",
+    "ticker": "BPCL"
+  },
+  {
+    "direction": "downstream",
+    "id": 319,
+    "node_name": "BPCL-branded retail fuel outlets across India",
+    "note": null,
+    "tag": null,
+    "ticker": "BPCL"
+  },
+  {
+    "direction": "downstream",
+    "id": 320,
+    "node_name": "Aviation fuel, LPG distribution & CNG stations",
+    "note": "CNG volumes grew 62.1% YoY, ATF 11.4%",
+    "tag": "tailwind",
+    "ticker": "BPCL"
+  },
+  {
+    "direction": "downstream",
+    "id": 321,
+    "node_name": "Petrochemical & biofuel projects (Bina expansion, ethanol plants)",
+    "note": "diversifying beyond pure fuel refining and marketing",
+    "tag": "tailwind",
+    "ticker": "BPCL"
+  },
+  {
+    "direction": "upstream",
+    "id": 322,
+    "node_name": "Imported components & raw materials, incl. QCO-driven higher import content",
+    "note": "QCO localisation rules have temporarily forced costlier imports during the compliance transition",
+    "tag": "risk",
+    "ticker": "ABB"
+  },
+  {
+    "direction": "upstream",
+    "id": 323,
+    "node_name": "ABB Group global technology & engineering transfer",
+    "note": null,
+    "tag": null,
+    "ticker": "ABB"
+  },
+  {
+    "direction": "downstream",
+    "id": 324,
+    "node_name": "Industrial manufacturers, utilities & infrastructure project customers",
+    "note": null,
+    "tag": null,
+    "ticker": "ABB"
+  },
+  {
+    "direction": "downstream",
+    "id": 325,
+    "node_name": "Data centre operators",
+    "note": "large data-centre orders now ~10-11% of the order book",
+    "tag": "tailwind",
+    "ticker": "ABB"
+  },
+  {
+    "direction": "downstream",
+    "id": 326,
+    "node_name": "Export markets, incl. group-company preference for India-made exports",
+    "note": null,
+    "tag": null,
+    "ticker": "ABB"
+  },
+  {
+    "direction": "upstream",
+    "id": 327,
+    "node_name": "Siemens AG global technology & engineering transfer",
+    "note": null,
+    "tag": null,
+    "ticker": "SIEMENS"
+  },
+  {
+    "direction": "upstream",
+    "id": 328,
+    "node_name": "Electronic components & industrial hardware suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "SIEMENS"
+  },
+  {
+    "direction": "downstream",
+    "id": 329,
+    "node_name": "Power Grid, state DISCOMs & utility customers",
+    "note": null,
+    "tag": null,
+    "ticker": "SIEMENS"
+  },
+  {
+    "direction": "downstream",
+    "id": 330,
+    "node_name": "Indian Railways & metro rail projects",
+    "note": "India's infrastructure capex cycle is a direct order-flow driver",
+    "tag": "tailwind",
+    "ticker": "SIEMENS"
+  },
+  {
+    "direction": "downstream",
+    "id": 331,
+    "node_name": "Data centre & industrial manufacturing customers",
+    "note": "switchgear and energy management orders tied to the AI infrastructure boom",
+    "tag": "tailwind",
+    "ticker": "SIEMENS"
+  },
+  {
+    "direction": "upstream",
+    "id": 332,
+    "node_name": "GE Aerospace — jet engines for LCA Tejas program",
+    "note": "delivery delays traced partly to GE engine supply shortfalls",
+    "tag": "risk",
+    "ticker": "HAL"
+  },
+  {
+    "direction": "upstream",
+    "id": 333,
+    "node_name": "Domestic & imported aerospace-grade components and materials",
+    "note": null,
+    "tag": null,
+    "ticker": "HAL"
+  },
+  {
+    "direction": "upstream",
+    "id": 334,
+    "node_name": "ISRO — technology transfer partnership for SSLV manufacturing",
+    "note": null,
+    "tag": null,
+    "ticker": "HAL"
+  },
+  {
+    "direction": "downstream",
+    "id": 335,
+    "node_name": "Indian Air Force & Indian Navy — primary customers",
+    "note": null,
+    "tag": null,
+    "ticker": "HAL"
+  },
+  {
+    "direction": "downstream",
+    "id": 336,
+    "node_name": "Repair, overhaul & maintenance (ROH) contracts on in-service fleet",
+    "note": "₹26,539 crore of FY26 fresh orders were ROH work, a steady recurring revenue stream",
+    "tag": "tailwind",
+    "ticker": "HAL"
+  },
+  {
+    "direction": "downstream",
+    "id": 337,
+    "node_name": "Export & partnership programs, incl. an MoU with Russia for SJ-100 civil aircraft production",
+    "note": null,
+    "tag": null,
+    "ticker": "HAL"
+  },
+  {
+    "direction": "upstream",
+    "id": 338,
+    "node_name": "Steel, specialised marine components & propulsion systems",
+    "note": null,
+    "tag": null,
+    "ticker": "MAZDOCK"
+  },
+  {
+    "direction": "upstream",
+    "id": 339,
+    "node_name": "Germany's Thyssenkrupp Marine Systems (TKMS) — P-75(I) submarine technology partner",
+    "note": "a ~₹99,000 crore program pending final approval",
+    "tag": "tailwind",
+    "ticker": "MAZDOCK"
+  },
+  {
+    "direction": "downstream",
+    "id": 340,
+    "node_name": "Indian Navy & Coast Guard — primary customers",
+    "note": null,
+    "tag": null,
+    "ticker": "MAZDOCK"
+  },
+  {
+    "direction": "downstream",
+    "id": 341,
+    "node_name": "Commercial shipping clients",
+    "note": "new methanol dual-fuel vessel contract with Shipping Corporation of India marks re-entry into commercial shipbuilding",
+    "tag": "tailwind",
+    "ticker": "MAZDOCK"
+  },
+  {
+    "direction": "downstream",
+    "id": 342,
+    "node_name": "Oil & gas offshore platform customers",
+    "note": null,
+    "tag": null,
+    "ticker": "MAZDOCK"
+  },
+  {
+    "direction": "upstream",
+    "id": 343,
+    "node_name": "Coal supply for Mundra & other thermal plants",
+    "note": null,
+    "tag": null,
+    "ticker": "TATAPOWER"
+  },
+  {
+    "direction": "upstream",
+    "id": 344,
+    "node_name": "Solar wafer & polysilicon inputs for TP Solar manufacturing",
+    "note": null,
+    "tag": null,
+    "ticker": "TATAPOWER"
+  },
+  {
+    "direction": "upstream",
+    "id": 345,
+    "node_name": "Government regulatory mechanisms (e.g. Section 11 cost recovery)",
+    "note": "Mundra plant profitability is partly tied to these regulatory support mechanisms",
+    "tag": "risk",
+    "ticker": "TATAPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 346,
+    "node_name": "State DISCOMs & Odisha distribution consumers",
+    "note": null,
+    "tag": null,
+    "ticker": "TATAPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 347,
+    "node_name": "Rooftop solar retail & commercial customers",
+    "note": "#1 ranked rooftop solar company in India for 11 straight years",
+    "tag": "tailwind",
+    "ticker": "TATAPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 348,
+    "node_name": "Third-party solar developers buying TP Solar modules/cells",
+    "note": null,
+    "tag": null,
+    "ticker": "TATAPOWER"
+  },
+  {
+    "direction": "upstream",
+    "id": 349,
+    "node_name": "Power generators, incl. sister company Adani Green Energy",
+    "note": "transmission capacity directly determines how much renewable generation reaches the grid",
+    "tag": "tailwind",
+    "ticker": "ADANIENSOL"
+  },
+  {
+    "direction": "upstream",
+    "id": 350,
+    "node_name": "HVDC & transmission equipment suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIENSOL"
+  },
+  {
+    "direction": "downstream",
+    "id": 351,
+    "node_name": "State DISCOMs & bulk power buyers",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIENSOL"
+  },
+  {
+    "direction": "downstream",
+    "id": 352,
+    "node_name": "13 million+ retail electricity consumers in Mumbai & Mundra SEZ",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIENSOL"
+  },
+  {
+    "direction": "downstream",
+    "id": 353,
+    "node_name": "New distribution license territories",
+    "note": "applied for licenses in Navi Mumbai, Greater Noida and Mundra Subdistrict",
+    "tag": "tailwind",
+    "ticker": "ADANIENSOL"
+  },
+  {
+    "direction": "upstream",
+    "id": 354,
+    "node_name": "Coal supply for thermal generation",
+    "note": null,
+    "tag": null,
+    "ticker": "JSWENERGY"
+  },
+  {
+    "direction": "upstream",
+    "id": 355,
+    "node_name": "Solar & wind equipment suppliers for renewable capacity",
+    "note": null,
+    "tag": null,
+    "ticker": "JSWENERGY"
+  },
+  {
+    "direction": "upstream",
+    "id": 356,
+    "node_name": "Debt & capital markets",
+    "note": "6x net debt/EBITDA funds the 30 GW capacity race, though improving from 7.8x",
+    "tag": "risk",
+    "ticker": "JSWENERGY"
+  },
+  {
+    "direction": "downstream",
+    "id": 357,
+    "node_name": "Long-term Power Purchase Agreement (PPA) counterparties",
+    "note": null,
+    "tag": null,
+    "ticker": "JSWENERGY"
+  },
+  {
+    "direction": "downstream",
+    "id": 358,
+    "node_name": "Merchant power market (IEX)",
+    "note": "merchant realisations are volatile and subject to demand/weather swings",
+    "tag": "risk",
+    "ticker": "JSWENERGY"
+  },
+  {
+    "direction": "downstream",
+    "id": 359,
+    "node_name": "Newly acquired thermal assets, incl. Maruti Clean Coal and Power",
+    "note": null,
+    "tag": null,
+    "ticker": "JSWENERGY"
+  },
+  {
+    "direction": "upstream",
+    "id": 360,
+    "node_name": "Coal supply, incl. captive and contracted sources",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIPOWER"
+  },
+  {
+    "direction": "upstream",
+    "id": 361,
+    "node_name": "Thermal plant equipment & maintenance",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 362,
+    "node_name": "State DISCOMs — long-term Power Purchase Agreements",
+    "note": null,
+    "tag": null,
+    "ticker": "ADANIPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 363,
+    "node_name": "Merchant power market (IEX)",
+    "note": "average realisations fell 13.7% YoY in FY26 as renewable penetration rose",
+    "tag": "risk",
+    "ticker": "ADANIPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 364,
+    "node_name": "New DBFOO contracts, incl. 1,600 MW Maharashtra DISCOM award",
+    "note": "locks in contracted revenue visibility",
+    "tag": "tailwind",
+    "ticker": "ADANIPOWER"
+  },
+  {
+    "direction": "upstream",
+    "id": 365,
+    "node_name": "Component suppliers, incl. Bosch and Motherson elsewhere in this dataset",
+    "note": null,
+    "tag": null,
+    "ticker": "HYUNDAI"
+  },
+  {
+    "direction": "upstream",
+    "id": 366,
+    "node_name": "Steel, semiconductors & EV battery inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "HYUNDAI"
+  },
+  {
+    "direction": "downstream",
+    "id": 367,
+    "node_name": "Domestic dealership & service network",
+    "note": null,
+    "tag": null,
+    "ticker": "HYUNDAI"
+  },
+  {
+    "direction": "downstream",
+    "id": 368,
+    "node_name": "Export markets, incl. emerging-market hub strategy",
+    "note": "16.4% export growth in FY26 despite geopolitical headwinds",
+    "tag": "tailwind",
+    "ticker": "HYUNDAI"
+  },
+  {
+    "direction": "downstream",
+    "id": 369,
+    "node_name": "CNG & EV adoption segments",
+    "note": "highest-ever quarterly CNG contribution of 18% in Q4 FY26",
+    "tag": "tailwind",
+    "ticker": "HYUNDAI"
+  },
+  {
+    "direction": "upstream",
+    "id": 370,
+    "node_name": "Component suppliers, incl. batteries for EV models",
+    "note": null,
+    "tag": null,
+    "ticker": "TVSMOTOR"
+  },
+  {
+    "direction": "upstream",
+    "id": 371,
+    "node_name": "Steel & aluminium inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "TVSMOTOR"
+  },
+  {
+    "direction": "downstream",
+    "id": 372,
+    "node_name": "Domestic dealership & service network",
+    "note": null,
+    "tag": null,
+    "ticker": "TVSMOTOR"
+  },
+  {
+    "direction": "downstream",
+    "id": 373,
+    "node_name": "Export markets",
+    "note": null,
+    "tag": null,
+    "ticker": "TVSMOTOR"
+  },
+  {
+    "direction": "downstream",
+    "id": 374,
+    "node_name": "EV adoption segment",
+    "note": "rising EV sales are a key growth vector beyond the mature commuter ICE segment",
+    "tag": "tailwind",
+    "ticker": "TVSMOTOR"
+  },
+  {
+    "direction": "upstream",
+    "id": 375,
+    "node_name": "Robert Bosch GmbH global R&D & engineering technology transfer",
+    "note": null,
+    "tag": null,
+    "ticker": "BOSCHLTD"
+  },
+  {
+    "direction": "upstream",
+    "id": 376,
+    "node_name": "Steel, electronics & precision components",
+    "note": null,
+    "tag": null,
+    "ticker": "BOSCHLTD"
+  },
+  {
+    "direction": "downstream",
+    "id": 377,
+    "node_name": "Automotive OEMs, incl. Hyundai and TVS Motor elsewhere in this dataset",
+    "note": null,
+    "tag": null,
+    "ticker": "BOSCHLTD"
+  },
+  {
+    "direction": "downstream",
+    "id": 378,
+    "node_name": "Industrial automation customers",
+    "note": null,
+    "tag": null,
+    "ticker": "BOSCHLTD"
+  },
+  {
+    "direction": "downstream",
+    "id": 379,
+    "node_name": "Consumer goods & building technology retail channels",
+    "note": null,
+    "tag": null,
+    "ticker": "BOSCHLTD"
+  },
+  {
+    "direction": "upstream",
+    "id": 380,
+    "node_name": "Steel, polymer resins, glass & electronic components",
+    "note": null,
+    "tag": null,
+    "ticker": "MOTHERSON"
+  },
+  {
+    "direction": "upstream",
+    "id": 381,
+    "node_name": "Global acquisition targets, incl. Nexans autoelectric, Elektrokontakt, Yutaka Giken",
+    "note": "ongoing M&A extends product range but carries integration risk",
+    "tag": "neutral",
+    "ticker": "MOTHERSON"
+  },
+  {
+    "direction": "downstream",
+    "id": 382,
+    "node_name": "Global automotive OEMs across Europe, North America & Asia",
+    "note": null,
+    "tag": null,
+    "ticker": "MOTHERSON"
+  },
+  {
+    "direction": "downstream",
+    "id": 383,
+    "node_name": "Emerging businesses: aerospace & consumer electronics customers",
+    "note": "diversification beyond pure automotive demand cycles",
+    "tag": "tailwind",
+    "ticker": "MOTHERSON"
+  },
+  {
+    "direction": "downstream",
+    "id": 384,
+    "node_name": "Indian OEMs, incl. peers like Hyundai and TVS Motor elsewhere in this dataset",
+    "note": null,
+    "tag": null,
+    "ticker": "MOTHERSON"
+  },
+  {
+    "direction": "upstream",
+    "id": 385,
+    "node_name": "Dividend income from Bajaj Auto, Bajaj Finserv & Bajaj Finance stakes",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJHLDNG"
+  },
+  {
+    "direction": "downstream",
+    "id": 386,
+    "node_name": "Shareholders, via dividends and share price appreciation",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJHLDNG"
+  },
+  {
+    "direction": "upstream",
+    "id": 387,
+    "node_name": "Wholesale debt & capital markets, incl. RBI policy rate environment",
+    "note": "2026 rate cut cycle lowers borrowing costs",
+    "tag": "tailwind",
+    "ticker": "BAJAJHFL"
+  },
+  {
+    "direction": "upstream",
+    "id": 388,
+    "node_name": "Parent Bajaj Finance's distribution & underwriting systems",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJHFL"
+  },
+  {
+    "direction": "downstream",
+    "id": 389,
+    "node_name": "Individual home loan borrowers",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJHFL"
+  },
+  {
+    "direction": "downstream",
+    "id": 390,
+    "node_name": "Real estate developers — project finance",
+    "note": null,
+    "tag": null,
+    "ticker": "BAJAJHFL"
+  },
+  {
+    "direction": "upstream",
+    "id": 391,
+    "node_name": "Reinsurance partners — spreading large or catastrophic risk",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIGI"
+  },
+  {
+    "direction": "upstream",
+    "id": 392,
+    "node_name": "ICICI Bank distribution network & brand",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIGI"
+  },
+  {
+    "direction": "downstream",
+    "id": 393,
+    "node_name": "Retail policyholders — motor, health & property insurance",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIGI"
+  },
+  {
+    "direction": "downstream",
+    "id": 394,
+    "node_name": "Corporate & commercial clients — liability & business insurance",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIGI"
+  },
+  {
+    "direction": "downstream",
+    "id": 395,
+    "node_name": "Indian equity & debt capital markets — where premium float is invested",
+    "note": null,
+    "tag": null,
+    "ticker": "ICICIGI"
+  },
+  {
+    "direction": "upstream",
+    "id": 396,
+    "node_name": "Domestic & international debt markets",
+    "note": null,
+    "tag": null,
+    "ticker": "IRFC"
+  },
+  {
+    "direction": "upstream",
+    "id": 397,
+    "node_name": "Government of India backing & policy mandate",
+    "note": null,
+    "tag": null,
+    "ticker": "IRFC"
+  },
+  {
+    "direction": "downstream",
+    "id": 398,
+    "node_name": "Indian Railways — sole borrower, for rolling stock and infrastructure financing",
+    "note": null,
+    "tag": null,
+    "ticker": "IRFC"
+  },
+  {
+    "direction": "upstream",
+    "id": 399,
+    "node_name": "Domestic & international debt markets",
+    "note": null,
+    "tag": null,
+    "ticker": "PFC"
+  },
+  {
+    "direction": "upstream",
+    "id": 400,
+    "node_name": "Government of India backing & policy mandate",
+    "note": null,
+    "tag": null,
+    "ticker": "PFC"
+  },
+  {
+    "direction": "downstream",
+    "id": 401,
+    "node_name": "Power generation, transmission & distribution companies",
+    "note": "funds capacity build-out for companies like Adani Green, NTPC Green, Tata Power elsewhere in this dataset",
+    "tag": "tailwind",
+    "ticker": "PFC"
+  },
+  {
+    "direction": "downstream",
+    "id": 402,
+    "node_name": "Renewable energy project developers",
+    "note": "₹1.65 lakh crore renewable financing portfolio",
+    "tag": "tailwind",
+    "ticker": "PFC"
+  },
+  {
+    "direction": "downstream",
+    "id": 403,
+    "node_name": "Merger partner REC",
+    "note": "88:100 share swap merger targeted for completion by April 2027",
+    "tag": "neutral",
+    "ticker": "PFC"
+  },
+  {
+    "direction": "upstream",
+    "id": 404,
+    "node_name": "Domestic & international debt markets",
+    "note": null,
+    "tag": null,
+    "ticker": "RECLTD"
+  },
+  {
+    "direction": "upstream",
+    "id": 405,
+    "node_name": "Government of India backing via Ministry of Power",
+    "note": null,
+    "tag": null,
+    "ticker": "RECLTD"
+  },
+  {
+    "direction": "downstream",
+    "id": 406,
+    "node_name": "State electricity boards & DISCOMs",
+    "note": null,
+    "tag": null,
+    "ticker": "RECLTD"
+  },
+  {
+    "direction": "downstream",
+    "id": 407,
+    "node_name": "Private power producers & renewable energy developers",
+    "note": "funds the same power-sector build-out as PFC across generation, transmission and renewables",
+    "tag": "tailwind",
+    "ticker": "RECLTD"
+  },
+  {
+    "direction": "downstream",
+    "id": 408,
+    "node_name": "Merger partner PFC",
+    "note": "REC will be absorbed into PFC; standalone listing will cease upon completion",
+    "tag": "risk",
+    "ticker": "RECLTD"
+  },
+  {
+    "direction": "upstream",
+    "id": 409,
+    "node_name": "Wheat flour, palm oil, sugar & dairy commodity inputs",
+    "note": "margin is directly exposed to global commodity price volatility",
+    "tag": "risk",
+    "ticker": "BRITANNIA"
+  },
+  {
+    "direction": "upstream",
+    "id": 410,
+    "node_name": "Packaging material suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "BRITANNIA"
+  },
+  {
+    "direction": "downstream",
+    "id": 411,
+    "node_name": "Domestic retail & rural distribution network",
+    "note": null,
+    "tag": null,
+    "ticker": "BRITANNIA"
+  },
+  {
+    "direction": "downstream",
+    "id": 412,
+    "node_name": "Export markets across 60+ countries, incl. UAE & Oman manufacturing",
+    "note": null,
+    "tag": null,
+    "ticker": "BRITANNIA"
+  },
+  {
+    "direction": "downstream",
+    "id": 413,
+    "node_name": "Adjacent categories: dairy, cakes & premium biscuits",
+    "note": "premiumisation (NutriChoice, Bourbon) supports margin expansion",
+    "tag": "tailwind",
+    "ticker": "BRITANNIA"
+  },
+  {
+    "direction": "upstream",
+    "id": 414,
+    "node_name": "Chemical & fragrance raw material suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "GODREJCP"
+  },
+  {
+    "direction": "upstream",
+    "id": 415,
+    "node_name": "Packaging material suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "GODREJCP"
+  },
+  {
+    "direction": "downstream",
+    "id": 416,
+    "node_name": "Domestic retail distribution across India",
+    "note": null,
+    "tag": null,
+    "ticker": "GODREJCP"
+  },
+  {
+    "direction": "downstream",
+    "id": 417,
+    "node_name": "International markets, incl. Africa, Indonesia & Latin America",
+    "note": "Africa headwinds caused FY26 PAT growth to miss the company's own target",
+    "tag": "risk",
+    "ticker": "GODREJCP"
+  },
+  {
+    "direction": "downstream",
+    "id": 418,
+    "node_name": "Newer growth categories ('Speedboats' portfolio)",
+    "note": "targeted for 30%+ medium-term growth",
+    "tag": "tailwind",
+    "ticker": "GODREJCP"
+  },
+  {
+    "direction": "upstream",
+    "id": 419,
+    "node_name": "Grain, molasses & glass bottle suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "UNITDSPR"
+  },
+  {
+    "direction": "upstream",
+    "id": 420,
+    "node_name": "Diageo global brand licensing & distribution network",
+    "note": null,
+    "tag": null,
+    "ticker": "UNITDSPR"
+  },
+  {
+    "direction": "downstream",
+    "id": 421,
+    "node_name": "State-regulated retail & on-trade distribution networks",
+    "note": "alcohol distribution and taxation vary significantly by Indian state",
+    "tag": "risk",
+    "ticker": "UNITDSPR"
+  },
+  {
+    "direction": "downstream",
+    "id": 422,
+    "node_name": "Premium & luxury segment consumers",
+    "note": "premiumisation trend supports margin-accretive brand mix shift",
+    "tag": "tailwind",
+    "ticker": "UNITDSPR"
+  },
+  {
+    "direction": "upstream",
+    "id": 423,
+    "node_name": "PepsiCo brand licensing & concentrate supply",
+    "note": null,
+    "tag": null,
+    "ticker": "VBL"
+  },
+  {
+    "direction": "upstream",
+    "id": 424,
+    "node_name": "Sugar, PET packaging & water inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "VBL"
+  },
+  {
+    "direction": "downstream",
+    "id": 425,
+    "node_name": "Retail & on-trade distribution across India",
+    "note": null,
+    "tag": null,
+    "ticker": "VBL"
+  },
+  {
+    "direction": "downstream",
+    "id": 426,
+    "node_name": "International territories, incl. Africa",
+    "note": "international volume growth (21.4%) outpaced India (14.4%) in Q4 FY26",
+    "tag": "tailwind",
+    "ticker": "VBL"
+  },
+  {
+    "direction": "downstream",
+    "id": 427,
+    "node_name": "New category expansion, incl. dairy (Crickley) and CALPIS partnership with Asahi",
+    "note": "diversification beyond core PepsiCo carbonated beverages",
+    "tag": "tailwind",
+    "ticker": "VBL"
+  },
+  {
+    "direction": "upstream",
+    "id": 428,
+    "node_name": "Chemical raw material suppliers, incl. domestic sourcing amid West Asia disruption",
+    "note": "geopolitical logistics disruption forced greater reliance on domestic suppliers in Q4 FY26",
+    "tag": "risk",
+    "ticker": "DIVISLAB"
+  },
+  {
+    "direction": "upstream",
+    "id": 429,
+    "node_name": "Backward-integrated intermediate production, incl. Kakinada Unit 3",
+    "note": null,
+    "tag": null,
+    "ticker": "DIVISLAB"
+  },
+  {
+    "direction": "downstream",
+    "id": 430,
+    "node_name": "Global Big Pharma companies — custom synthesis contracts",
+    "note": null,
+    "tag": null,
+    "ticker": "DIVISLAB"
+  },
+  {
+    "direction": "downstream",
+    "id": 431,
+    "node_name": "Generic drug makers — API supply",
+    "note": null,
+    "tag": null,
+    "ticker": "DIVISLAB"
+  },
+  {
+    "direction": "downstream",
+    "id": 432,
+    "node_name": "Food, beverage & dietary supplement manufacturers — nutraceuticals",
+    "note": null,
+    "tag": null,
+    "ticker": "DIVISLAB"
+  },
+  {
+    "direction": "upstream",
+    "id": 433,
+    "node_name": "Active pharmaceutical ingredient suppliers, incl. peers like Divi's Laboratories elsewhere in this dataset",
+    "note": null,
+    "tag": null,
+    "ticker": "TORNTPHARM"
+  },
+  {
+    "direction": "upstream",
+    "id": 434,
+    "node_name": "JB Chemicals & Pharmaceuticals manufacturing base, post-acquisition",
+    "note": null,
+    "tag": null,
+    "ticker": "TORNTPHARM"
+  },
+  {
+    "direction": "downstream",
+    "id": 435,
+    "node_name": "Prescribing physicians & pharmacies — India & Brazil branded generics",
+    "note": null,
+    "tag": null,
+    "ticker": "TORNTPHARM"
+  },
+  {
+    "direction": "downstream",
+    "id": 436,
+    "node_name": "US & European generic drug distribution",
+    "note": null,
+    "tag": null,
+    "ticker": "TORNTPHARM"
+  },
+  {
+    "direction": "downstream",
+    "id": 437,
+    "node_name": "Co-marketing partnership with Zydus Lifesciences for semaglutide products",
+    "note": "a direct commercial link to a peer elsewhere in this dataset",
+    "tag": "tailwind",
+    "ticker": "TORNTPHARM"
+  },
+  {
+    "direction": "upstream",
+    "id": 438,
+    "node_name": "Active pharmaceutical ingredient & biosimilar manufacturing inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "ZYDUSLIFE"
+  },
+  {
+    "direction": "upstream",
+    "id": 439,
+    "node_name": "Assertio (US) — recently acquired oncology drug platform",
+    "note": null,
+    "tag": null,
+    "ticker": "ZYDUSLIFE"
+  },
+  {
+    "direction": "downstream",
+    "id": 440,
+    "node_name": "US pharmacy & prescription drug distribution — 40% of Q4 revenue",
+    "note": null,
+    "tag": null,
+    "ticker": "ZYDUSLIFE"
+  },
+  {
+    "direction": "downstream",
+    "id": 441,
+    "node_name": "India retail pharmacy & consumer wellness distribution",
+    "note": null,
+    "tag": null,
+    "ticker": "ZYDUSLIFE"
+  },
+  {
+    "direction": "downstream",
+    "id": 442,
+    "node_name": "Co-marketing partnership with Torrent Pharmaceuticals for semaglutide",
+    "note": "a direct commercial link to a peer elsewhere in this dataset",
+    "tag": "tailwind",
+    "ticker": "ZYDUSLIFE"
+  },
+  {
+    "direction": "upstream",
+    "id": 443,
+    "node_name": "FMCG, food & general merchandise manufacturers — bulk direct procurement",
+    "note": null,
+    "tag": null,
+    "ticker": "DMART"
+  },
+  {
+    "direction": "upstream",
+    "id": 444,
+    "node_name": "Owned real estate & store construction",
+    "note": null,
+    "tag": null,
+    "ticker": "DMART"
+  },
+  {
+    "direction": "downstream",
+    "id": 445,
+    "node_name": "Physical retail customers across 500 stores in 17 states/UTs",
+    "note": null,
+    "tag": null,
+    "ticker": "DMART"
+  },
+  {
+    "direction": "downstream",
+    "id": 446,
+    "node_name": "DMart Ready e-commerce customers",
+    "note": "still loss-making; margin-dilutive as its revenue share grows",
+    "tag": "risk",
+    "ticker": "DMART"
+  },
+  {
+    "direction": "downstream",
+    "id": 447,
+    "node_name": "Tier 2-3 city expansion",
+    "note": "lower quick-commerce competition intensity, though also lower spending power per household",
+    "tag": "tailwind",
+    "ticker": "DMART"
+  },
+  {
+    "direction": "upstream",
+    "id": 448,
+    "node_name": "Hotel real estate & renovation capex, incl. owned and leased properties",
+    "note": null,
+    "tag": null,
+    "ticker": "INDHOTEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 449,
+    "node_name": "Hotel management contracts — asset-light brand extension",
+    "note": null,
+    "tag": null,
+    "ticker": "INDHOTEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 450,
+    "node_name": "Domestic & international leisure and business travellers",
+    "note": null,
+    "tag": null,
+    "ticker": "INDHOTEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 451,
+    "node_name": "F&B delivery (Qmin) & boutique stays (amã, Tree of Life) customers",
+    "note": null,
+    "tag": null,
+    "ticker": "INDHOTEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 452,
+    "node_name": "Airline & institutional catering — 16% FY26 growth",
+    "note": null,
+    "tag": null,
+    "ticker": "INDHOTEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 453,
+    "node_name": "Employer, property-lister & institution customers posting listings",
+    "note": null,
+    "tag": null,
+    "ticker": "NAUKRI"
+  },
+  {
+    "direction": "upstream",
+    "id": 454,
+    "node_name": "AI & technology investment for matching and search improvements",
+    "note": null,
+    "tag": null,
+    "ticker": "NAUKRI"
+  },
+  {
+    "direction": "downstream",
+    "id": 455,
+    "node_name": "Job seekers, property buyers, matrimony & education-seeking consumers",
+    "note": null,
+    "tag": null,
+    "ticker": "NAUKRI"
+  },
+  {
+    "direction": "downstream",
+    "id": 456,
+    "node_name": "Startup investment portfolio, incl. a stake in Eternal (Zomato)",
+    "note": "a direct financial link to a peer already in this dataset",
+    "tag": "tailwind",
+    "ticker": "NAUKRI"
+  },
+  {
+    "direction": "downstream",
+    "id": 457,
+    "node_name": "Naukri Gulf & international recruitment markets",
+    "note": "growth slowed due to Middle East geopolitical headwinds in Q4 FY26",
+    "tag": "risk",
+    "ticker": "NAUKRI"
+  },
+  {
+    "direction": "upstream",
+    "id": 458,
+    "node_name": "Zawar, Rajpura Dariba, Kayad, Rampura Agucha & Sindesar Khurd mines (Rajasthan)",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDZINC"
+  },
+  {
+    "direction": "upstream",
+    "id": 459,
+    "node_name": "Smelting & refining operations",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDZINC"
+  },
+  {
+    "direction": "downstream",
+    "id": 460,
+    "node_name": "Steel industry — zinc for galvanisation",
+    "note": null,
+    "tag": null,
+    "ticker": "HINDZINC"
+  },
+  {
+    "direction": "downstream",
+    "id": 461,
+    "node_name": "Solar, EV & electronics manufacturers — silver demand",
+    "note": "the primary driver of FY26's exceptional results",
+    "tag": "tailwind",
+    "ticker": "HINDZINC"
+  },
+  {
+    "direction": "downstream",
+    "id": 462,
+    "node_name": "Parent Vedanta Limited — dividend upstreaming",
+    "note": "large special dividends to Vedanta have drawn minority shareholder concern",
+    "tag": "risk",
+    "ticker": "HINDZINC"
+  },
+  {
+    "direction": "upstream",
+    "id": 463,
+    "node_name": "Captive iron ore, thermal coal & coking coal mines",
+    "note": null,
+    "tag": null,
+    "ticker": "JINDALSTEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 464,
+    "node_name": "Angul integrated steel facility (recently expanded to 12 MTPA)",
+    "note": null,
+    "tag": null,
+    "ticker": "JINDALSTEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 465,
+    "node_name": "Construction & infrastructure steel customers",
+    "note": null,
+    "tag": null,
+    "ticker": "JINDALSTEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 466,
+    "node_name": "Value-added flat steel products — 61% of Q4 FY26 sales mix",
+    "note": null,
+    "tag": null,
+    "ticker": "JINDALSTEL"
+  },
+  {
+    "direction": "downstream",
+    "id": 467,
+    "node_name": "Export & domestic industrial steel buyers",
+    "note": null,
+    "tag": null,
+    "ticker": "JINDALSTEL"
+  },
+  {
+    "direction": "upstream",
+    "id": 468,
+    "node_name": "Majority stake in Hindustan Zinc",
+    "note": "the core remaining high-quality asset post-demerger",
+    "tag": "tailwind",
+    "ticker": "VEDL"
+  },
+  {
+    "direction": "upstream",
+    "id": 469,
+    "node_name": "Residual natural resources operations not yet demerged",
+    "note": null,
+    "tag": null,
+    "ticker": "VEDL"
+  },
+  {
+    "direction": "downstream",
+    "id": 470,
+    "node_name": "Dividend upstreaming to Twin Star Holdings & Vedanta Resources",
+    "note": "group-level debt servicing needs influence capital allocation decisions",
+    "tag": "risk",
+    "ticker": "VEDL"
+  },
+  {
+    "direction": "downstream",
+    "id": 471,
+    "node_name": "Independently listed demerged entities (aluminium, oil & gas, power, iron & steel)",
+    "note": null,
+    "tag": null,
+    "ticker": "VEDL"
+  },
+  {
+    "direction": "upstream",
+    "id": 472,
+    "node_name": "Limestone mining & raw material extraction",
+    "note": null,
+    "tag": null,
+    "ticker": "AMBUJACEM"
+  },
+  {
+    "direction": "upstream",
+    "id": 473,
+    "node_name": "Coal, petcoke & alternative fuel supply",
+    "note": "West Asia conflict-linked freight and packing cost escalations hit Q4 FY26 costs",
+    "tag": "risk",
+    "ticker": "AMBUJACEM"
+  },
+  {
+    "direction": "downstream",
+    "id": 474,
+    "node_name": "Individual home builders, masons & contractors",
+    "note": null,
+    "tag": null,
+    "ticker": "AMBUJACEM"
+  },
+  {
+    "direction": "downstream",
+    "id": 475,
+    "node_name": "Institutional & developer construction clients",
+    "note": null,
+    "tag": null,
+    "ticker": "AMBUJACEM"
+  },
+  {
+    "direction": "downstream",
+    "id": 476,
+    "node_name": "Ready-Mix Concrete customers — a growing adjacent business",
+    "note": null,
+    "tag": null,
+    "ticker": "AMBUJACEM"
+  },
+  {
+    "direction": "upstream",
+    "id": 477,
+    "node_name": "Limestone mining & raw material extraction",
+    "note": null,
+    "tag": null,
+    "ticker": "SHREECEM"
+  },
+  {
+    "direction": "upstream",
+    "id": 478,
+    "node_name": "Captive green power (888.6 MW)",
+    "note": "partially insulates the company from fuel cost volatility",
+    "tag": "tailwind",
+    "ticker": "SHREECEM"
+  },
+  {
+    "direction": "downstream",
+    "id": 479,
+    "node_name": "Builders, contractors & institutional construction customers",
+    "note": null,
+    "tag": null,
+    "ticker": "SHREECEM"
+  },
+  {
+    "direction": "downstream",
+    "id": 480,
+    "node_name": "Ready-Mix Concrete (RMC) customers — expanding to 36 plants",
+    "note": "a nascent but growing higher-value adjacent business",
+    "tag": "tailwind",
+    "ticker": "SHREECEM"
+  },
+  {
+    "direction": "upstream",
+    "id": 481,
+    "node_name": "Chemical raw material inputs for explosives manufacturing",
+    "note": null,
+    "tag": null,
+    "ticker": "SOLARINDS"
+  },
+  {
+    "direction": "upstream",
+    "id": 482,
+    "node_name": "Defence ordnance component supply chains",
+    "note": null,
+    "tag": null,
+    "ticker": "SOLARINDS"
+  },
+  {
+    "direction": "downstream",
+    "id": 483,
+    "node_name": "Mining companies — rock blasting explosives",
+    "note": null,
+    "tag": null,
+    "ticker": "SOLARINDS"
+  },
+  {
+    "direction": "downstream",
+    "id": 484,
+    "node_name": "Infrastructure & construction contractors",
+    "note": null,
+    "tag": null,
+    "ticker": "SOLARINDS"
+  },
+  {
+    "direction": "downstream",
+    "id": 485,
+    "node_name": "Defence customers, incl. India's indigenisation push",
+    "note": "a structural tailwind shared with HAL and Mazagon Dock elsewhere in this dataset",
+    "tag": "tailwind",
+    "ticker": "SOLARINDS"
+  },
+  {
+    "direction": "upstream",
+    "id": 486,
+    "node_name": "Domestic gas producers, incl. ONGC elsewhere in this dataset",
+    "note": null,
+    "tag": null,
+    "ticker": "GAIL"
+  },
+  {
+    "direction": "upstream",
+    "id": 487,
+    "node_name": "Spot LNG imports, incl. Omani cargoes",
+    "note": "sourced to cover Middle East conflict-driven supply shortfalls",
+    "tag": "risk",
+    "ticker": "GAIL"
+  },
+  {
+    "direction": "downstream",
+    "id": 488,
+    "node_name": "Industrial & commercial gas marketing customers",
+    "note": "marketing spreads compressed sharply in FY26",
+    "tag": "risk",
+    "ticker": "GAIL"
+  },
+  {
+    "direction": "downstream",
+    "id": 489,
+    "node_name": "City gas distribution — households & vehicles",
+    "note": "22.3% revenue growth, the strongest segment in FY26",
+    "tag": "tailwind",
+    "ticker": "GAIL"
+  },
+  {
+    "direction": "downstream",
+    "id": 490,
+    "node_name": "Petrochemical product buyers",
+    "note": "segment swung to a deep loss in FY26",
+    "tag": "risk",
+    "ticker": "GAIL"
+  },
+  {
+    "direction": "upstream",
+    "id": 491,
+    "node_name": "Crude oil imports & domestic production, incl. peers like ONGC elsewhere in this dataset",
+    "note": null,
+    "tag": null,
+    "ticker": "IOC"
+  },
+  {
+    "direction": "upstream",
+    "id": 492,
+    "node_name": "Global crude & shipping markets",
+    "note": "refining margins swing directly with crude price and freight volatility",
+    "tag": "risk",
+    "ticker": "IOC"
+  },
+  {
+    "direction": "downstream",
+    "id": 493,
+    "node_name": "India's largest retail fuel network",
+    "note": null,
+    "tag": null,
+    "ticker": "IOC"
+  },
+  {
+    "direction": "downstream",
+    "id": 494,
+    "node_name": "Petrochemical & gas distribution customers",
+    "note": null,
+    "tag": null,
+    "ticker": "IOC"
+  },
+  {
+    "direction": "downstream",
+    "id": 495,
+    "node_name": "Aviation fuel & industrial bulk customers",
+    "note": null,
+    "tag": null,
+    "ticker": "IOC"
+  },
+  {
+    "direction": "upstream",
+    "id": 496,
+    "node_name": "Copper, aluminium & plastic raw material inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "HAVELLS"
+  },
+  {
+    "direction": "upstream",
+    "id": 497,
+    "node_name": "Strategic investment in Goldi Solar",
+    "note": "indirect exposure to India's solar manufacturing boom",
+    "tag": "tailwind",
+    "ticker": "HAVELLS"
+  },
+  {
+    "direction": "downstream",
+    "id": 498,
+    "node_name": "Retail consumer electrical & appliance customers",
+    "note": null,
+    "tag": null,
+    "ticker": "HAVELLS"
+  },
+  {
+    "direction": "downstream",
+    "id": 499,
+    "node_name": "Industrial & infrastructure project customers — cables & switchgears",
+    "note": "the fastest-growing segment in FY26",
+    "tag": "tailwind",
+    "ticker": "HAVELLS"
+  },
+  {
+    "direction": "downstream",
+    "id": 500,
+    "node_name": "Weather-sensitive cooling product demand (Lloyd)",
+    "note": "milder summer directly reduced FY26 segment revenue share",
+    "tag": "risk",
+    "ticker": "HAVELLS"
+  },
+  {
+    "direction": "upstream",
+    "id": 501,
+    "node_name": "Copper, steel & electronic component inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "CGPOWER"
+  },
+  {
+    "direction": "upstream",
+    "id": 502,
+    "node_name": "Semiconductor manufacturing equipment & materials, incl. new CG Semi facility",
+    "note": null,
+    "tag": null,
+    "ticker": "CGPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 503,
+    "node_name": "Power utilities & infrastructure developers — transformers & switchgears",
+    "note": null,
+    "tag": null,
+    "ticker": "CGPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 504,
+    "node_name": "Industrial customers — motors",
+    "note": null,
+    "tag": null,
+    "ticker": "CGPOWER"
+  },
+  {
+    "direction": "downstream",
+    "id": 505,
+    "node_name": "Semiconductor assembly & test customers",
+    "note": "a new, high-growth vertical tied to India's chip manufacturing push",
+    "tag": "tailwind",
+    "ticker": "CGPOWER"
+  },
+  {
+    "direction": "upstream",
+    "id": 506,
+    "node_name": "Technology talent & skilled workforce",
+    "note": null,
+    "tag": null,
+    "ticker": "LTIM"
+  },
+  {
+    "direction": "upstream",
+    "id": 507,
+    "node_name": "Larsen & Toubro Group brand & relationships",
+    "note": null,
+    "tag": null,
+    "ticker": "LTIM"
+  },
+  {
+    "direction": "downstream",
+    "id": 508,
+    "node_name": "Global enterprise clients — digital transformation & IT services",
+    "note": null,
+    "tag": null,
+    "ticker": "LTIM"
+  },
+  {
+    "direction": "downstream",
+    "id": 509,
+    "node_name": "Cloud, data & enterprise application consulting engagements",
+    "note": null,
+    "tag": null,
+    "ticker": "LTIM"
+  },
+  {
+    "direction": "upstream",
+    "id": 510,
+    "node_name": "Siemens Energy global engineering & technology transfer",
+    "note": null,
+    "tag": null,
+    "ticker": "ENRIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 511,
+    "node_name": "Electrical steel, copper & transformer component inputs",
+    "note": null,
+    "tag": null,
+    "ticker": "ENRIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 512,
+    "node_name": "Power utilities & grid operators, incl. peers like Power Grid elsewhere in this dataset",
+    "note": null,
+    "tag": null,
+    "ticker": "ENRIN"
+  },
+  {
+    "direction": "downstream",
+    "id": 513,
+    "node_name": "Power generation companies — turbines and generation equipment",
+    "note": "direct equipment supplier to the power sector capacity expansion covered elsewhere in this dataset",
+    "tag": "tailwind",
+    "ticker": "ENRIN"
+  },
+  {
+    "direction": "upstream",
+    "id": 514,
+    "node_name": "Land acquisition across Mumbai, Pune, Bengaluru & new Delhi NCR market",
+    "note": null,
+    "tag": null,
+    "ticker": "LODHA"
+  },
+  {
+    "direction": "upstream",
+    "id": 515,
+    "node_name": "Construction contractors & building material suppliers",
+    "note": null,
+    "tag": null,
+    "ticker": "LODHA"
+  },
+  {
+    "direction": "downstream",
+    "id": 516,
+    "node_name": "Premium & luxury residential homebuyers",
+    "note": null,
+    "tag": null,
+    "ticker": "LODHA"
+  },
+  {
+    "direction": "downstream",
+    "id": 517,
+    "node_name": "Commercial real estate tenants & buyers",
+    "note": null,
+    "tag": null,
+    "ticker": "LODHA"
+  },
+  {
+    "direction": "downstream",
+    "id": 518,
+    "node_name": "New geographic markets — Delhi NCR expansion",
+    "note": "diversifies beyond the historical Mumbai Metropolitan Region stronghold",
+    "tag": "tailwind",
+    "ticker": "LODHA"
+  }
+]

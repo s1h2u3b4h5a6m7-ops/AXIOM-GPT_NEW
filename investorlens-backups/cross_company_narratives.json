@@ -1,0 +1,148 @@
+[
+  {
+    "blurb": "A life insurer needs somewhere to sell policies. These two lean on their sister bank's branch network to do exactly that — “bancassurance.” So the bank's reach is quietly the insurer's growth engine, and anything that changes the bank changes the insurer.",
+    "evidence": null,
+    "flows": null,
+    "id": "banca",
+    "kind": "ownership",
+    "pairs": [
+      {
+        "child": "SBILIFE",
+        "note": "SBI Life reaches customers overwhelmingly through State Bank of India's own branches — a big cost advantage and a real dependency.",
+        "parent": "SBIN"
+      },
+      {
+        "child": "HDFCLIFE",
+        "note": "HDFC Life sells a large share of its policies through HDFC Bank branches (alongside agency and digital channels).",
+        "parent": "HDFCBANK"
+      }
+    ],
+    "stages": null,
+    "title": "Banks that sell insurance for their own insurer"
+  },
+  {
+    "blurb": "Some of these 58 tickers are really parent and child. Knowing the tree tells you when two “separate” companies actually rise and fall together, and where a parent's value is just the sum of what it owns.",
+    "evidence": null,
+    "flows": null,
+    "id": "holding",
+    "kind": "ownership",
+    "pairs": [
+      {
+        "child": "ADANIPORTS",
+        "note": "Adani Enterprises incubated Adani Ports from scratch and then listed it separately — its “build-mature-monetise” model.",
+        "parent": "ADANIENT"
+      },
+      {
+        "child": "ULTRACEMCO",
+        "note": "Grasim holds the majority stake in UltraTech, India's largest cement maker — so Grasim's value partly is UltraTech.",
+        "parent": "GRASIM"
+      },
+      {
+        "child": "BAJFINANCE",
+        "note": "Bajaj Finserv is the holding company; Bajaj Finance is the consumer-lending NBFC it owns and captures the value of.",
+        "parent": "BAJAJFINSV"
+      },
+      {
+        "child": "JIOFIN",
+        "note": "Jio Financial was demerged out of Reliance and still sits on top of the Reliance/Jio consumer ecosystem it was born from.",
+        "parent": "RELIANCE"
+      }
+    ],
+    "stages": null,
+    "title": "Who owns whom — holding-company trees"
+  },
+  {
+    "blurb": "Every car, truck and motorcycle begins life as steel and aluminium. India's big metal makers sit upstream of every listed vehicle maker, so when steel prices, import duties or the Novelis plants move, the effect eventually reaches the automakers' cost sheets. This is an input dependency — not a single named contract — but it is structurally real for all of them.",
+    "evidence": "Tata Steel and JSW Steel sell into automotive end-markets; Hindalco's Novelis supplies automotive body-panel sheet; each automaker lists steel and components among its core inputs.",
+    "flows": [
+      "steel & aluminium — the metal in every vehicle"
+    ],
+    "id": "metals-auto",
+    "kind": "input",
+    "pairs": null,
+    "stages": [
+      {
+        "label": "Raw metal",
+        "nodes": [
+          {
+            "tk": "TATASTEEL"
+          },
+          {
+            "tk": "JSWSTEEL"
+          },
+          {
+            "tk": "HINDALCO"
+          }
+        ]
+      },
+      {
+        "label": "Vehicle makers",
+        "nodes": [
+          {
+            "tk": "MARUTI"
+          },
+          {
+            "tk": "M&M"
+          },
+          {
+            "tk": "TMPV"
+          },
+          {
+            "tk": "EICHERMOT"
+          },
+          {
+            "tk": "BAJAJ-AUTO"
+          }
+        ]
+      }
+    ],
+    "title": "Metals into mobility"
+  },
+  {
+    "blurb": "India's power travels through three listed links in a row. Coal India digs the coal, NTPC burns it to make electricity, and Power Grid carries that electricity across the country to the state distributors who hand it to homes and factories. A shock at any one link (a coal shortage, a plant trip, a grid bottleneck) ripples down the whole line.",
+    "evidence": "Coal India delivers coal to power utilities via Fuel Supply Agreements; NTPC generates and sells bulk power; Power Grid's own profile describes moving electricity “from generators (like NTPC)” to distributors.",
+    "flows": [
+      "coal (long-term supply pacts)",
+      "power onto the grid",
+      "wheeled to distributors"
+    ],
+    "id": "power",
+    "kind": "flow",
+    "pairs": null,
+    "stages": [
+      {
+        "label": "Fuel",
+        "nodes": [
+          {
+            "tk": "COALINDIA"
+          }
+        ]
+      },
+      {
+        "label": "Generation",
+        "nodes": [
+          {
+            "tk": "NTPC"
+          }
+        ]
+      },
+      {
+        "label": "Transmission",
+        "nodes": [
+          {
+            "tk": "POWERGRID"
+          }
+        ]
+      },
+      {
+        "label": "End users",
+        "nodes": [
+          {
+            "t": "State discoms → homes & industry"
+          }
+        ]
+      }
+    ],
+    "title": "How electricity reaches you"
+  }
+]

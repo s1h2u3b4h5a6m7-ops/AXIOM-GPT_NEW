@@ -1,0 +1,2891 @@
+[
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 1,
+    "is_active": true,
+    "label": "Platform disintermediation: UPI's customer-facing layer is increasingly owned by non-bank apps, not banks themselves, per BIS research",
+    "tag_type": "risk",
+    "ticker": "HDFCBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 2,
+    "is_active": true,
+    "label": "Account Aggregator framework: facilitated an estimated $19.5bn in loans in FY24-25 via consent-based data sharing — a new lending distribution channel banks can tap, not purely a threat",
+    "tag_type": "tailwind",
+    "ticker": "HDFCBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 3,
+    "is_active": true,
+    "label": "Zero-MDR policy: UPI merchant fees remain government-mandated at zero — banks carry real infrastructure cost on this rail with no direct transaction revenue from it",
+    "tag_type": "risk",
+    "ticker": "HDFCBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 4,
+    "is_active": true,
+    "label": "Platform disintermediation: non-bank UPI apps (PhonePe, Google Pay) own the customer-facing payments layer, and zero-MDR means banks carry the UPI rails cost with no direct fee revenue",
+    "tag_type": "risk",
+    "ticker": "ICICIBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 5,
+    "is_active": true,
+    "label": "Account Aggregator plus a strong in-house digital stack let ICICI use consent-based data for underwriting rather than only defend against fintechs",
+    "tag_type": "tailwind",
+    "ticker": "ICICIBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 6,
+    "is_active": true,
+    "label": "RBI policy transmission: the June 2026 repo hold at 5.50% with a raised inflation forecast means deposit-cost relief is slower than hoped — a sector-wide margin factor",
+    "tag_type": "neutral",
+    "ticker": "ICICIBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 7,
+    "is_active": true,
+    "label": "Government majority ownership: SBI executes national financial-inclusion and social-scheme mandates a purely commercial bank would not — a dual objective that cuts both ways",
+    "tag_type": "neutral",
+    "ticker": "SBIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 8,
+    "is_active": true,
+    "label": "Platform disintermediation plus zero-MDR: SBI carries enormous UPI rails volume with no direct transaction revenue",
+    "tag_type": "risk",
+    "ticker": "SBIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 9,
+    "is_active": true,
+    "label": "Sovereign backing plus unmatched branch and agent reach make it the default channel for government and PSU flows",
+    "tag_type": "tailwind",
+    "ticker": "SBIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 10,
+    "is_active": true,
+    "label": "Regulatory-tech dependency: the 2024 RBI restriction on digital onboarding and new cards showed how tech-resilience compliance can directly gate growth for a digital-first bank",
+    "tag_type": "risk",
+    "ticker": "KOTAKBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 11,
+    "is_active": true,
+    "label": "Platform disintermediation plus zero-MDR — the same UPI dynamic facing all banks, with customer-facing payments owned by non-bank apps",
+    "tag_type": "risk",
+    "ticker": "KOTAKBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 12,
+    "is_active": true,
+    "label": "A premium, high-CASA deposit franchise plus Account Aggregator access give it a low-cost base and consent-based data for underwriting",
+    "tag_type": "tailwind",
+    "ticker": "KOTAKBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 13,
+    "is_active": true,
+    "label": "Deep UPI PSP role: Axis processes a large share of UPI payer-side volume as a sponsor bank — central to the rails, but carrying real infrastructure cost under zero-MDR",
+    "tag_type": "neutral",
+    "ticker": "AXISBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 14,
+    "is_active": true,
+    "label": "Platform disintermediation: customer-facing payments increasingly owned by non-bank apps even though banks hold the underlying accounts",
+    "tag_type": "risk",
+    "ticker": "AXISBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 15,
+    "is_active": true,
+    "label": "Account Aggregator plus a heavy fintech-partnership model give Axis consent-based data and extended distribution reach",
+    "tag_type": "tailwind",
+    "ticker": "AXISBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 16,
+    "is_active": true,
+    "label": "Unsecured-consumer-credit regulation: RBI raised risk weights on unsecured consumer loans (Nov 2023) over overheating, and FY26 is flagged as a stress year for exactly this segment — Bajaj's large consumer book sits in the crosshairs",
+    "tag_type": "risk",
+    "ticker": "BAJFINANCE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 17,
+    "is_active": true,
+    "label": "Funding-cost sensitivity: with no low-cost CASA base, Bajaj's margins move with wholesale funding costs and the RBI rate path (repo held at 5.50%, June 2026)",
+    "tag_type": "risk",
+    "ticker": "BAJFINANCE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 18,
+    "is_active": true,
+    "label": "Scale plus an early, aggressive bet on AI in underwriting (its FinAI platform) give it a data and cost moat smaller NBFCs cannot match",
+    "tag_type": "tailwind",
+    "ticker": "BAJFINANCE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 19,
+    "is_active": true,
+    "label": "Vehicle and CV-cycle dependence: its largest segment tracks freight demand and the auto cycle — a slowdown flows through faster than for a diversified lender",
+    "tag_type": "risk",
+    "ticker": "CHOLAFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 20,
+    "is_active": true,
+    "label": "Rural income and climate sensitivity: a big rural and semi-urban book is exposed to monsoon-linked income volatility, a structural risk RBI has flagged for FY26",
+    "tag_type": "risk",
+    "ticker": "CHOLAFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 21,
+    "is_active": true,
+    "label": "Diversification into home loans, SME and gold loans is reducing single-cycle dependence, and funding access stays strong under the Murugappa Group umbrella",
+    "tag_type": "tailwind",
+    "ticker": "CHOLAFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 22,
+    "is_active": true,
+    "label": "Used-CV and freight-cycle dependence: earnings track the used commercial-vehicle and freight cycle and rural incomes — a more volatile base than a diversified lender",
+    "tag_type": "risk",
+    "ticker": "SHRIRAMFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 23,
+    "is_active": true,
+    "label": "A pending ~39,618-crore equity infusion from Japan's MUFG Bank brings major foreign capital and a strong external vote of confidence",
+    "tag_type": "tailwind",
+    "ticker": "SHRIRAMFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 24,
+    "is_active": true,
+    "label": "Funding-cost sensitivity: the highest cost of borrowing among NBFCs tracked here, though recent rating upgrades have lowered incremental borrowing costs",
+    "tag_type": "neutral",
+    "ticker": "SHRIRAMFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 25,
+    "is_active": true,
+    "label": "Government majority ownership: policy and social-mandate obligations alongside commercial objectives",
+    "tag_type": "neutral",
+    "ticker": "BANKBARODA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 26,
+    "is_active": true,
+    "label": "Platform disintermediation plus zero-MDR, the shared UPI dynamic",
+    "tag_type": "risk",
+    "ticker": "BANKBARODA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 27,
+    "is_active": true,
+    "label": "PSU-consolidation scale (post Vijaya and Dena merger) plus a cleaned-up balance sheet make it one of the stronger PSU franchises",
+    "tag_type": "tailwind",
+    "ticker": "BANKBARODA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 28,
+    "is_active": true,
+    "label": "Government majority ownership (~70%): policy and social mandates sit alongside commercial goals",
+    "tag_type": "neutral",
+    "ticker": "PNB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 29,
+    "is_active": true,
+    "label": "Platform disintermediation plus zero-MDR, the shared UPI dynamic",
+    "tag_type": "risk",
+    "ticker": "PNB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 30,
+    "is_active": true,
+    "label": "Sharply improved asset quality and rising capital adequacy show the post-cleanup turnaround is real",
+    "tag_type": "tailwind",
+    "ticker": "PNB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 31,
+    "is_active": true,
+    "label": "Diaspora and remittance exposure: a large NRI deposit base ties Federal to Gulf-economy health and USD/INR moves more than a typical domestic bank",
+    "tag_type": "neutral",
+    "ticker": "FEDERALBNK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 32,
+    "is_active": true,
+    "label": "A large strategic capital partner (Blackstone) and a heavy fintech-partnership model extend distribution well beyond its Kerala base",
+    "tag_type": "tailwind",
+    "ticker": "FEDERALBNK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 33,
+    "is_active": true,
+    "label": "Platform disintermediation plus zero-MDR — the same UPI dynamic facing all banks",
+    "tag_type": "risk",
+    "ticker": "FEDERALBNK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 34,
+    "is_active": true,
+    "label": "Microfinance and unsecured exposure: sector-wide MFI stress (NBFC-MFI GNPA doubled to ~4.1% by March 2025, expected to peak by March 2026) touches its book directly — it flagged MFI slippages improving, but the cycle is not over",
+    "tag_type": "risk",
+    "ticker": "IDFCFIRSTB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 35,
+    "is_active": true,
+    "label": "Platform disintermediation plus zero-MDR, the shared UPI dynamic",
+    "tag_type": "risk",
+    "ticker": "IDFCFIRSTB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 36,
+    "is_active": true,
+    "label": "A purpose-built digital stack and the highest CASA among banks tracked here give it a low-cost funding base to absorb the cycle",
+    "tag_type": "tailwind",
+    "ticker": "IDFCFIRSTB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 37,
+    "is_active": true,
+    "label": "Microfinance stress cycle: NBFC-MFI GNPA doubled to ~4.1% by March 2025 and is expected to peak by March 2026; Bandhan already sold ~6,872 crore of bad MFI loans (Dec 2025) and saw its own GNPA swing sharply — a direct read on this cycle",
+    "tag_type": "risk",
+    "ticker": "BANDHANBNK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 38,
+    "is_active": true,
+    "label": "Geographic concentration: a heavy East-India footprint amplifies exposure to regional income shocks and climate-linked rural volatility",
+    "tag_type": "risk",
+    "ticker": "BANDHANBNK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 39,
+    "is_active": true,
+    "label": "RBI cut the microfinance consumer-credit risk weight from 125% back to 100% (March 2025), and collection efficiency is recovering — early signs the worst of the cycle may be passing",
+    "tag_type": "tailwind",
+    "ticker": "BANDHANBNK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 40,
+    "is_active": true,
+    "label": "Universal Bank transition: in-principle RBI approval to convert from an SFB should lower funding costs and widen its addressable market over time",
+    "tag_type": "tailwind",
+    "ticker": "AUBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 41,
+    "is_active": true,
+    "label": "Microfinance and unsecured stress: as an SFB with meaningful unsecured exposure, AU sits in the segment RBI flagged as FY26's most stressed (unsecured personal loans, microfinance, SME)",
+    "tag_type": "risk",
+    "ticker": "AUBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 42,
+    "is_active": true,
+    "label": "Deposit-competition intensity: management itself calls the deposit environment highly competitive — NIM and CASA are under the same pressure as the whole sector",
+    "tag_type": "neutral",
+    "ticker": "AUBANK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 43,
+    "is_active": true,
+    "label": "Government majority ownership plus lead-bank role: coordinates priority-sector and inclusion banking across states, a mandate beyond pure commercial lending",
+    "tag_type": "neutral",
+    "ticker": "CANBK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 44,
+    "is_active": true,
+    "label": "Platform disintermediation plus zero-MDR, the shared UPI dynamic",
+    "tag_type": "risk",
+    "ticker": "CANBK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 45,
+    "is_active": true,
+    "label": "Record-low NPAs and strong profit growth show a genuine turnaround, though core CET1 capital is thinner than some peers",
+    "tag_type": "tailwind",
+    "ticker": "CANBK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 46,
+    "is_active": true,
+    "label": "Distribution disintermediation: quick-commerce now ~3% of sales and doubling each quarter — reshaping who controls shelf access and at what margin, a genuinely new risk this category didn't face five years ago",
+    "tag_type": "risk",
+    "ticker": "HINDUNILVR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 47,
+    "is_active": true,
+    "label": "Commodity/import exposure: palm oil and crude-linked raw materials, directly cited as the quarter's gross-margin pressure point",
+    "tag_type": "risk",
+    "ticker": "HINDUNILVR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 48,
+    "is_active": true,
+    "label": "Premium digital-native brand acquisitions (Minimalist, OZiva) give HUL its own foothold in the same disruptive channel rather than only defending against it",
+    "tag_type": "tailwind",
+    "ticker": "HINDUNILVR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 49,
+    "is_active": true,
+    "label": "Regulatory/tax exposure: a cigarette excise duty hike (₹2.05-8.50 per stick) took effect Feb 1, 2026, just after this quarter closed — the single largest near-term risk to the value chain this profit depends on most",
+    "tag_type": "risk",
+    "ticker": "ITC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 50,
+    "is_active": true,
+    "label": "Illicit trade risk: every legal price increase historically expands the untaxed market, eroding the volume base the legal, taxed supply chain depends on",
+    "tag_type": "risk",
+    "ticker": "ITC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 51,
+    "is_active": true,
+    "label": "FMCG-Others diversification (+11.1% revenue growth this quarter) is a genuine, working hedge that reduces dependence on the cigarette value chain over time, even if it's not yet large enough to offset it",
+    "tag_type": "tailwind",
+    "ticker": "ITC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 52,
+    "is_active": true,
+    "label": "AI/automation exposure: structural threat to the traditional staffing-pyramid billing model — this quarter's constant-currency revenue actually fell 2.6% YoY even as reported INR revenue grew, the live evidence of pricing/volume pressure",
+    "tag_type": "risk",
+    "ticker": "TCS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 53,
+    "is_active": true,
+    "label": "AI/automation exposure: also a measurable tailwind — $1.8bn annualised AI-native revenue, +17.3% QoQ, the fastest-growing disclosed line in the business",
+    "tag_type": "tailwind",
+    "ticker": "TCS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 54,
+    "is_active": true,
+    "label": "Currency exposure: the bulk of revenue is billed in USD/GBP/EUR — a weaker rupee flatters reported INR growth even when underlying demand (constant-currency) is flat or falling",
+    "tag_type": "neutral",
+    "ticker": "TCS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 55,
+    "is_active": true,
+    "label": "AI/automation exposure: structural threat to the traditional billing model — constant-currency revenue growth of just 1.7% YoY this quarter, barely positive, the same sector-wide pattern visible at TCS",
+    "tag_type": "risk",
+    "ticker": "INFY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 56,
+    "is_active": true,
+    "label": "AI/automation exposure: Topaz platform is management's stated growth strategy, tied to raised FY26 guidance — but without a disclosed revenue figure, it's a qualitative tailwind for now, not yet a quantified one",
+    "tag_type": "neutral",
+    "ticker": "INFY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 57,
+    "is_active": true,
+    "label": "Currency exposure: similar USD-heavy revenue mix to TCS — the reported-vs-constant-currency growth gap (3.2% vs 1.7%) reflects rupee movement more than real demand change",
+    "tag_type": "neutral",
+    "ticker": "INFY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 58,
+    "is_active": true,
+    "label": "US regulatory exposure: 116 ANDAs pending FDA approval — normal pipeline, but each carries unpredictable inspection/approval-timeline risk standard to the sector",
+    "tag_type": "risk",
+    "ticker": "SUNPHARMA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 59,
+    "is_active": true,
+    "label": "US generic pricing pressure: flat US business this quarter as Innovative Medicines gains were offset by generic price erosion — a sector-wide structural headwind, not company-specific",
+    "tag_type": "risk",
+    "ticker": "SUNPHARMA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 60,
+    "is_active": true,
+    "label": "Mix-shift tailwind: Innovative/Specialty Medicines now 21%+ of sales and growing faster than the overall business — a genuine, working hedge against commodity generic pricing pressure",
+    "tag_type": "tailwind",
+    "ticker": "SUNPHARMA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 61,
+    "is_active": true,
+    "label": "Single-molecule concentration risk realized in real time: North America revenue fell 16% YoY as the Lenalidomide volume-cap settlement (from 2020 Celgene/BMS litigation) approaches its January 2026 full-unlock date, intensifying competition on what had been a uniquely profitable, volume-limited opportunity",
+    "tag_type": "risk",
+    "ticker": "DRREDDY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 62,
+    "is_active": true,
+    "label": "Paragraph IV pipeline risk/reward: 43 of 75 pending ANDAs are Paragraph IV filings (challenging existing patents) — higher potential reward (180-day exclusivity if first-to-file) but also real patent-litigation risk, as seen in the company's own recent Esperion/NEXLETOL settlement",
+    "tag_type": "risk",
+    "ticker": "DRREDDY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 63,
+    "is_active": true,
+    "label": "Biosimilars pivot: active pipeline in oncology and autoimmune categories (trastuzumab, adalimumab) — a structural move toward higher-barrier-to-entry, higher-margin categories, away from commodity small-molecule generics",
+    "tag_type": "tailwind",
+    "ticker": "DRREDDY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 64,
+    "is_active": true,
+    "label": "Rare-earth magnet supply: China's export curbs on rare-earth magnets (used in EV/hybrid motors) are a sector-wide supply risk that touches Maruti's hybrid and upcoming EV ramp-up directly",
+    "tag_type": "risk",
+    "ticker": "MARUTI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 65,
+    "is_active": true,
+    "label": "GST 2.0 tailwind: the Sept 2025 cut in small-car GST from 28% to 18% structurally lowered price points and pulled forward demand — a policy tailwind still working through the order book",
+    "tag_type": "tailwind",
+    "ticker": "MARUTI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 66,
+    "is_active": true,
+    "label": "BS-VII and stricter emission/safety norms on the horizon will require fresh R&D and capex across the industry, a cost sector-wide, not Maruti-specific",
+    "tag_type": "risk",
+    "ticker": "MARUTI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 67,
+    "is_active": true,
+    "label": "Cybersecurity as a production risk: a late-2025 cyberattack on JLR halted vehicle production for weeks — a direct demonstration that modern auto manufacturing's IT/OT systems are now a single point of failure for revenue",
+    "tag_type": "risk",
+    "ticker": "TMPV",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 68,
+    "is_active": true,
+    "label": "US and EU tariff relief: UK-US and EU-US trade deals are reducing tariffs on JLR-produced vehicles exported to the US from 27.5% toward 10-15%, a meaningful cost tailwind still phasing in",
+    "tag_type": "tailwind",
+    "ticker": "TMPV",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 69,
+    "is_active": true,
+    "label": "China luxury-vehicle demand and a China-specific luxury tax are pressuring JLR's China volumes, a market increasingly dominated by domestic premium EV brands",
+    "tag_type": "risk",
+    "ticker": "TMPV",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 70,
+    "is_active": true,
+    "label": "US tariff relief on tractors: a US-India trade resolution cut tariffs from as high as 50% to 18%, directly unlocking previously-held export inventory — a live example of trade policy moving a business's numbers quarter to quarter",
+    "tag_type": "tailwind",
+    "ticker": "M&M",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 71,
+    "is_active": true,
+    "label": "Rural demand cycle: tractor volumes are tightly linked to monsoon quality and farm-income conditions — a structural weather/policy dependency unique to the Farm Equipment segment",
+    "tag_type": "risk",
+    "ticker": "M&M",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 72,
+    "is_active": true,
+    "label": "EV/ICE transition capex: management flagged growing EV exposure may pressure Auto segment margins near-term even as it builds long-term optionality",
+    "tag_type": "neutral",
+    "ticker": "M&M",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 73,
+    "is_active": true,
+    "label": "Emerging-market export currency exposure: nearly half of volumes are exported (Africa, LatAm, ASEAN), making reported revenue sensitive to currency swings in markets like Nigeria, where sales have been outright negative YoY",
+    "tag_type": "risk",
+    "ticker": "BAJAJ-AUTO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 74,
+    "is_active": true,
+    "label": "KTM Austria financial distress: continued capital infusions into subsidiaries (partly to support the KTM transaction) reflect real spillover risk from a European partner's balance-sheet troubles",
+    "tag_type": "risk",
+    "ticker": "BAJAJ-AUTO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 75,
+    "is_active": true,
+    "label": "EV two/three-wheeler mix now 25% of domestic revenue — a genuine, monetizing transition rather than a future promise, though still margin-dilutive versus ICE",
+    "tag_type": "neutral",
+    "ticker": "BAJAJ-AUTO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 76,
+    "is_active": true,
+    "label": "GST 2.0 demand pull-forward: the same tax cut that boosted Q3 volumes across the auto sector is now normalizing, meaning Royal Enfield's exceptional growth rate this quarter is unlikely to repeat as-is",
+    "tag_type": "risk",
+    "ticker": "EICHERMOT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 77,
+    "is_active": true,
+    "label": "Electric motorcycle entrants (Eicher's own new 'Flying Flea' EV sub-brand, alongside emerging EV-native competitors) represent the first real technology-transition test to Royal Enfield's century-old ICE-centric brand identity",
+    "tag_type": "neutral",
+    "ticker": "EICHERMOT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 78,
+    "is_active": true,
+    "label": "CAFE emission-norm tightening from 2027 and BS7 will raise compliance costs sector-wide, a cost Royal Enfield's premium pricing is better positioned to absorb than mass-market rivals",
+    "tag_type": "tailwind",
+    "ticker": "EICHERMOT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 79,
+    "is_active": true,
+    "label": "Regulatory/spectrum exposure: AGR (Adjusted Gross Revenue) dues and spectrum-payment obligations to the Dept. of Telecom remain a structural liability overhang common to every Indian telco, Airtel included",
+    "tag_type": "risk",
+    "ticker": "BHARTIARTL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 80,
+    "is_active": true,
+    "label": "Africa currency exposure: African-market revenue and margins are sensitive to local currency appreciation/depreciation versus the rupee — a tailwind this year, but a two-way risk going forward",
+    "tag_type": "neutral",
+    "ticker": "BHARTIARTL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 81,
+    "is_active": true,
+    "label": "Data-centre and AI-infrastructure buildout (including a Google partnership on an AI hub in Visakhapatnam) is a genuine new adjacency being funded from telecom cash flows — optionality beyond the core connectivity business",
+    "tag_type": "tailwind",
+    "ticker": "BHARTIARTL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 82,
+    "is_active": true,
+    "label": "Geopolitical crude exposure: the West Asia conflict directly disrupted O2C physical operations and margins this quarter — a live, not hypothetical, example of how Middle East instability hits Reliance's largest legacy segment",
+    "tag_type": "risk",
+    "ticker": "RELIANCE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 83,
+    "is_active": true,
+    "label": "Jio IPO catalyst: an 'imminent' Jio Platforms listing would be a major value-unlock event, separating a fast-growing digital business from the conglomerate discount applied to the whole group today",
+    "tag_type": "tailwind",
+    "ticker": "RELIANCE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 84,
+    "is_active": true,
+    "label": "New Energy build-out (green ammonia supply deal with Samsung C&T, battery gigafactories) is a genuine long-duration bet on India's energy transition, funded by O2C and Jio cash flows rather than external capital",
+    "tag_type": "neutral",
+    "ticker": "RELIANCE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 85,
+    "is_active": true,
+    "label": "Global crude price cyclicality: ONGC's realizations move directly with international oil and gas prices — a full-year revenue decline in the core E&P segment this year despite steady production volumes shows this exposure isn't theoretical",
+    "tag_type": "risk",
+    "ticker": "ONGC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 86,
+    "is_active": true,
+    "label": "Legacy field decline: mature assets like Bombay High require continuous new-well drilling and exploration capex just to hold production flat, let alone grow it — a structural treadmill common to all ageing oil basins",
+    "tag_type": "risk",
+    "ticker": "ONGC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 87,
+    "is_active": true,
+    "label": "Downstream diversification tailwind: HPCL, MRPL and the broader subsidiary portfolio delivering 'remarkable improvement' this year shows the vertical-integration strategy has real earnings power when refining margins cooperate",
+    "tag_type": "tailwind",
+    "ticker": "ONGC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 88,
+    "is_active": true,
+    "label": "Energy-transition headwind: India's expanding solar and wind capacity structurally caps long-run thermal coal demand growth, a slow-moving but real risk to CIL's core volume story even as near-term power demand still leans on coal",
+    "tag_type": "risk",
+    "ticker": "COALINDIA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 89,
+    "is_active": true,
+    "label": "Production-offtake gap and rising inventory (+21% YoY) point to real, current demand softness or dispatch/logistics constraints worth watching in the next few quarters, not dismissing as one-off",
+    "tag_type": "risk",
+    "ticker": "COALINDIA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 90,
+    "is_active": true,
+    "label": "Government policy tailwind: an explicit national strategy to cut coal imports by 240+ million tonnes over the next decade gives CIL a real production-growth mandate, if execution (evacuation infrastructure, washeries) keeps pace",
+    "tag_type": "tailwind",
+    "ticker": "COALINDIA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 91,
+    "is_active": true,
+    "label": "European regulatory risk: Tata Steel Netherlands faces active non-compliance notices and a stated intent by regulators to revoke operating permits for its coke/gas plants — a concrete, near-term threat to a material part of the European business, not a hypothetical",
+    "tag_type": "risk",
+    "ticker": "TATASTEEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 92,
+    "is_active": true,
+    "label": "Global steel dumping: Chinese overcapacity continues to pressure global steel prices; Tata Steel's UK and Netherlands units are directly exposed even as India benefits from a 12% safeguard duty on imports",
+    "tag_type": "risk",
+    "ticker": "TATASTEEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 93,
+    "is_active": true,
+    "label": "India infrastructure capex tailwind: government-driven infrastructure spending underpins the domestic demand growth that's now doing most of the heavy lifting for group profitability",
+    "tag_type": "tailwind",
+    "ticker": "TATASTEEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 94,
+    "is_active": true,
+    "label": "Accounting distortion risk: the scale of the BPSL exceptional gain this quarter is large enough that headline PAT and P/E figures from data aggregators may be badly misleading unless explicitly normalised — worth double-checking any single-source number against the exceptional-items breakdown",
+    "tag_type": "risk",
+    "ticker": "JSWSTEEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 95,
+    "is_active": true,
+    "label": "Leverage from an aggressive, multi-year capex programme (₹1.26 lakh crore approved) creates execution risk — the payoff depends on new capacity ramping on schedule and steel prices/demand cooperating through FY30-32",
+    "tag_type": "risk",
+    "ticker": "JSWSTEEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 96,
+    "is_active": true,
+    "label": "Import-safeguard policy tailwind: the 12% duty on imported steel currently shields domestic realisations from Chinese overcapacity pricing — a real but policy-dependent, not permanent, advantage",
+    "tag_type": "tailwind",
+    "ticker": "JSWSTEEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 97,
+    "is_active": true,
+    "label": "Novelis Oswego plant fires: a real, still-unfolding operational and financial disruption at the company's largest single facility — recovery timeline and any further exceptional costs are a genuine near-term watch item",
+    "tag_type": "risk",
+    "ticker": "HINDALCO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 98,
+    "is_active": true,
+    "label": "US tariff exposure: Novelis's US manufacturing and export operations face direct tariff-policy risk that a purely India-based metals producer wouldn't carry",
+    "tag_type": "risk",
+    "ticker": "HINDALCO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 99,
+    "is_active": true,
+    "label": "EV/battery-materials diversification (battery foil, EV battery enclosures) is a genuine new growth vector building directly on existing aluminium and copper processing expertise, not an unrelated bolt-on",
+    "tag_type": "tailwind",
+    "ticker": "HINDALCO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 100,
+    "is_active": true,
+    "label": "Discom counterparty risk: NTPC's primary customers are state electricity distribution companies, many of which remain financially stressed — a structural, sector-wide collection and receivables risk, even though NTPC's own receivable days improved sharply this year",
+    "tag_type": "risk",
+    "ticker": "NTPC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 101,
+    "is_active": true,
+    "label": "Renewable execution gap: NTPC's own FY26 green-capacity addition fell short of internal targets, with projects spilling into FY27 — a concrete delivery risk on the part of the growth story most tied to India's energy-transition narrative",
+    "tag_type": "risk",
+    "ticker": "NTPC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 102,
+    "is_active": true,
+    "label": "Policy tailwind: India's power demand growth and the 500 GW renewable-by-2030 national target give NTPC (thermal fleet plus NTPC Green Energy) a long, government-backed capacity growth runway",
+    "tag_type": "tailwind",
+    "ticker": "NTPC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 103,
+    "is_active": true,
+    "label": "Rising leverage: total borrowings up ~13% YoY to fund transmission capex, with a further ₹5,000 crore raise approved — a real, growing balance-sheet commitment tied to execution of the multi-year build-out",
+    "tag_type": "risk",
+    "ticker": "POWERGRID",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 104,
+    "is_active": true,
+    "label": "Margin compression in Q4 (EBITDA margin down nearly 900bps YoY) is unusual for a normally very stable regulated business and worth monitoring for whether it's transient or a new cost baseline",
+    "tag_type": "risk",
+    "ticker": "POWERGRID",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 105,
+    "is_active": true,
+    "label": "India's ~₹2.44 lakh crore transmission investment requirement to support the 500 GW renewable-by-2030 target positions Power Grid, as the primary inter-state implementing agency, for a long structural capex and revenue-growth runway",
+    "tag_type": "tailwind",
+    "ticker": "POWERGRID",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 106,
+    "is_active": true,
+    "label": "West Asia conflict cost exposure: management quantified an ~₹120/tonne EBITDA impact from the conflict's effect on imported fuel (petcoke/coal) costs — a real, current, and ongoing geopolitical cost pass-through",
+    "tag_type": "risk",
+    "ticker": "ULTRACEMCO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 107,
+    "is_active": true,
+    "label": "Acquisition integration risk: India Cements and Kesoram are still 'moving from integration drag to earnings contributor' per management's own words — the full synergy payoff is a multi-year execution bet, not yet realised",
+    "tag_type": "risk",
+    "ticker": "ULTRACEMCO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 108,
+    "is_active": true,
+    "label": "India infrastructure and housing (PMAY) demand tailwind: government capex commitments (e.g. Mumbai's own $60bn infrastructure spend cited by management) underpin the 7-8% sustainable volume growth guidance",
+    "tag_type": "tailwind",
+    "ticker": "ULTRACEMCO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 109,
+    "is_active": true,
+    "label": "Holding-company complexity: Grasim's own standalone results can diverge sharply from the consolidated headline (as this quarter's standalone loss versus consolidated profit growth shows), making it harder to cleanly attribute value or risk to any single part of the business",
+    "tag_type": "risk",
+    "ticker": "GRASIM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 110,
+    "is_active": true,
+    "label": "Paints market-share gains (Birla Opus crossing 10% share, +370bps) represent a genuine structural challenge to the paints category's incumbent leader, still early in a multi-year trajectory toward the company's own FY28 profitability target",
+    "tag_type": "tailwind",
+    "ticker": "GRASIM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 111,
+    "is_active": true,
+    "label": "Crude-oil-linked raw material costs affect chemicals and VSF simultaneously — a shared commodity and currency sensitivity across multiple segments at once, not a risk isolated to a single business line",
+    "tag_type": "neutral",
+    "ticker": "GRASIM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 112,
+    "is_active": true,
+    "label": "Birla Opus competitive intensity: Grasim's paints challenger crossed 10% market share this same quarter and is explicitly flagged by Asian Paints' own management as a FY27 watch item — the most direct, well-funded competitive threat the category leader has faced in years",
+    "tag_type": "risk",
+    "ticker": "ASIANPAINT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 113,
+    "is_active": true,
+    "label": "Crude-linked raw material costs (titanium dioxide, monomers) remain a structural, largely uncontrollable margin swing factor — this quarter's deflation was a tailwind, but the direction can reverse quickly",
+    "tag_type": "risk",
+    "ticker": "ASIANPAINT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 114,
+    "is_active": true,
+    "label": "Raw material cost normalisation this quarter directly supported margin recovery — if sustained into FY27, it's a real profitability tailwind independent of any pricing or volume actions the company takes",
+    "tag_type": "tailwind",
+    "ticker": "ASIANPAINT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 115,
+    "is_active": true,
+    "label": "Gold price volatility cuts both ways: it inflates headline reported revenue (as this quarter shows) while also being a genuine demand risk if prices rise faster than consumer incomes can absorb — a two-sided exposure specific to jewellery retail that plain-goods retailers don't share",
+    "tag_type": "risk",
+    "ticker": "TITAN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 116,
+    "is_active": true,
+    "label": "Smart watch category decline (-53% YoY) signals real competitive pressure in wearables even as the broader watches business (analog) stays healthy — a segment-specific, not company-wide, headwind",
+    "tag_type": "risk",
+    "ticker": "TITAN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 117,
+    "is_active": true,
+    "label": "International expansion via the Damas acquisition gives Titan a credible new growth vector and diversifies geographic concentration risk beyond India for the first time at meaningful scale",
+    "tag_type": "tailwind",
+    "ticker": "TITAN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 118,
+    "is_active": true,
+    "label": "GST/input-tax-credit changes are a real, current, sector-wide margin headwind on new-business profitability — VNB margin compression this year reflects an industry-wide regulatory shift, not company-specific execution issues",
+    "tag_type": "risk",
+    "ticker": "SBILIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 119,
+    "is_active": true,
+    "label": "Open-architecture distribution risk: a potential regulatory mandate requiring SBI branches to sell multiple insurers' products (not favour SBI Life) is a structural threat explicitly flagged by analysts to the core bancassurance moat",
+    "tag_type": "risk",
+    "ticker": "SBILIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 120,
+    "is_active": true,
+    "label": "September 2025 GST reform removing 18% GST on individual life/ULIP/health policies is a genuine demand-side tailwind for the whole industry, with the full benefit still working through the order book into FY27",
+    "tag_type": "tailwind",
+    "ticker": "SBILIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 121,
+    "is_active": true,
+    "label": "GST and new surrender-regulation changes are a real, current, quantified margin headwind on new-business profitability, consistent with the sector-wide pressure also visible at SBI Life",
+    "tag_type": "risk",
+    "ticker": "HDFCLIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 122,
+    "is_active": true,
+    "label": "Retail protection mix expansion (nearly 200bps YoY) is a genuine, deliberate shift toward higher-quality, more durable, typically higher-margin business — a real strategic improvement, not just a marketing talking point",
+    "tag_type": "tailwind",
+    "ticker": "HDFCLIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 123,
+    "is_active": true,
+    "label": "Multi-channel distribution (bancassurance + agency + digital) reduces single-partner concentration risk relative to SBI Life's SBI-branch dependency, at the cost of not having quite the same scale advantage in any one channel",
+    "tag_type": "neutral",
+    "ticker": "HDFCLIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 124,
+    "is_active": true,
+    "label": "AI/automation exposure: constant-currency growth of just 2.4% YoY, missing Q4 expectations specifically on lower discretionary telecom spend and the end of two SAP programs, is live evidence of the same structural staffing-pyramid pricing pressure flagged across the sector",
+    "tag_type": "risk",
+    "ticker": "HCLTECH",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 125,
+    "is_active": true,
+    "label": "AI/automation exposure: also a measurable tailwind — Advanced AI revenue crossing $620 million annualized is a genuine, fast-emerging new line, echoing the trend TCS discloses in more detail",
+    "tag_type": "tailwind",
+    "ticker": "HCLTECH",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 126,
+    "is_active": true,
+    "label": "Currency exposure: the large gap between reported INR growth (12.3%) and constant-currency growth (2.4%) means a weaker rupee is flattering headline numbers even as underlying dollar-denominated demand is much softer",
+    "tag_type": "neutral",
+    "ticker": "HCLTECH",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 127,
+    "is_active": true,
+    "label": "AI automation could reduce traditional IT services revenue by an estimated 2-3% annually industry-wide as efficiency gains lower pricing — the same structural risk facing every IT peer here, arguably more acute for a smaller player still mid-turnaround",
+    "tag_type": "risk",
+    "ticker": "TECHM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 128,
+    "is_active": true,
+    "label": "Ten consecutive quarters of margin expansion is a genuinely rare, sustained execution track record that, if it continues, closes the profitability gap with larger peers over time",
+    "tag_type": "tailwind",
+    "ticker": "TECHM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 129,
+    "is_active": true,
+    "label": "Historical telecom-client concentration is actively being diversified (broad-based growth across Manufacturing, BFSI, healthcare) — a deliberate de-risking still in progress, not a completed transition",
+    "tag_type": "neutral",
+    "ticker": "TECHM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 130,
+    "is_active": true,
+    "label": "AI/automation exposure and weak organic/constant-currency growth (roughly -1.3% QoQ) are the clearest, most current evidence among the IT peers tracked here of structural staffing-pyramid pricing pressure",
+    "tag_type": "risk",
+    "ticker": "WIPRO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 131,
+    "is_active": true,
+    "label": "Strong large-deal bookings growth (+45.4% YoY) provides a real, if not-yet-converted, source of potential future revenue recovery — worth watching whether Q4's momentum shows up in billed revenue over the next few quarters",
+    "tag_type": "tailwind",
+    "ticker": "WIPRO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 132,
+    "is_active": true,
+    "label": "The ₹15,000 crore buyback signals management sees better near-term use of capital in returning cash to shareholders than in aggressive growth reinvestment — a defensible capital-allocation choice, but also a tacit acknowledgment of limited near-term growth options",
+    "tag_type": "neutral",
+    "ticker": "WIPRO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 133,
+    "is_active": true,
+    "label": "Coffee and cocoa cost volatility (global commodity prices) directly affects margins on two of the company's largest brand franchises (Nescafé, KitKat) — a live, current input-cost exposure, not hypothetical",
+    "tag_type": "risk",
+    "ticker": "NESTLEIND",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 134,
+    "is_active": true,
+    "label": "A forecast drier monsoon threatens rural demand recovery, a segment increasingly important to sustaining FMCG volume growth industry-wide",
+    "tag_type": "risk",
+    "ticker": "NESTLEIND",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 135,
+    "is_active": true,
+    "label": "Quick-commerce and modern trade expansion give Nestle India new, faster-growing distribution channels beyond traditional general trade",
+    "tag_type": "tailwind",
+    "ticker": "NESTLEIND",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 136,
+    "is_active": true,
+    "label": "Weak capital efficiency (ROCE 9.02%) relative to FMCG peers signals real, unresolved integration and capital-allocation challenges from an acquisition-heavy growth strategy — not yet fixed despite improving revenue and margin trends",
+    "tag_type": "risk",
+    "ticker": "TATACONSUM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 137,
+    "is_active": true,
+    "label": "Tea price volatility (a globally traded agricultural commodity) is a structural input-cost swing factor management currently calls 'benign' but is not guaranteed to stay that way",
+    "tag_type": "risk",
+    "ticker": "TATACONSUM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 138,
+    "is_active": true,
+    "label": "Quick-commerce/e-commerce growth of 62%+ in FY26 shows genuine share capture in India's fastest-growing retail channel, a real tailwind independent of the acquisition-integration questions elsewhere in the business",
+    "tag_type": "tailwind",
+    "ticker": "TATACONSUM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 139,
+    "is_active": true,
+    "label": "Single-facility concentration risk realized in real time: a manufacturing halt at a Greek contract manufacturer directly caused a chunk of this quarter's US revenue and margin collapse — live evidence of supply-chain fragility, not a hypothetical risk",
+    "tag_type": "risk",
+    "ticker": "CIPLA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 140,
+    "is_active": true,
+    "label": "US generic pricing pressure and patent-cliff product transitions (loss of Revlimid exclusivity) are a structural, sector-wide headwind also visible at Dr. Reddy's and other Indian pharma exporters on this dashboard",
+    "tag_type": "risk",
+    "ticker": "CIPLA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 141,
+    "is_active": true,
+    "label": "A newly operational US manufacturing facility (Fall River) plus the first AB-rated generic Ventolin approval from a US site are concrete steps toward reducing the single-facility supply-chain concentration that caused this quarter's disruption",
+    "tag_type": "tailwind",
+    "ticker": "CIPLA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 142,
+    "is_active": true,
+    "label": "Heavy capex intensity: new hospitals run at a loss for multiple quarters after commissioning (management guides to roughly ₹150 crore of expected EBITDA losses from newly opened facilities) — a real, disclosed near-term earnings drag from the expansion pipeline",
+    "tag_type": "risk",
+    "ticker": "APOLLOHOSP",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 143,
+    "is_active": true,
+    "label": "The planned pharmacy/digital demerger by Q4 FY27 is a significant corporate restructuring with real execution and regulatory-approval timeline risk, not yet complete",
+    "tag_type": "risk",
+    "ticker": "APOLLOHOSP",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 144,
+    "is_active": true,
+    "label": "Medical value travel (international patients) is a genuine, higher-realization growth driver leveraging India's cost and clinical-quality advantage relative to Western healthcare markets",
+    "tag_type": "tailwind",
+    "ticker": "APOLLOHOSP",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 145,
+    "is_active": true,
+    "label": "Historical North India geographic concentration means regional demand or regulatory shifts affect Max more than more diversified peers — a risk the Kalinga acquisition is only beginning to address",
+    "tag_type": "risk",
+    "ticker": "MAXHEALTH",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 146,
+    "is_active": true,
+    "label": "High existing occupancy (75%+) means further growth increasingly requires capital-intensive bed-capacity expansion rather than simple utilisation improvement, raising the capital intensity of the next growth phase",
+    "tag_type": "risk",
+    "ticker": "MAXHEALTH",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 147,
+    "is_active": true,
+    "label": "Digital revenue (31% of overall revenue) and international patient revenue (9% of hospital revenue) are genuine, higher-margin growth vectors diversifying beyond core inpatient hospital revenue",
+    "tag_type": "tailwind",
+    "ticker": "MAXHEALTH",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 148,
+    "is_active": true,
+    "label": "Middle East geopolitical exposure is concrete and quantified — management explicitly guided that supply chain disruptions from the regional conflict will dampen H1 FY27 execution, directly affecting a ~40%-of-order-book geography",
+    "tag_type": "risk",
+    "ticker": "LT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 149,
+    "is_active": true,
+    "label": "Energy Projects margin pressure (EBITDA margin fell to 6.8% from 8.5% for FY26) from cost overruns and close-out costs on legacy projects is a live example of large-project execution risk actually materialising, not hypothetical",
+    "tag_type": "risk",
+    "ticker": "LT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 150,
+    "is_active": true,
+    "label": "A ₹17.8 lakh crore addressable prospects pipeline for FY27 gives L&T visibility into future bidding opportunities well beyond the already-secured order book",
+    "tag_type": "tailwind",
+    "ticker": "LT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 151,
+    "is_active": true,
+    "label": "Receivables and cash-conversion quality: a large, growing receivable book tied to government payment cycles could pressure working capital and free cash flow if it doesn't normalise — an active watch item flagged by independent analysts",
+    "tag_type": "risk",
+    "ticker": "BEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 152,
+    "is_active": true,
+    "label": "Q4/year-end execution concentration (~37% of annual revenue in one quarter) makes results structurally lumpy and dependent on year-end order-conversion timing",
+    "tag_type": "risk",
+    "ticker": "BEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 153,
+    "is_active": true,
+    "label": "India's Atmanirbhar Bharat defence-indigenisation policy directly favours domestic suppliers like BEL over imports — a structural, government-backed demand tailwind, with a disclosed pipeline including a potential QRSAM mega-order and accelerating exports",
+    "tag_type": "tailwind",
+    "ticker": "BEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 154,
+    "is_active": true,
+    "label": "Heavy, ongoing capex and rising leverage (net debt/EBITDA 1.9x) tied to an ambitious FY31 growth target — real execution risk on a genuinely large, multi-year capital deployment plan",
+    "tag_type": "risk",
+    "ticker": "ADANIPORTS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 155,
+    "is_active": true,
+    "label": "Adani Group affiliation brings governance and disclosure scrutiny carrying real reputational and cost-of-capital implications, independent of APSEZ's own operational performance",
+    "tag_type": "risk",
+    "ticker": "ADANIPORTS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 156,
+    "is_active": true,
+    "label": "India's port-privatisation tailwind and growing trade volumes support structural demand growth, while international expansion (Australia, Colombo, Israel) diversifies revenue beyond India-only trade cycles",
+    "tag_type": "tailwind",
+    "ticker": "ADANIPORTS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 157,
+    "is_active": true,
+    "label": "Newly commissioned assets (Navi Mumbai Airport, Kutch copper plant) are currently depreciation-heavy and loss-making at the consolidated level — a real, current earnings drag until they ramp to full utilisation",
+    "tag_type": "risk",
+    "ticker": "ADANIENT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 158,
+    "is_active": true,
+    "label": "Adani Group affiliation brings governance and disclosure scrutiny carrying real reputational and cost-of-capital implications, independent of AEL's own operational performance",
+    "tag_type": "risk",
+    "ticker": "ADANIENT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 159,
+    "is_active": true,
+    "label": "The shift to 80% of EBITDA from mature, contracted businesses is a genuine de-risking of the earnings base as the incubation portfolio matures, reducing dependence on any single new venture's success",
+    "tag_type": "tailwind",
+    "ticker": "ADANIENT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 160,
+    "is_active": true,
+    "label": "Non-fuel cost inflation (CASK ex-fuel +3.8%) is outpacing revenue growth, a structural profitability concern independent of fuel price swings or currency effects",
+    "tag_type": "risk",
+    "ticker": "INDIGO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 161,
+    "is_active": true,
+    "label": "Middle East conflict-related disruptions directly constrained capacity growth this quarter, and rupee depreciation plus new labour-code costs are additional, current macro/regulatory headwinds explicitly named by management",
+    "tag_type": "risk",
+    "ticker": "INDIGO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 162,
+    "is_active": true,
+    "label": "Falling fuel costs (CASK ex-fuel down 11.5% YoY) provide real near-term margin relief, and the internationalisation/premiumisation strategy targets structurally higher-yield revenue beyond domestic low-cost flying",
+    "tag_type": "tailwind",
+    "ticker": "INDIGO",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 163,
+    "is_active": true,
+    "label": "Insurance underperformance is a real, current weak spot — flat general-insurance GWP and missed Q4 profit targets, now fully borne by Bajaj Finserv following the Allianz buyout rather than shared with a JV partner",
+    "tag_type": "risk",
+    "ticker": "BAJAJFINSV",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 164,
+    "is_active": true,
+    "label": "Regulatory scrutiny on unsecured lending plus elevated funding costs are squeezing margins across the lending business industry-wide — a structural, sector-level pressure, not company-specific",
+    "tag_type": "risk",
+    "ticker": "BAJAJFINSV",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 165,
+    "is_active": true,
+    "label": "India's insurance market is projected for significant multi-decade expansion, and full ownership now gives Bajaj Finserv complete strategic flexibility to capture that growth with faster product launches and decisions",
+    "tag_type": "tailwind",
+    "ticker": "BAJAJFINSV",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 166,
+    "is_active": true,
+    "label": "Deep growth-stage unprofitability: PAT falling 14% while expenses surge 327% means investors are underwriting years of continued heavy investment before profitability matches the revenue scaling — real execution risk over a multi-year horizon",
+    "tag_type": "risk",
+    "ticker": "JIOFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 167,
+    "is_active": true,
+    "label": "Intense competition in India's digital-lending and payments markets means the 49% disbursement growth and rapid AUM ramp must be sustained against well-funded fintech and bank rivals — not guaranteed",
+    "tag_type": "risk",
+    "ticker": "JIOFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 168,
+    "is_active": true,
+    "label": "The Reliance ecosystem cross-sell opportunity (450M+ Jio subscribers, 19,000+ pin codes, 23M app users) plus marquee partnerships (BlackRock, Allianz) give JFS a genuinely differentiated distribution-and-expertise combination few fintechs can replicate",
+    "tag_type": "tailwind",
+    "ticker": "JIOFIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 169,
+    "is_active": true,
+    "label": "Fierce quick-commerce competition (Zepto and other well-funded rivals) means Blinkit's lead and newly-achieved profitability must be continuously defended — a genuine, ongoing competitive risk, not a settled position",
+    "tag_type": "risk",
+    "ticker": "ETERNAL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 170,
+    "is_active": true,
+    "label": "Deliberate profitability sacrifice for growth: full-year PAT fell despite explosive revenue, so investors are underwriting a multi-year path to the FY29 $1bn Adjusted-EBITDA target rather than current earnings",
+    "tag_type": "risk",
+    "ticker": "ETERNAL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 171,
+    "is_active": true,
+    "label": "Quick commerce is still early-innings geographically and by assortment (concentrated in top cities, narrow SKU range outside metros) — a long structural runway of expansion, densification and category deepening ahead, each compounding the others",
+    "tag_type": "tailwind",
+    "ticker": "ETERNAL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 172,
+    "is_active": true,
+    "label": "Low single-digit like-for-like growth and declining revenue per square foot mean growth is almost entirely dependent on continued aggressive store rollout — if new-store economics or the expansion pace falter, the growth story is more exposed than the headline revenue number suggests",
+    "tag_type": "risk",
+    "ticker": "TRENT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 173,
+    "is_active": true,
+    "label": "Cautious discretionary consumer sentiment (flagged by management, tied to geopolitical/inflation uncertainty) is a real, current demand-side headwind for a value-fashion retailer, plus a rich valuation that leaves little room for disappointment",
+    "tag_type": "risk",
+    "ticker": "TRENT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 174,
+    "is_active": true,
+    "label": "Deep, underpenetrated Tier 2/3 city expansion runway (~80% of new Zudio stores) combined with genuine operating leverage as scale builds gives a long structural growth path in India's organised-value-retail shift",
+    "tag_type": "tailwind",
+    "ticker": "TRENT",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 175,
+    "is_active": true,
+    "label": "Grid evacuation infrastructure lagging capacity build-out cost an estimated ₹1,300–1,500 crore of EBITDA in FY26 via curtailment",
+    "tag_type": "risk",
+    "ticker": "ADANIGREEN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 176,
+    "is_active": true,
+    "label": "India's 50 GW-by-2030 renewable target and long-term PPA regime give a multi-year policy tailwind for utility-scale solar and wind",
+    "tag_type": "tailwind",
+    "ticker": "ADANIGREEN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 177,
+    "is_active": true,
+    "label": "Rising commercial & industrial demand for green power, including data-centre buyers, offers higher-margin sales than regulated DISCOM contracts",
+    "tag_type": "tailwind",
+    "ticker": "ADANIGREEN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 178,
+    "is_active": true,
+    "label": "China's dominance of rare-earth magnets, used in permanent-magnet wind generators, is a direct input-supply risk if export curbs tighten",
+    "tag_type": "risk",
+    "ticker": "SUZLON",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 179,
+    "is_active": true,
+    "label": "India crossed 50 GW of installed wind capacity and targets 100 GW by 2030 — a structural multi-year demand tailwind for domestic turbine makers",
+    "tag_type": "tailwind",
+    "ticker": "SUZLON",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 180,
+    "is_active": true,
+    "label": "PSU and C&I customers now make up 66% of the order book, a shift toward more bankable buyers than merchant/private developers alone",
+    "tag_type": "tailwind",
+    "ticker": "SUZLON",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 181,
+    "is_active": true,
+    "label": "India's ALMM (Approved List of Models and Manufacturers) policy mandates domestically-approved modules for many government and subsidised solar projects, a direct tailwind for local manufacturers over Chinese imports",
+    "tag_type": "tailwind",
+    "ticker": "WAAREEENER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 182,
+    "is_active": true,
+    "label": "US Customs recently examined Waaree over anti-circumvention allegations tied to Chinese-origin solar inputs; the company reports no broad evasion was found, but US trade policy remains a live risk given how much revenue comes from American exports",
+    "tag_type": "risk",
+    "ticker": "WAAREEENER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 183,
+    "is_active": true,
+    "label": "India added nearly 45 GW of new solar capacity in FY26 alone, an 87% jump over FY25, a structural demand tailwind for domestic module manufacturers",
+    "tag_type": "tailwind",
+    "ticker": "WAAREEENER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 184,
+    "is_active": true,
+    "label": "NTPC group's 60 GW renewable-by-2032 target and a 30 GW project pipeline give multi-year policy-backed growth visibility",
+    "tag_type": "tailwind",
+    "ticker": "NTPCGREEN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 185,
+    "is_active": true,
+    "label": "Rising interest costs on debt-funded expansion — up 45.6% YoY in Q4 FY26 — are compressing margins even as revenue grows",
+    "tag_type": "risk",
+    "ticker": "NTPCGREEN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 186,
+    "is_active": true,
+    "label": "A new joint venture with CtrlS Datacenters to develop renewable power for data centres taps directly into India's AI/data-centre electricity demand boom",
+    "tag_type": "tailwind",
+    "ticker": "NTPCGREEN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 187,
+    "is_active": true,
+    "label": "India's premium and luxury housing upcycle continues to support pricing power for large developers with strong brands, evident in Dahlias' ₹3,967 crore in single-quarter bookings",
+    "tag_type": "tailwind",
+    "ticker": "DLF",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 188,
+    "is_active": true,
+    "label": "A zero gross-debt development business gives DLF unusual insulation from interest-rate cycles that hurt more leveraged real estate peers",
+    "tag_type": "tailwind",
+    "ticker": "DLF",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 189,
+    "is_active": true,
+    "label": "Q4 FY26's sharp margin contraction (31.3% to 28.2%) shows real estate earnings remain lumpy and execution-dependent quarter to quarter, unlike steadier annuity businesses",
+    "tag_type": "risk",
+    "ticker": "DLF",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 190,
+    "is_active": true,
+    "label": "Private insurers continue to gain share in higher-margin non-par and ULIP products, slowly eroding LIC's historic market dominance even as LIC's absolute premium income keeps growing",
+    "tag_type": "risk",
+    "ticker": "LICI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 191,
+    "is_active": true,
+    "label": "A reported government plan to sell a further stake (potentially raising ~₹10,000 crore) could increase share supply and pressure the stock independent of business performance",
+    "tag_type": "risk",
+    "ticker": "LICI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 192,
+    "is_active": true,
+    "label": "Growth in bancassurance and alternate distribution channels (up more than 45% in FY26) is diversifying LIC beyond its traditional agent-heavy distribution model",
+    "tag_type": "tailwind",
+    "ticker": "LICI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 193,
+    "is_active": true,
+    "label": "Vinyl acetate monomer and other crude-linked input costs eased in FY26, directly driving margin expansion — a reversal would compress margins just as directly",
+    "tag_type": "risk",
+    "ticker": "PIDILITIND",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 194,
+    "is_active": true,
+    "label": "Export demand in the B2B segment was hit by Middle East conflict disruption even as domestic project demand stayed strong",
+    "tag_type": "risk",
+    "ticker": "PIDILITIND",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 195,
+    "is_active": true,
+    "label": "India's construction and real estate upcycle is a direct tailwind for Pidilite's waterproofing (Dr. Fixit) and tile-fixing product lines",
+    "tag_type": "tailwind",
+    "ticker": "PIDILITIND",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 196,
+    "is_active": true,
+    "label": "Gross refining margins are directly exposed to global crude price volatility and West Asia geopolitical tensions, which nearly doubled FY26 profit but could just as easily reverse",
+    "tag_type": "risk",
+    "ticker": "BPCL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 197,
+    "is_active": true,
+    "label": "CNG sales volume grew 62.1% YoY, tracking India's broader shift toward gas-based and cleaner transport fuels",
+    "tag_type": "tailwind",
+    "ticker": "BPCL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 198,
+    "is_active": true,
+    "label": "As a Maharatna PSU, BPCL's retail fuel pricing carries government policy influence that private refiners don't face, cutting both ways as a stability factor and a constraint",
+    "tag_type": "neutral",
+    "ticker": "BPCL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 199,
+    "is_active": true,
+    "label": "India's new Quality Control Order (QCO) mandates BIS-tested localisation for many components, and limited domestic testing lab capacity has forced ABB to rely on costlier imports during the compliance transition through September 2026",
+    "tag_type": "risk",
+    "ticker": "ABB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 200,
+    "is_active": true,
+    "label": "Rising data centre capex in India is generating large orders — now roughly 10-11% of ABB's order book — directly tied to the AI infrastructure buildout",
+    "tag_type": "tailwind",
+    "ticker": "ABB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 201,
+    "is_active": true,
+    "label": "Intensifying Chinese competition in the Electrification and Motion segments is pressuring pricing power that ABB previously enjoyed",
+    "tag_type": "risk",
+    "ticker": "ABB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 202,
+    "is_active": true,
+    "label": "India's approximately ₹11 lakh crore infrastructure budget is directly driving electrification, automation and metro rail order flow for Siemens India",
+    "tag_type": "tailwind",
+    "ticker": "SIEMENS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 203,
+    "is_active": true,
+    "label": "Data centre capex growth is generating switchgear and energy management orders, tapping the same AI infrastructure boom benefiting peers like ABB",
+    "tag_type": "tailwind",
+    "ticker": "SIEMENS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 204,
+    "is_active": true,
+    "label": "The FY26 Energy business demerger into Siemens Energy India has temporarily clouded margin and growth comparisons, adding real near-term analytical uncertainty for investors",
+    "tag_type": "risk",
+    "ticker": "SIEMENS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 205,
+    "is_active": true,
+    "label": "LCA Mark-1A deliveries are delayed to August-September 2026 partly due to GE Aerospace engine supply shortfalls, highlighting HAL's dependence on foreign critical components despite its otherwise indigenous manufacturing story",
+    "tag_type": "risk",
+    "ticker": "HAL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 206,
+    "is_active": true,
+    "label": "A record ₹2,54,538 crore order book, including 97 LCA Mark-1A jets and new engine and satellite-launch programs, reflects sustained government defence capex and India's push for self-reliance in aerospace manufacturing",
+    "tag_type": "tailwind",
+    "ticker": "HAL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 207,
+    "is_active": true,
+    "label": "Planned investment of ~₹12,000 crore by 2030 in LCA Mark-II, GE-414 engines, IMRH engines and SSLV manufacturing infrastructure signals a structural expansion of India's indigenous defence manufacturing base",
+    "tag_type": "tailwind",
+    "ticker": "HAL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 208,
+    "is_active": true,
+    "label": "Contract Negotiation Committee talks for the P-75(I) submarine program (~₹99,000 crore, with Germany's TKMS) are complete and awaiting government approval — the single largest potential catalyst for the order book in years",
+    "tag_type": "tailwind",
+    "ticker": "MAZDOCK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 209,
+    "is_active": true,
+    "label": "Rising regional maritime security concerns, including tensions linked to the Iran-Israel conflict and a naval incident near Sri Lanka, have renewed investor and policy attention on naval shipbuilding capacity",
+    "tag_type": "tailwind",
+    "ticker": "MAZDOCK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 210,
+    "is_active": true,
+    "label": "The order book has nearly halved since FY21 even as execution on existing contracts continues, showing that strong delivery alone hasn't offset slower new-order replenishment",
+    "tag_type": "risk",
+    "ticker": "MAZDOCK",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 211,
+    "is_active": true,
+    "label": "The Mundra plant's loss of Section 11 government cost-recovery benefits in Q4 FY26 directly hit generation segment profitability, showing how regulatory mechanisms still shape parts of even a diversified private utility's earnings",
+    "tag_type": "risk",
+    "ticker": "TATAPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 212,
+    "is_active": true,
+    "label": "TP Solar's cell and module manufacturing, with industry-leading yields above 95%, is scaling rapidly to serve both Tata Power's own renewable build-out and third-party demand for domestically-made solar equipment",
+    "tag_type": "tailwind",
+    "ticker": "TATAPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 213,
+    "is_active": true,
+    "label": "Rising competition from pure-play renewable IPPs and manufacturers is a structural pressure on Tata Power's legacy generation margins even as its own renewable segment grows strongly",
+    "tag_type": "risk",
+    "ticker": "TATAPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 214,
+    "is_active": true,
+    "label": "AESL's own transmission build-out pace directly affects how much of sister company Adani Green's renewable generation can actually reach the grid without curtailment — a concrete example of infrastructure bottlenecks shaping India's energy transition",
+    "tag_type": "neutral",
+    "ticker": "ADANIENSOL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 215,
+    "is_active": true,
+    "label": "The 6,000 MW Integrated Green Energy Corridor project positions AESL to directly capture India's multi-decade need for renewable-ready transmission infrastructure",
+    "tag_type": "tailwind",
+    "ticker": "ADANIENSOL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 216,
+    "is_active": true,
+    "label": "Operating margin compression of nearly 650 basis points year-over-year, even amid record revenue, suggests rising costs or pricing pressure that could persist if not addressed",
+    "tag_type": "risk",
+    "ticker": "ADANIENSOL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 217,
+    "is_active": true,
+    "label": "JSW Energy is part of a group of private players (alongside Adani Power, NTPC and Torrent) planning a combined ₹5.5 lakh crore investment for 50 GW of new capacity, reflecting a structural, sector-wide capacity race",
+    "tag_type": "tailwind",
+    "ticker": "JSWENERGY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 218,
+    "is_active": true,
+    "label": "Rising depreciation and interest costs from rapid capacity expansion are compressing profit growth even as revenue and EBITDA scale rapidly — a classic growth-phase margin squeeze",
+    "tag_type": "risk",
+    "ticker": "JSWENERGY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 219,
+    "is_active": true,
+    "label": "The recent acquisition of Maruti Clean Coal and Power shows continued opportunistic thermal capacity growth even as the long-term target remains overwhelmingly renewable-weighted",
+    "tag_type": "neutral",
+    "ticker": "JSWENERGY",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 220,
+    "is_active": true,
+    "label": "Rising renewable power penetration is structurally compressing merchant market power prices (down 13.7% YoY in FY26), a slow-building headwind for thermal generators' non-contracted capacity",
+    "tag_type": "risk",
+    "ticker": "ADANIPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 221,
+    "is_active": true,
+    "label": "All-India power demand growth resumed with the onset of summer in Q4 FY26, reversing a soft winter driven by cold weather and unseasonal rains",
+    "tag_type": "tailwind",
+    "ticker": "ADANIPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 222,
+    "is_active": true,
+    "label": "New long-term PPAs, including a 1,600 MW Maharashtra DISCOM award under Design-Build-Finance-Own-Operate terms, provide contracted revenue visibility that insulates part of the portfolio from merchant price volatility",
+    "tag_type": "tailwind",
+    "ticker": "ADANIPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 223,
+    "is_active": true,
+    "label": "GST 2.0 reforms provided a direct demand tailwind in Q4 FY26, contributing to record quarterly domestic sales",
+    "tag_type": "tailwind",
+    "ticker": "HYUNDAI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 224,
+    "is_active": true,
+    "label": "Rising input costs, new labour code compliance, and vendor compensation payments compressed margins sharply in Q4 FY26, showing cost-side pressures can outpace even record revenue",
+    "tag_type": "risk",
+    "ticker": "HYUNDAI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 225,
+    "is_active": true,
+    "label": "Export growth of 16.4% in FY26 came despite acknowledged geopolitical headwinds, positioning India as a resilient hub for Hyundai's emerging-market export strategy",
+    "tag_type": "tailwind",
+    "ticker": "HYUNDAI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 226,
+    "is_active": true,
+    "label": "Rising employee costs and input cost pressures compressed operating margin by over 200 basis points year-over-year in Q4 FY26, even as revenue grew 30%",
+    "tag_type": "risk",
+    "ticker": "TVSMOTOR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 227,
+    "is_active": true,
+    "label": "Growing EV adoption and export market expansion give TVS multiple growth vectors beyond the mature domestic commuter two-wheeler segment",
+    "tag_type": "tailwind",
+    "ticker": "TVSMOTOR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 228,
+    "is_active": true,
+    "label": "Elevated leverage (debt/EBITDA of 4.17x) constrains financial flexibility just as the company needs to keep investing in EV and premium product development to defend market share",
+    "tag_type": "risk",
+    "ticker": "TVSMOTOR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 229,
+    "is_active": true,
+    "label": "Ongoing intra-group restructuring, including a planned Offer For Sale in Bosch Home Comfort India and the Bosch Chassis Systems India consolidation, reflects the German parent's periodic reshuffling of its Indian corporate structure",
+    "tag_type": "neutral",
+    "ticker": "BOSCHLTD",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 230,
+    "is_active": true,
+    "label": "Diversification across Mobility, Industrial Technology, Consumer Goods and Energy/Building Technology reduces Bosch India's dependence on any single sector's cycle, unlike a pure-play auto component maker",
+    "tag_type": "tailwind",
+    "ticker": "BOSCHLTD",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 231,
+    "is_active": true,
+    "label": "As a key supplier to auto OEMs, Bosch India's Mobility segment remains exposed to the same demand and margin pressures facing vehicle manufacturers like Hyundai and TVS Motor",
+    "tag_type": "risk",
+    "ticker": "BOSCHLTD",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 232,
+    "is_active": true,
+    "label": "An automotive booked business exceeding USD 83.9 billion gives Motherson exceptional multi-year revenue visibility, insulating it somewhat from any single quarter's demand swings",
+    "tag_type": "tailwind",
+    "ticker": "MOTHERSON",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 233,
+    "is_active": true,
+    "label": "A steady stream of global acquisitions (Nexans autoelectric, Elektrokontakt, Yutaka Giken, Shinnichi, Vacuform) is expanding Motherson's product range and geographic footprint, though each deal carries real integration execution risk",
+    "tag_type": "neutral",
+    "ticker": "MOTHERSON",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 234,
+    "is_active": true,
+    "label": "Declining interest costs and improving interest coverage reflect genuine deleveraging progress, reducing financial risk even as the company continues to grow through acquisition",
+    "tag_type": "tailwind",
+    "ticker": "MOTHERSON",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 235,
+    "is_active": true,
+    "label": "The health of Bajaj Holdings' reported earnings is almost entirely a function of how well Bajaj Auto, Bajaj Finserv and Bajaj Finance perform — it has no independent operating story of its own",
+    "tag_type": "neutral",
+    "ticker": "BAJAJHLDNG",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 236,
+    "is_active": true,
+    "label": "A persistent holding-company discount to the sum of its underlying stakes is a structural, industry-wide feature of investment holding companies, not specific to any single quarter's results",
+    "tag_type": "risk",
+    "ticker": "BAJAJHLDNG",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 237,
+    "is_active": true,
+    "label": "Continued FII selling even as the stock trades at a statistical discount suggests some institutional investors prefer direct exposure to Bajaj's operating businesses over the holding company wrapper",
+    "tag_type": "risk",
+    "ticker": "BAJAJHLDNG",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 238,
+    "is_active": true,
+    "label": "The RBI's 2026 rate cut cycle lowers Bajaj Housing Finance's own cost of funds while simultaneously making home loans more attractive to end customers, a rare double tailwind",
+    "tag_type": "tailwind",
+    "ticker": "BAJAJHFL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 239,
+    "is_active": true,
+    "label": "Intensifying competition from established housing finance peers and banks pressures pricing and market share, a structural risk in a maturing mortgage lending market",
+    "tag_type": "risk",
+    "ticker": "BAJAJHFL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 240,
+    "is_active": true,
+    "label": "Parentage under Bajaj Finance gives access to an established distribution and cross-sell network that a standalone new entrant would need years to build",
+    "tag_type": "tailwind",
+    "ticker": "BAJAJHFL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 241,
+    "is_active": true,
+    "label": "Retail health insurance grew net earned premiums over 55% in Q4 FY26, reflecting rising consumer demand for health coverage and successful product innovation like the Elevate offering",
+    "tag_type": "tailwind",
+    "ticker": "ICICIGI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 242,
+    "is_active": true,
+    "label": "The company migrated major product lines to a new enterprise-wide technology platform (Artemis) during FY26, a modernisation effort that could improve efficiency but also carries execution risk during transition",
+    "tag_type": "neutral",
+    "ticker": "ICICIGI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 243,
+    "is_active": true,
+    "label": "A combined ratio persistently above 100% means the business structurally depends on investment income to be profitable, exposing overall earnings to capital market volatility beyond pure insurance risk",
+    "tag_type": "risk",
+    "ticker": "ICICIGI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 244,
+    "is_active": true,
+    "label": "IRFC exceeded its FY26 disbursement target (₹35,000 crore actual vs ₹30,000 crore guided), reflecting Indian Railways' accelerating capital expenditure on rolling stock and infrastructure",
+    "tag_type": "tailwind",
+    "ticker": "IRFC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 245,
+    "is_active": true,
+    "label": "Rising interest costs in a still-elevated rate environment are compressing IRFC's margins faster than its interest income is growing, a direct near-term profitability risk",
+    "tag_type": "risk",
+    "ticker": "IRFC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 246,
+    "is_active": true,
+    "label": "A single-customer business model tied entirely to Indian Railways caps diversification and pricing flexibility compared to power-sector lenders like PFC and REC that serve many borrowers",
+    "tag_type": "risk",
+    "ticker": "IRFC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 247,
+    "is_active": true,
+    "label": "PFC's board-approved merger with REC (88:100 share swap, targeted completion by April 1, 2027) will create a combined power-sector lender with a loan book exceeding ₹11 lakh crore, the single largest structural event in India's infrastructure financing sector this year",
+    "tag_type": "tailwind",
+    "ticker": "PFC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 248,
+    "is_active": true,
+    "label": "Q4 FY26 interest income was flat to slightly down despite record reported profit, suggesting the earnings jump leaned on provision reversals and other one-off factors rather than pure loan book growth",
+    "tag_type": "risk",
+    "ticker": "PFC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 249,
+    "is_active": true,
+    "label": "A leading ₹1.65 lakh crore renewable energy financing portfolio positions PFC to directly fund the capacity build-out of companies like Adani Green, NTPC Green, Suzlon and Waaree elsewhere in this dataset",
+    "tag_type": "tailwind",
+    "ticker": "PFC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 250,
+    "is_active": true,
+    "label": "REC's board-approved merger into PFC at an 88:100 share swap ratio will end REC's standalone existence as a listed company, with shareholders receiving PFC shares upon completion",
+    "tag_type": "risk",
+    "ticker": "RECLTD",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 251,
+    "is_active": true,
+    "label": "Q4 FY26's 21.7% profit decline, even amid a positive full-year growth number, signals real near-term earnings volatility that a simple annual view would miss",
+    "tag_type": "risk",
+    "ticker": "RECLTD",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 252,
+    "is_active": true,
+    "label": "REC's deep, decades-long relationships across the entire power sector value chain — from generation to renewable energy — position the combined PFC-REC entity to dominate power-sector financing post-merger",
+    "tag_type": "tailwind",
+    "ticker": "RECLTD",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 253,
+    "is_active": true,
+    "label": "Rural and semi-urban demand recovery, aided by better monsoon conditions in FY26, directly drove Britannia's volume-led revenue growth",
+    "tag_type": "tailwind",
+    "ticker": "BRITANNIA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 254,
+    "is_active": true,
+    "label": "Wheat flour and palm oil price volatility remains the single biggest input-cost risk flagged by management for FY27, directly affecting margin sustainability",
+    "tag_type": "risk",
+    "ticker": "BRITANNIA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 255,
+    "is_active": true,
+    "label": "Rising employee costs (up 16.9% YoY, well above 6.7% revenue growth) are quietly eroding some of the raw material cost relief the company has benefited from",
+    "tag_type": "risk",
+    "ticker": "BRITANNIA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 256,
+    "is_active": true,
+    "label": "Africa business headwinds caused FY26 PAT growth to fall below the company's own 15-18% target, a geographic diversification risk distinct from purely domestic FMCG peers",
+    "tag_type": "risk",
+    "ticker": "GODREJCP",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 257,
+    "is_active": true,
+    "label": "The 'Speedboats' portfolio of newer product categories is targeted for 30%+ medium-term growth, an innovation-led lever management is betting on to reaccelerate overall growth",
+    "tag_type": "tailwind",
+    "ticker": "GODREJCP",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 258,
+    "is_active": true,
+    "label": "A regulatory accounting presentation change (netting customer-related spends against revenue, per ICAI Expert Advisory Committee guidance) affects how revenue is reported from Q4 FY26 onward, though it does not change underlying EBITDA or cash flow",
+    "tag_type": "neutral",
+    "ticker": "GODREJCP",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 259,
+    "is_active": true,
+    "label": "State-level excise duty increases and intensifying competition in key markets like Karnataka, Telangana and Maharashtra have periodically compressed margins, a recurring regulatory risk specific to the alcoholic beverages category",
+    "tag_type": "risk",
+    "ticker": "UNITDSPR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 260,
+    "is_active": true,
+    "label": "Rising disposable incomes and premiumisation trends support continued growth in the prestige and premium segments (Royal Challenge, Signature, Black Dog), a structural tailwind for the category",
+    "tag_type": "tailwind",
+    "ticker": "UNITDSPR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 261,
+    "is_active": true,
+    "label": "A sharp, unexplained tripling of interest costs despite a net cash position raises questions about short-term working capital or borrowing patterns worth monitoring in coming quarters",
+    "tag_type": "risk",
+    "ticker": "UNITDSPR",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 262,
+    "is_active": true,
+    "label": "Continued geographic expansion — including the Crickley Dairy acquisition in South Africa and a new Asahi partnership to launch CALPIS in India — diversifies VBL's growth beyond its core PepsiCo carbonated beverages franchise",
+    "tag_type": "tailwind",
+    "ticker": "VBL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 263,
+    "is_active": true,
+    "label": "Pronounced seasonality between summer and winter quarters means single-quarter results can be highly misleading without full-year context, a structural feature of the beverages category",
+    "tag_type": "neutral",
+    "ticker": "VBL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 264,
+    "is_active": true,
+    "label": "As a franchise bottler rather than a brand owner, VBL's long-term strategic direction remains ultimately dependent on PepsiCo's global brand and licensing decisions",
+    "tag_type": "risk",
+    "ticker": "VBL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 265,
+    "is_active": true,
+    "label": "West Asia-related logistics disruption made raw material sourcing harder in Q4 FY26, forcing greater reliance on domestic suppliers, though without production stoppages or revenue loss",
+    "tag_type": "risk",
+    "ticker": "DIVISLAB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 266,
+    "is_active": true,
+    "label": "Strong multinational interest in Divi's new peptide manufacturing capacity, particularly for GLP-1-related (obesity/diabetes) projects, positions the company to benefit from one of pharma's fastest-growing global drug categories",
+    "tag_type": "tailwind",
+    "ticker": "DIVISLAB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 267,
+    "is_active": true,
+    "label": "Persistent generic API pricing pressure globally continues to compress margins in the base generics business, even as custom synthesis and nutraceuticals partially offset the impact",
+    "tag_type": "risk",
+    "ticker": "DIVISLAB",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 268,
+    "is_active": true,
+    "label": "The completed acquisition of a controlling stake in JB Chemicals & Pharmaceuticals (effective January 2026) is the single largest structural event in Torrent's recent history, reshaping both its revenue base and its balance sheet",
+    "tag_type": "tailwind",
+    "ticker": "TORNTPHARM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 269,
+    "is_active": true,
+    "label": "A zero-observation US FDA inspection in April 2026 strengthens Torrent's regulatory standing in the US market, particularly for its oncology portfolio",
+    "tag_type": "tailwind",
+    "ticker": "TORNTPHARM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 270,
+    "is_active": true,
+    "label": "Elevated leverage from the JB Pharma acquisition, combined with a planned ₹5,000 crore QIP fundraise, means integration execution and capital structure management are now as important to the investment case as underlying drug demand",
+    "tag_type": "risk",
+    "ticker": "TORNTPHARM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 271,
+    "is_active": true,
+    "label": "Zydus's launch of Tishtha (world's first Nivolumab biosimilar) and Anyra (India's first indigenous Aflibercept biosimilar) positions the company at the frontier of India's growing biosimilars industry, a high-value, high-complexity manufacturing niche",
+    "tag_type": "tailwind",
+    "ticker": "ZYDUSLIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 272,
+    "is_active": true,
+    "label": "Entry into the obesity/diabetes therapy segment with semaglutide injections, including co-marketing partnerships with Lupin and Torrent Pharmaceuticals, taps directly into pharma's fastest-growing global drug category",
+    "tag_type": "tailwind",
+    "ticker": "ZYDUSLIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 273,
+    "is_active": true,
+    "label": "The $166.4 million Assertio acquisition expands Zydus's US specialty drug platform but adds cross-border integration complexity on top of an already multi-segment, multi-geography business",
+    "tag_type": "neutral",
+    "ticker": "ZYDUSLIFE",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 274,
+    "is_active": true,
+    "label": "Intensifying quick commerce competition is reshaping Indian retail toward convenience and speed, a structural threat to DMart's traditional value-and-bulk-buying model that management is countering with DMart Ready, still loss-making",
+    "tag_type": "risk",
+    "ticker": "DMART",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 275,
+    "is_active": true,
+    "label": "A brief geopolitical-tension-driven buying spike in March 2026 temporarily boosted sales before normalising, illustrating how even a value retailer's short-term numbers can be swayed by external shocks unrelated to its core business",
+    "tag_type": "neutral",
+    "ticker": "DMART",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 276,
+    "is_active": true,
+    "label": "Deliberate expansion into smaller Tier 2-3 cities, where quick commerce competition is less intense, opens a large long-term store count runway but comes with lower per-household spending power than DMart's established metro markets",
+    "tag_type": "tailwind",
+    "ticker": "DMART",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 277,
+    "is_active": true,
+    "label": "Management explicitly cited the West Asia conflict as a FY26 headwind, directly linking Middle East geopolitical tensions to Indian hospitality demand and international travel patterns",
+    "tag_type": "risk",
+    "ticker": "INDHOTEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 278,
+    "is_active": true,
+    "label": "Growth in management fee income (+22%) and new hotel signings reflect an accelerating shift toward an asset-light expansion model, adding hotels to the portfolio without the capital intensity of ownership",
+    "tag_type": "tailwind",
+    "ticker": "INDHOTEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 279,
+    "is_active": true,
+    "label": "Hospitality's structural seasonality — Q3 winter peak versus Q4 lean season — means single-quarter margin swings are a normal, recurring feature of the business rather than a sign of deteriorating fundamentals",
+    "tag_type": "neutral",
+    "ticker": "INDHOTEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 280,
+    "is_active": true,
+    "label": "Geopolitical headwinds in the Middle East slowed the Naukri Gulf recruitment business in Q4 FY26, after 20%+ growth in the first nine months of the year, directly linking regional tensions to a core India-adjacent revenue stream",
+    "tag_type": "risk",
+    "ticker": "NAUKRI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 281,
+    "is_active": true,
+    "label": "AI-driven changes in how students search for educational content online are disrupting the Shiksha business, causing billings to decline even as reported revenue grew — an early signal of AI's disruptive effect on traditional lead-generation business models",
+    "tag_type": "risk",
+    "ticker": "NAUKRI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 282,
+    "is_active": true,
+    "label": "Info Edge's dating platform Aisle grew more than 30% in Q4 FY26, a small but genuinely fast-growing new vertical beyond the company's four established classifieds businesses",
+    "tag_type": "tailwind",
+    "ticker": "NAUKRI",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 283,
+    "is_active": true,
+    "label": "A global silver price surge, driven by industrial demand from solar, EVs and electronics plus safe-haven buying, has made silver roughly as profitable as the entire zinc-lead business for Hindustan Zinc — India's largest silver producer",
+    "tag_type": "tailwind",
+    "ticker": "HINDZINC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 284,
+    "is_active": true,
+    "label": "Parent Vedanta's pattern of extracting large special dividends to service its own debt has drawn minority shareholder concern about whether Hindustan Zinc is being managed for long-term value creation or short-term cash extraction",
+    "tag_type": "risk",
+    "ticker": "HINDZINC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 285,
+    "is_active": true,
+    "label": "Short-seller allegations against Vedanta group entities, including Hindustan Zinc, remain unresolved; auditors signed off without qualification and management calls them baseless, but the matter is worth continued monitoring",
+    "tag_type": "neutral",
+    "ticker": "HINDZINC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 286,
+    "is_active": true,
+    "label": "Global trade uncertainty and a volatile demand environment created headwinds throughout FY26, even as the company still met its production guidance through captive raw material security and operational discipline",
+    "tag_type": "risk",
+    "ticker": "JINDALSTEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 287,
+    "is_active": true,
+    "label": "The completed Angul expansion (6 to 12 MTPA) and successful Shree Bhoomi captive power plant ramp-up materially increase both capacity and cost competitiveness heading into FY27",
+    "tag_type": "tailwind",
+    "ticker": "JINDALSTEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 288,
+    "is_active": true,
+    "label": "AI-driven initiatives like 'JARVIS' and autonomous plant operations at Raigarh and Angul represent a genuine operational technology upgrade aimed at safety, efficiency and supply chain reliability",
+    "tag_type": "tailwind",
+    "ticker": "JINDALSTEL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 289,
+    "is_active": true,
+    "label": "The completed FY26 demerger into separately listed aluminium, oil & gas, power and iron & steel entities is one of the largest corporate restructurings in Indian history, fundamentally reshaping what 'Vedanta Limited' now represents as an investment",
+    "tag_type": "neutral",
+    "ticker": "VEDL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 290,
+    "is_active": true,
+    "label": "Promoter entity Twin Star Holdings' reported share sale, just weeks after the demerger, triggered a sharp single-day stock decline and raises questions about near-term promoter conviction even as the group highlights long-term value creation",
+    "tag_type": "risk",
+    "ticker": "VEDL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 291,
+    "is_active": true,
+    "label": "Continuing majority ownership of Hindustan Zinc means Vedanta's own results remain closely tied to global zinc and silver prices, the same commodity exposure driving Hindustan Zinc's results elsewhere in this dataset",
+    "tag_type": "neutral",
+    "ticker": "VEDL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 292,
+    "is_active": true,
+    "label": "West Asia conflict-linked cost escalations in packing materials, freight and a weaker rupee pushed Q4 FY26 production costs to a peak of ₹4,500 per tonne, directly linking Middle East geopolitics to Indian cement industry costs",
+    "tag_type": "risk",
+    "ticker": "AMBUJACEM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 293,
+    "is_active": true,
+    "label": "GST 2.0 reforms and industry consolidation reshaped the competitive and cost landscape for cement companies during FY26, alongside adverse weather and state elections affecting regional demand patterns",
+    "tag_type": "neutral",
+    "ticker": "AMBUJACEM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 294,
+    "is_active": true,
+    "label": "A below-normal monsoon forecast for FY27 is expected to constrain industry cement demand growth to around 5%, below Ambuja's own targeted 8% volume growth, meaning the company is targeting share gains rather than relying purely on market growth",
+    "tag_type": "risk",
+    "ticker": "AMBUJACEM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 295,
+    "is_active": true,
+    "label": "West Asia conflict-linked cost inflation in fuel, freight and packaging is a shared industry-wide pressure also affecting Ambuja Cements elsewhere in this dataset, though Shree's captive green power partially insulates it from fuel cost volatility",
+    "tag_type": "risk",
+    "ticker": "SHREECEM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 296,
+    "is_active": true,
+    "label": "Management narrowed its pricing gap with the largest industry peer from roughly ₹50 to ₹15-20 per bag, choosing a volume-focused strategy over initiating a price war, a deliberate competitive positioning choice",
+    "tag_type": "neutral",
+    "ticker": "SHREECEM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 297,
+    "is_active": true,
+    "label": "A moderate monsoon forecast and geopolitical tensions are flagged as short-term risks to FY27 demand, even as the company guides to 10% YoY volume growth",
+    "tag_type": "risk",
+    "ticker": "SHREECEM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 298,
+    "is_active": true,
+    "label": "Strong order books and expanding international operations reflect Solar Industries' growing role beyond India's domestic mining and infrastructure explosives market",
+    "tag_type": "tailwind",
+    "ticker": "SOLARINDS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 299,
+    "is_active": true,
+    "label": "India's defence indigenisation push provides a structural tailwind for Solar Industries' expanding defence ordnance manufacturing business, part of a broader domestic defence manufacturing ecosystem",
+    "tag_type": "tailwind",
+    "ticker": "SOLARINDS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 300,
+    "is_active": true,
+    "label": "As a safety-sensitive explosives and ordnance manufacturer, the company operates under continuous regulatory scrutiny where any incident or policy shift could materially affect operations",
+    "tag_type": "risk",
+    "ticker": "SOLARINDS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 301,
+    "is_active": true,
+    "label": "The Middle East conflict directly disrupted gas supply in Q4 FY26, forcing GAIL to source spot LNG cargoes including from Oman to cover shortages, a live geopolitical impact on core operations",
+    "tag_type": "risk",
+    "ticker": "GAIL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 302,
+    "is_active": true,
+    "label": "Natural Gas Marketing spread compression and Petrochemicals losses together erased over ₹6,000 crore of EBIT in FY26, showing how exposed GAIL's non-regulated segments are to commodity price swings",
+    "tag_type": "risk",
+    "ticker": "GAIL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 303,
+    "is_active": true,
+    "label": "India's structural push toward greater natural gas usage in the energy mix, reflected in City Gas's 22.3% revenue growth, remains a genuine long-term tailwind for GAIL's distribution infrastructure",
+    "tag_type": "tailwind",
+    "ticker": "GAIL",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 304,
+    "is_active": true,
+    "label": "Strategic inventory procurement ahead of Middle East geopolitical tensions in early 2026 insulated IOC's Q4 FY26 performance from supply disruptions that affected less-prepared competitors",
+    "tag_type": "tailwind",
+    "ticker": "IOC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 305,
+    "is_active": true,
+    "label": "Global crude price volatility from West Asia tensions and OPEC+ policy decisions remain the dominant swing factor for IOC's refining margins and overall profitability",
+    "tag_type": "risk",
+    "ticker": "IOC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 306,
+    "is_active": true,
+    "label": "As India's largest PSU oil marketing company, IOC's retail fuel pricing carries government policy influence that private-sector refiners do not face, a structural characteristic shared with peers like BPCL elsewhere in this dataset",
+    "tag_type": "neutral",
+    "ticker": "IOC",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 307,
+    "is_active": true,
+    "label": "A milder-than-usual start to the FY26 summer season directly reduced cooling product (air conditioner) stocking and demand, a weather-driven risk specific to the Lloyd Consumer segment",
+    "tag_type": "risk",
+    "ticker": "HAVELLS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 308,
+    "is_active": true,
+    "label": "Strong industrial infrastructure demand drove the Cables segment to its largest-ever share of revenue, reflecting broader momentum in India's infrastructure and construction capex cycle",
+    "tag_type": "tailwind",
+    "ticker": "HAVELLS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 309,
+    "is_active": true,
+    "label": "A ₹600 crore strategic investment in Goldi Solar gives Havells indirect financial exposure to India's renewable energy manufacturing boom, a sector with substantial representation elsewhere in this dataset",
+    "tag_type": "tailwind",
+    "ticker": "HAVELLS",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 310,
+    "is_active": true,
+    "label": "India's semiconductor manufacturing push, backed by government incentives, is driving CG Power's diversification into chip assembly and testing through its new CG Semi subsidiary — an early-mover position in a strategically important emerging industry",
+    "tag_type": "tailwind",
+    "ticker": "CGPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 311,
+    "is_active": true,
+    "label": "Massive transformer capacity expansion (from ~17-18k MVA toward a targeted 110,000 MVA) directly positions CG Power to capture India's accelerating power infrastructure investment cycle",
+    "tag_type": "tailwind",
+    "ticker": "CGPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 312,
+    "is_active": true,
+    "label": "Working capital days nearly tripling during a period of rapid growth is a pattern worth monitoring closely, as it can signal either temporary growth-related strain or a more structural cash conversion problem",
+    "tag_type": "risk",
+    "ticker": "CGPOWER",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 313,
+    "is_active": true,
+    "label": "Rising employee costs (61.03% of revenue, up from 60.75%) reflect ongoing wage inflation and talent retention pressures across the Indian IT services industry, directly compressing margins despite strong revenue growth",
+    "tag_type": "risk",
+    "ticker": "LTIM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 314,
+    "is_active": true,
+    "label": "Record quarterly revenue despite a challenging global macro environment for technology spending suggests LTIMindtree is winning market share even as overall IT budgets remain cautious",
+    "tag_type": "tailwind",
+    "ticker": "LTIM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 315,
+    "is_active": true,
+    "label": "A significant disconnect between strong operational results and a 29.13% year-to-date stock decline suggests broader IT services sector sentiment concerns are weighing on the stock beyond company-specific fundamentals",
+    "tag_type": "neutral",
+    "ticker": "LTIM",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 316,
+    "is_active": true,
+    "label": "India's grid modernisation and power infrastructure investment cycle is directly driving order growth for Siemens Energy India's transmission and generation equipment, mirroring the capacity expansion themes seen at power sector peers elsewhere in this dataset",
+    "tag_type": "tailwind",
+    "ticker": "ENRIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 317,
+    "is_active": true,
+    "label": "As a recently demerged, independently listed entity, the company's short trading history and evolving investor understanding of its standalone financials add a distinct layer of valuation uncertainty",
+    "tag_type": "neutral",
+    "ticker": "ENRIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 318,
+    "is_active": true,
+    "label": "Investment in a new Greenfield Transformer factory signals confidence in sustained multi-year demand for grid equipment as India's transmission network expands to accommodate renewable energy integration",
+    "tag_type": "tailwind",
+    "ticker": "ENRIN",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 319,
+    "is_active": true,
+    "label": "India's premium residential real estate upcycle continues to support strong pre-sales growth for established developers with strong brands and execution track records, mirroring trends seen at peer DLF elsewhere in this dataset",
+    "tag_type": "tailwind",
+    "ticker": "LODHA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 320,
+    "is_active": true,
+    "label": "Expansion into Delhi NCR, a new geographic market, tests whether Lodha's Mumbai-honed brand and execution model can be successfully replicated in a market with different dynamics and established local competitors",
+    "tag_type": "neutral",
+    "ticker": "LODHA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  },
+  {
+    "created_at": "2026-07-08T04:54:19.114902+00:00",
+    "id": 321,
+    "is_active": true,
+    "label": "Management's explicit 20% PAT CAGR target through FY31 sets a clear, trackable benchmark against which future performance can be measured — a level of forward guidance specificity that's relatively rare in Indian real estate",
+    "tag_type": "neutral",
+    "ticker": "LODHA",
+    "updated_at": "2026-07-08T04:54:19.114902+00:00"
+  }
+]
